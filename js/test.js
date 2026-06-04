@@ -70,8 +70,19 @@ btnRetry.addEventListener("click", () => {
 
 answerForm.addEventListener("submit", (e) => {
   e.preventDefault();
-  if (!quizFeedback.classList.contains("hidden")) return;
+  if (!quizFeedback.classList.contains("hidden")) {
+    nextQuestion();
+    return;
+  }
   checkAnswer();
+});
+
+document.addEventListener("keydown", (e) => {
+  if (e.key !== "Enter" || testQuiz.classList.contains("hidden")) return;
+  if (!quizFeedback.classList.contains("hidden")) {
+    e.preventDefault();
+    nextQuestion();
+  }
 });
 
 btnNextQ.addEventListener("click", nextQuestion);
@@ -155,7 +166,10 @@ function checkAnswer() {
   quizFeedback.classList.toggle("correct", ok);
   quizFeedback.classList.toggle("wrong", !ok);
   feedbackText.textContent = ok ? "Đúng rồi!" : "Chưa đúng";
-  correctAnswer.textContent = ok ? "" : `Đáp án: ${expected}`;
+  correctAnswer.textContent = ok
+    ? "Enter để qua câu tiếp"
+    : `Đáp án: ${expected} · Enter để tiếp tục`;
+  btnNextQ.focus();
 }
 
 function nextQuestion() {
