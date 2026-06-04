@@ -14,7 +14,7 @@ Luồng: **Ôn tập** hoặc **Làm test** → chọn **HSK** → chọn nội 
 - Hán tự → Pinyin / Tiếng Việt
 - Việt / Pinyin → Hán tự
 
-Dữ liệu: **HSK 3** và **HSK 4** (các cấp khác sắp có).
+Dữ liệu: **HSK 1, 2, 3, 4** (HSK 5–6 sắp có). HSK 1–2 không có câu ví dụ trong PDF.
 
 ### Cài đặt AI (phần Ví dụ)
 

@@ -1,7 +1,7 @@
 const HSK_CONFIG = {
   levels: {
-    1: { available: false, label: "HSK 1" },
-    2: { available: false, label: "HSK 2" },
+    1: { available: true, label: "HSK 1", file: "data/hsk1.json" },
+    2: { available: true, label: "HSK 2", file: "data/hsk2.json" },
     3: { available: true, label: "HSK 3", file: "data/hsk3.json" },
     4: { available: true, label: "HSK 4", file: "data/hsk4.json" },
     5: { available: false, label: "HSK 5" },
