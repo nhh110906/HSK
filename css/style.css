@@ -391,6 +391,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+}
+
+.flashcard-example {
+  width: 100%;
+  max-width: 420px;
+  margin-top: 0.5rem;
 }
 
 .card-scene {
