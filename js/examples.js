@@ -43,7 +43,9 @@ if (!level || !HSK_CONFIG.levels[level]?.available) {
   init();
 }
 
-btnTogglePinyin.addEventListener("click", toggleExamplePinyin);
+if (btnTogglePinyin && pinyinPanel) {
+  btnTogglePinyin.addEventListener("click", toggleExamplePinyin);
+}
 
 btnApiSettings.addEventListener("click", openApiModal);
 apiCancel.addEventListener("click", () => apiModal.close());
@@ -76,18 +78,20 @@ async function init() {
 }
 
 function hideExamplePinyin() {
-  pinyinPanel.classList.add("hidden");
+  if (!pinyinPanel || !btnTogglePinyin) return;
+  pinyinPanel.classList.add("is-collapsed");
   btnTogglePinyin.setAttribute("aria-expanded", "false");
   btnTogglePinyin.classList.remove("is-open");
-  btnTogglePinyin.textContent = "Pinyin ví dụ";
+  btnTogglePinyin.textContent = "🔤 Pinyin ví dụ";
 }
 
 function toggleExamplePinyin() {
-  const open = pinyinPanel.classList.toggle("hidden");
-  const visible = !open;
+  if (!pinyinPanel || !btnTogglePinyin) return;
+  const collapsed = pinyinPanel.classList.toggle("is-collapsed");
+  const visible = !collapsed;
   btnTogglePinyin.setAttribute("aria-expanded", String(visible));
   btnTogglePinyin.classList.toggle("is-open", visible);
-  btnTogglePinyin.textContent = visible ? "Ẩn pinyin ví dụ" : "Pinyin ví dụ";
+  btnTogglePinyin.textContent = visible ? "Ẩn pinyin ví dụ" : "🔤 Pinyin ví dụ";
 }
 
 function showWord() {
@@ -96,11 +100,13 @@ function showWord() {
   wordPinyin.textContent = w.pinyin;
   wordMeaning.textContent = w.meaning;
   hintWord.textContent = w.hanzi;
-  refExample.textContent = w.example;
-  refPinyin.textContent = w.examplePy?.trim() || "Chưa có pinyin trong dữ liệu.";
-  refVi.textContent = w.exampleVi?.trim() || "Chưa có nghĩa trong dữ liệu.";
+  refExample.textContent = w.example || "—";
+  refVi.textContent = w.exampleVi?.trim() || "(Chưa có bản dịch trong dữ liệu)";
+  refPinyin.textContent = w.examplePy?.trim() || "(Chưa có pinyin trong dữ liệu)";
   hideExamplePinyin();
-  btnTogglePinyin.disabled = !w.examplePy?.trim();
+  if (btnTogglePinyin) {
+    btnTogglePinyin.disabled = !w.examplePy?.trim();
+  }
   userSentence.value = "";
   hideAiResult();
   progressText.textContent = `${index + 1} / ${words.length}`;

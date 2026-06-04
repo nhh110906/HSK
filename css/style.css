@@ -723,67 +723,78 @@ body {
   line-height: 1.6;
 }
 
-.example-extra {
-  margin-top: 1rem;
-  padding-top: 1rem;
-  border-top: 1px solid var(--border);
+.example-meaning-box {
+  margin-top: 1.25rem;
+  padding: 1rem 1.1rem;
+  background: rgba(61, 214, 140, 0.12);
+  border: 1px solid rgba(61, 214, 140, 0.4);
+  border-radius: 12px;
 }
 
-.example-vi-label {
-  margin: 0 0 0.35rem;
-  font-size: 0.7rem;
+.example-vi-label,
+.example-py-label {
+  margin: 0 0 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--text-muted);
+  letter-spacing: 0.08em;
+  color: var(--success);
 }
 
 .example-vi {
   margin: 0;
   color: var(--text);
-  font-size: 0.95rem;
-  line-height: 1.55;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  font-weight: 500;
 }
 
-.btn-toggle-pinyin {
+.btn-pinyin-toggle {
+  display: block;
+  width: 100%;
   margin-top: 1rem;
   font-family: inherit;
-  font-size: 0.85rem;
+  font-size: 1rem;
   font-weight: 600;
-  padding: 0.5rem 1rem;
-  border-radius: 999px;
-  border: 1px solid var(--border);
-  background: var(--bg);
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  border: 2px solid var(--accent);
+  background: var(--accent-soft);
   color: var(--accent);
   cursor: pointer;
-  transition: background 0.2s, border-color 0.2s;
+  transition: background 0.2s, transform 0.15s;
 }
 
-.btn-toggle-pinyin:hover:not(:disabled) {
-  border-color: var(--accent);
-  background: var(--accent-soft);
+.btn-pinyin-toggle:hover:not(:disabled) {
+  background: rgba(232, 93, 76, 0.25);
+  transform: translateY(-1px);
 }
 
-.btn-toggle-pinyin.is-open {
-  background: var(--accent-soft);
-  border-color: var(--accent);
+.btn-pinyin-toggle.is-open {
+  background: var(--accent);
+  color: #fff;
 }
 
-.btn-toggle-pinyin:disabled {
-  opacity: 0.45;
+.btn-pinyin-toggle:disabled {
+  opacity: 0.5;
   cursor: not-allowed;
 }
 
-.example-pinyin-panel {
+.example-pinyin-box {
   margin-top: 0.75rem;
-  padding: 0.85rem 1rem;
-  background: var(--bg);
-  border-radius: 10px;
-  border: 1px solid var(--border);
+  padding: 1rem 1.1rem;
+  background: rgba(232, 93, 76, 0.1);
+  border: 1px solid rgba(232, 93, 76, 0.35);
+  border-radius: 12px;
   animation: fadeIn 0.25s ease;
 }
 
-.example-pinyin-panel.hidden {
+.example-pinyin-box.is-collapsed {
   display: none;
+}
+
+.example-py-label {
+  color: var(--accent);
 }
 
 .example-py {
