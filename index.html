@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ôn Tiếng Trung — HSK Flashcard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <div class="logo">
+        <span class="logo-hanzi">学</span>
+        <div>
+          <h1>Ôn Tiếng Trung</h1>
+          <p>Flashcard &amp; bài kiểm tra HSK</p>
+        </div>
+      </div>
+    </header>
+
+    <main class="home">
+      <section class="level-section">
+        <h2>Chọn cấp độ HSK</h2>
+        <div class="level-grid" id="levelGrid"></div>
+      </section>
+
+      <section class="mode-section hidden" id="modeSection">
+        <p class="selected-level">Đang chọn: <strong id="selectedLevelLabel"></strong></p>
+        <div class="mode-grid">
+          <a class="mode-card" id="flashcardLink" href="#">
+            <span class="mode-icon">📇</span>
+            <h3>Flashcard</h3>
+            <p>Hán tự · Pinyin · Tiếng Việt — lật thẻ để ôn</p>
+          </a>
+          <a class="mode-card" id="testZhLink" href="#">
+            <span class="mode-icon">✍️</span>
+            <h3>Test: Hán tự → Pinyin / Việt</h3>
+            <p>Nhìn chữ Hán, gõ pinyin hoặc nghĩa tiếng Việt</p>
+          </a>
+          <a class="mode-card" id="testViLink" href="#">
+            <span class="mode-icon">🈯</span>
+            <h3>Test: Việt / Pinyin → Hán tự</h3>
+            <p>Nhìn nghĩa hoặc pinyin, gõ chữ Hán tương ứng</p>
+          </a>
+        </div>
+        <button type="button" class="btn btn-ghost" id="backToLevels">← Chọn cấp khác</button>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Dữ liệu HSK 3 &amp; 4 · Các cấp khác sẽ cập nhật sau</p>
+    </footer>
+  </div>
+  <script src="js/config.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Test — Ôn Tiếng Trung</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="app app-study">
+    <header class="study-header">
+      <a href="index.html" class="back-link">← Trang chủ</a>
+      <span class="study-badge" id="levelBadge"></span>
+      <span class="study-badge study-badge-mode" id="modeBadge"></span>
+    </header>
+
+    <main class="test-main" id="testMain">
+      <div class="test-setup hidden" id="testSetup">
+        <h2>Cài đặt bài test</h2>
+        <label class="field">
+          <span>Số câu</span>
+          <select id="questionCount">
+            <option value="10">10</option>
+            <option value="20" selected>20</option>
+            <option value="30">30</option>
+            <option value="50">50</option>
+          </select>
+        </label>
+        <label class="field" id="answerTypeField">
+          <span>Loại đáp án (Hán tự →)</span>
+          <select id="answerType">
+            <option value="pinyin">Pinyin</option>
+            <option value="vietnamese">Tiếng Việt</option>
+          </select>
+        </label>
+        <button type="button" class="btn btn-primary btn-block" id="btnStart">Bắt đầu</button>
+      </div>
+
+      <div class="test-quiz hidden" id="testQuiz">
+        <div class="quiz-progress">
+          <div class="quiz-progress-bar"><div class="quiz-progress-fill" id="progressBar"></div></div>
+          <span id="quizProgressText"></span>
+        </div>
+        <div class="quiz-prompt">
+          <span class="card-label" id="promptLabel"></span>
+          <p class="quiz-question" id="quizQuestion"></p>
+        </div>
+        <form id="answerForm" class="answer-form">
+          <input type="text" id="answerInput" class="answer-input" autocomplete="off" spellcheck="false" placeholder="Nhập câu trả lời..." />
+          <button type="submit" class="btn btn-primary">Kiểm tra</button>
+        </form>
+        <div class="quiz-feedback hidden" id="quizFeedback">
+          <p id="feedbackText"></p>
+          <p class="correct-answer" id="correctAnswer"></p>
+          <button type="button" class="btn btn-primary" id="btnNextQ">Câu tiếp →</button>
+        </div>
+      </div>
+
+      <div class="test-result hidden" id="testResult">
+        <h2>Kết quả</h2>
+        <p class="result-score" id="resultScore"></p>
+        <ul class="result-list" id="resultList"></ul>
+        <button type="button" class="btn btn-primary" id="btnRetry">Làm lại</button>
+        <a href="index.html" class="btn btn-ghost">Về trang chủ</a>
+      </div>
+    </main>
+  </div>
+  <script src="js/config.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/test.js"></script>
+</body>
+</html>
