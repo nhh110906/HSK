@@ -9,6 +9,8 @@ const wordMeaning = document.getElementById("wordMeaning");
 const refExample = document.getElementById("refExample");
 const refPinyin = document.getElementById("refPinyin");
 const refVi = document.getElementById("refVi");
+const btnTogglePinyin = document.getElementById("btnTogglePinyin");
+const pinyinPanel = document.getElementById("pinyinPanel");
 const hintWord = document.getElementById("hintWord");
 const userSentence = document.getElementById("userSentence");
 const btnCheckAi = document.getElementById("btnCheckAi");
@@ -41,6 +43,8 @@ if (!level || !HSK_CONFIG.levels[level]?.available) {
   init();
 }
 
+btnTogglePinyin.addEventListener("click", toggleExamplePinyin);
+
 btnApiSettings.addEventListener("click", openApiModal);
 apiCancel.addEventListener("click", () => apiModal.close());
 apiForm.addEventListener("submit", (e) => {
@@ -71,6 +75,21 @@ async function init() {
   }
 }
 
+function hideExamplePinyin() {
+  pinyinPanel.classList.add("hidden");
+  btnTogglePinyin.setAttribute("aria-expanded", "false");
+  btnTogglePinyin.classList.remove("is-open");
+  btnTogglePinyin.textContent = "Pinyin ví dụ";
+}
+
+function toggleExamplePinyin() {
+  const open = pinyinPanel.classList.toggle("hidden");
+  const visible = !open;
+  btnTogglePinyin.setAttribute("aria-expanded", String(visible));
+  btnTogglePinyin.classList.toggle("is-open", visible);
+  btnTogglePinyin.textContent = visible ? "Ẩn pinyin ví dụ" : "Pinyin ví dụ";
+}
+
 function showWord() {
   const w = words[order[index]];
   wordHanzi.textContent = w.hanzi;
@@ -78,8 +97,10 @@ function showWord() {
   wordMeaning.textContent = w.meaning;
   hintWord.textContent = w.hanzi;
   refExample.textContent = w.example;
-  refPinyin.textContent = w.examplePy || "—";
-  refVi.textContent = w.exampleVi || "—";
+  refPinyin.textContent = w.examplePy?.trim() || "Chưa có pinyin trong dữ liệu.";
+  refVi.textContent = w.exampleVi?.trim() || "Chưa có nghĩa trong dữ liệu.";
+  hideExamplePinyin();
+  btnTogglePinyin.disabled = !w.examplePy?.trim();
   userSentence.value = "";
   hideAiResult();
   progressText.textContent = `${index + 1} / ${words.length}`;

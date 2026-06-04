@@ -28,8 +28,16 @@
       <section class="example-ref">
         <h2>Câu ví dụ</h2>
         <p class="example-zh" id="refExample"></p>
-        <p class="example-py" id="refPinyin"></p>
-        <p class="example-vi" id="refVi"></p>
+        <div class="example-extra">
+          <p class="example-vi-label">Nghĩa ví dụ</p>
+          <p class="example-vi" id="refVi"></p>
+        </div>
+        <button type="button" class="btn-toggle-pinyin" id="btnTogglePinyin" aria-expanded="false">
+          Pinyin ví dụ
+        </button>
+        <div class="example-pinyin-panel hidden" id="pinyinPanel">
+          <p class="example-py" id="refPinyin"></p>
+        </div>
       </section>
 
       <section class="example-practice">
