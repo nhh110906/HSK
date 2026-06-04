@@ -7,7 +7,7 @@ const flashcard = document.getElementById("flashcard");
 const cardHanzi = document.getElementById("cardHanzi");
 const cardPinyin = document.getElementById("cardPinyin");
 const cardMeaning = document.getElementById("cardMeaning");
-const exampleSection = document.getElementById("exampleSection");
+const cardExampleBlock = document.getElementById("cardExampleBlock");
 const refExample = document.getElementById("refExample");
 const refVi = document.getElementById("refVi");
 const refPinyin = document.getElementById("refPinyin");
@@ -28,12 +28,13 @@ if (!level || !HSK_CONFIG.levels[level]?.available) {
   init();
 }
 
-if (btnTogglePinyin && pinyinPanel) {
-  btnTogglePinyin.addEventListener("click", (e) => {
-    e.stopPropagation();
-    toggleExamplePinyin();
-  });
-}
+btnTogglePinyin.addEventListener("click", (e) => {
+  e.stopPropagation();
+  toggleExamplePinyin();
+});
+
+pinyinPanel.addEventListener("click", (e) => e.stopPropagation());
+cardExampleBlock.addEventListener("click", (e) => e.stopPropagation());
 
 async function init() {
   try {
@@ -47,7 +48,6 @@ async function init() {
 }
 
 function hideExamplePinyin() {
-  if (!pinyinPanel || !btnTogglePinyin) return;
   pinyinPanel.classList.add("is-collapsed");
   btnTogglePinyin.setAttribute("aria-expanded", "false");
   btnTogglePinyin.classList.remove("is-open");
@@ -55,7 +55,6 @@ function hideExamplePinyin() {
 }
 
 function toggleExamplePinyin() {
-  if (!pinyinPanel || !btnTogglePinyin) return;
   const collapsed = pinyinPanel.classList.toggle("is-collapsed");
   const visible = !collapsed;
   btnTogglePinyin.setAttribute("aria-expanded", String(visible));
@@ -63,19 +62,25 @@ function toggleExamplePinyin() {
   btnTogglePinyin.textContent = visible ? "Ẩn pinyin ví dụ" : "🔤 Pinyin ví dụ";
 }
 
-function showExampleBlock(w) {
-  const hasExample = w.example?.trim();
-  if (!hasExample) {
-    exampleSection.classList.add("hidden");
+function showExampleOnCard(w) {
+  const ex = (w.example || "").trim();
+  const vi = (w.exampleVi || "").trim();
+  const py = (w.examplePy || "").trim();
+
+  if (!ex && !vi) {
+    cardExampleBlock.style.display = "none";
     return;
   }
-  exampleSection.classList.remove("hidden");
-  refExample.textContent = w.example;
-  refVi.textContent = w.exampleVi?.trim() || "(Chưa có bản dịch trong dữ liệu)";
-  refPinyin.textContent = w.examplePy?.trim() || "(Chưa có pinyin trong dữ liệu)";
+
+  cardExampleBlock.style.display = "block";
+  refExample.textContent = ex || "—";
+  refVi.textContent = vi || "(Chưa có bản dịch tiếng Việt)";
+  refPinyin.textContent = py || "(HSK này chưa có pinyin câu ví dụ trong dữ liệu)";
   hideExamplePinyin();
-  if (btnTogglePinyin) {
-    btnTogglePinyin.disabled = !w.examplePy?.trim();
+  btnTogglePinyin.disabled = !py;
+  btnTogglePinyin.style.display = py ? "block" : "none";
+  if (!py) {
+    pinyinPanel.classList.add("is-collapsed");
   }
 }
 
@@ -84,7 +89,7 @@ function showCard() {
   cardHanzi.textContent = w.hanzi;
   cardPinyin.textContent = w.pinyin;
   cardMeaning.textContent = w.meaning;
-  showExampleBlock(w);
+  showExampleOnCard(w);
   flashcard.classList.remove("flipped");
   progressText.textContent = `${index + 1} / ${words.length}`;
 }

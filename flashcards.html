@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/style.css?v=5" />
+  <link rel="stylesheet" href="css/style.css?v=6" />
 </head>
 <body>
   <div class="app app-study">
@@ -19,36 +19,40 @@
 
     <main class="flashcard-main">
       <div class="card-scene">
-        <div class="flashcard" id="flashcard" tabindex="0" role="button" aria-label="Lật thẻ">
+        <div class="flashcard flashcard-tall" id="flashcard" tabindex="0" role="button" aria-label="Lật thẻ">
           <div class="flashcard-face flashcard-front">
             <span class="card-label">Hán tự</span>
             <p class="card-hanzi" id="cardHanzi"></p>
+            <p class="flip-hint flip-hint-front">Chạm để lật → xem pinyin, nghĩa &amp; ví dụ</p>
           </div>
           <div class="flashcard-face flashcard-back">
-            <span class="card-label">Pinyin</span>
-            <p class="card-pinyin" id="cardPinyin"></p>
-            <span class="card-label">Nghĩa</span>
-            <p class="card-meaning" id="cardMeaning"></p>
+            <div class="card-back-scroll">
+              <span class="card-label">Pinyin từ</span>
+              <p class="card-pinyin" id="cardPinyin"></p>
+              <span class="card-label">Nghĩa từ</span>
+              <p class="card-meaning" id="cardMeaning"></p>
+
+              <div class="card-example-block" id="cardExampleBlock">
+                <hr class="card-divider" />
+                <span class="card-label">Câu ví dụ</span>
+                <p class="card-ex-zh" id="refExample"></p>
+                <div class="example-meaning-box example-meaning-compact">
+                  <p class="example-vi-label">Nghĩa ví dụ</p>
+                  <p class="example-vi" id="refVi"></p>
+                </div>
+                <button type="button" class="btn btn-pinyin-toggle btn-pinyin-sm" id="btnTogglePinyin" aria-expanded="false">
+                  🔤 Pinyin ví dụ
+                </button>
+                <div class="example-pinyin-box is-collapsed" id="pinyinPanel">
+                  <p class="example-py-label">Pinyin câu ví dụ</p>
+                  <p class="example-py" id="refPinyin"></p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <p class="flip-hint">Nhấn thẻ hoặc phím Space để lật từ vựng</p>
-
-      <section class="example-ref flashcard-example hidden" id="exampleSection">
-        <h2>Câu ví dụ</h2>
-        <p class="example-zh" id="refExample"></p>
-        <div class="example-meaning-box">
-          <p class="example-vi-label">Nghĩa ví dụ</p>
-          <p class="example-vi" id="refVi"></p>
-        </div>
-        <button type="button" class="btn btn-pinyin-toggle" id="btnTogglePinyin" aria-expanded="false">
-          🔤 Pinyin ví dụ
-        </button>
-        <div class="example-pinyin-box is-collapsed" id="pinyinPanel">
-          <p class="example-py-label">Pinyin</p>
-          <p class="example-py" id="refPinyin"></p>
-        </div>
-      </section>
+      <p class="flip-hint">Space hoặc chạm thẻ để lật · Nút pinyin không lật thẻ</p>
 
       <div class="study-controls">
         <button type="button" class="btn btn-ghost" id="btnPrev">← Trước</button>
@@ -57,8 +61,8 @@
       </div>
     </main>
   </div>
-  <script src="js/config.js?v=5"></script>
-  <script src="js/data.js?v=5"></script>
-  <script src="js/flashcards.js?v=5"></script>
+  <script src="js/config.js?v=6"></script>
+  <script src="js/data.js?v=6"></script>
+  <script src="js/flashcards.js?v=6"></script>
 </body>
 </html>
