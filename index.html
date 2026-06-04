@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ôn Tiếng Trung — HSK Flashcard</title>
+  <title>Ôn Tiếng Trung — HSK</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -16,45 +16,68 @@
         <span class="logo-hanzi">学</span>
         <div>
           <h1>Ôn Tiếng Trung</h1>
-          <p>Flashcard &amp; bài kiểm tra HSK</p>
+          <p>Flashcard · Ví dụ · Bài test HSK</p>
         </div>
       </div>
     </header>
 
     <main class="home">
-      <section class="level-section">
-        <h2>Chọn cấp độ HSK</h2>
+      <!-- Bước 1: Ôn tập / Làm test -->
+      <section class="nav-step" id="stepFlow">
+        <h2>Bạn muốn làm gì?</h2>
+        <div class="flow-grid">
+          <button type="button" class="flow-card" data-flow="study">
+            <span class="flow-icon">📚</span>
+            <h3>Ôn tập</h3>
+            <p>Flashcard, ví dụ câu &amp; kiểm tra ngữ pháp AI</p>
+          </button>
+          <button type="button" class="flow-card" data-flow="test">
+            <span class="flow-icon">📝</span>
+            <h3>Làm test</h3>
+            <p>Kiểm tra pinyin, nghĩa và chữ Hán</p>
+          </button>
+        </div>
+      </section>
+
+      <!-- Bước 2: Chọn HSK -->
+      <section class="nav-step hidden" id="stepLevel">
+        <button type="button" class="btn-back-step" id="backToFlow">← Quay lại</button>
+        <h2 id="levelStepTitle">Chọn cấp HSK</h2>
+        <p class="step-context" id="flowContextLabel"></p>
         <div class="level-grid" id="levelGrid"></div>
       </section>
 
-      <section class="mode-section hidden" id="modeSection">
-        <p class="selected-level">Đang chọn: <strong id="selectedLevelLabel"></strong></p>
-        <div class="mode-grid">
-          <a class="mode-card" id="flashcardLink" href="#">
-            <span class="mode-icon">📇</span>
-            <h3>Flashcard</h3>
-            <p>Hán tự · Pinyin · Tiếng Việt — lật thẻ để ôn</p>
-          </a>
-          <a class="mode-card" id="testZhLink" href="#">
-            <span class="mode-icon">✍️</span>
-            <h3>Test: Hán tự → Pinyin / Việt</h3>
-            <p>Nhìn chữ Hán, gõ pinyin hoặc nghĩa tiếng Việt</p>
-          </a>
-          <a class="mode-card" id="testViLink" href="#">
-            <span class="mode-icon">🈯</span>
-            <h3>Test: Việt / Pinyin → Hán tự</h3>
-            <p>Nhìn nghĩa hoặc pinyin, gõ chữ Hán tương ứng</p>
-          </a>
-        </div>
-        <button type="button" class="btn btn-ghost" id="backToLevels">← Chọn cấp khác</button>
+      <!-- Bước 3: Chọn chế độ con -->
+      <section class="nav-step hidden" id="stepMode">
+        <button type="button" class="btn-back-step" id="backToLevel">← Chọn cấp khác</button>
+        <h2 id="modeStepTitle">Chọn nội dung</h2>
+        <p class="step-context" id="selectedLevelLabel"></p>
+        <div class="mode-grid" id="modeGrid"></div>
       </section>
     </main>
 
     <footer class="footer">
-      <p>Dữ liệu HSK 3 &amp; 4 · Các cấp khác sẽ cập nhật sau</p>
+      <p>Dữ liệu HSK 3 &amp; 4 · <button type="button" class="link-btn" id="openApiSettings">Cài đặt API AI</button></p>
     </footer>
   </div>
+
+  <dialog class="modal" id="apiModal">
+    <form method="dialog" id="apiForm">
+      <h3>Cài đặt AI (Gemini)</h3>
+      <p class="modal-desc">Dùng để kiểm tra ngữ pháp ở phần <strong>Ví dụ</strong>. Lấy API key miễn phí tại <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">Google AI Studio</a>. Key chỉ lưu trên trình duyệt của bạn.</p>
+      <label class="field">
+        <span>Gemini API Key</span>
+        <input type="password" id="apiKeyInput" class="answer-input" placeholder="AIza..." autocomplete="off" />
+      </label>
+      <div class="modal-actions">
+        <button type="button" class="btn btn-ghost" id="apiCancel">Hủy</button>
+        <button type="submit" class="btn btn-primary">Lưu</button>
+      </div>
+    </form>
+  </dialog>
+
   <script src="js/config.js"></script>
+  <script src="js/ai-grammar.js"></script>
   <script src="js/home.js"></script>
 </body>
 </html>

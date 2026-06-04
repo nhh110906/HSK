@@ -1,5 +1,8 @@
 const level = getLevelFromUrl();
+const flow = getFlowFromUrl() || "test";
 const mode = getModeFromUrl();
+document.getElementById("backLink").href = buildHomeUrl(flow, level);
+document.getElementById("resultHomeLink").href = buildHomeUrl(flow, level);
 const levelBadge = document.getElementById("levelBadge");
 const modeBadge = document.getElementById("modeBadge");
 const testSetup = document.getElementById("testSetup");

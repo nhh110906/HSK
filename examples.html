@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ví dụ — Ôn Tiếng Trung</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="app app-study">
+    <header class="study-header">
+      <a href="#" class="back-link" id="backLink">← Ôn tập</a>
+      <span class="study-badge" id="levelBadge"></span>
+      <span class="progress-text" id="progressText"></span>
+      <button type="button" class="btn btn-ghost btn-sm" id="btnApiSettings">API AI</button>
+    </header>
+
+    <main class="examples-main">
+      <div class="word-panel">
+        <p class="card-label">Từ vựng</p>
+        <p class="word-panel-hanzi" id="wordHanzi"></p>
+        <p class="word-panel-meta"><span id="wordPinyin"></span> · <span id="wordMeaning"></span></p>
+      </div>
+
+      <section class="example-ref">
+        <h2>Câu ví dụ</h2>
+        <p class="example-zh" id="refExample"></p>
+        <p class="example-py" id="refPinyin"></p>
+        <p class="example-vi" id="refVi"></p>
+      </section>
+
+      <section class="example-practice">
+        <h2>Tự viết câu</h2>
+        <p class="practice-hint">Dùng từ <strong id="hintWord"></strong> để đặt một câu tiếng Trung, rồi nhờ AI kiểm tra ngữ pháp.</p>
+        <textarea id="userSentence" class="example-textarea" rows="3" placeholder="Ví dụ: 我很喜欢学习中文。" spellcheck="false"></textarea>
+        <button type="button" class="btn btn-primary btn-block" id="btnCheckAi">Kiểm tra ngữ pháp (AI)</button>
+      </section>
+
+      <div class="ai-result hidden" id="aiResult">
+        <div class="ai-score-row">
+          <span class="ai-score" id="aiScore"></span>
+          <span class="ai-verdict" id="aiVerdict"></span>
+        </div>
+        <p class="ai-summary" id="aiSummary"></p>
+        <ul class="ai-issues" id="aiIssues"></ul>
+        <p class="ai-suggestion" id="aiSuggestion"></p>
+      </div>
+
+      <div class="ai-loading hidden" id="aiLoading">Đang kiểm tra với AI…</div>
+
+      <div class="study-controls">
+        <button type="button" class="btn btn-ghost" id="btnPrev">← Trước</button>
+        <button type="button" class="btn btn-primary" id="btnShuffle">Trộn</button>
+        <button type="button" class="btn btn-ghost" id="btnNext">Sau →</button>
+      </div>
+    </main>
+  </div>
+
+  <dialog class="modal" id="apiModal">
+    <form method="dialog" id="apiForm">
+      <h3>Cài đặt AI (Gemini)</h3>
+      <p class="modal-desc">Lấy API key miễn phí tại <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">Google AI Studio</a>. Key chỉ lưu trên trình duyệt.</p>
+      <label class="field">
+        <span>Gemini API Key</span>
+        <input type="password" id="apiKeyInput" class="answer-input" autocomplete="off" />
+      </label>
+      <div class="modal-actions">
+        <button type="button" class="btn btn-ghost" id="apiCancel">Hủy</button>
+        <button type="submit" class="btn btn-primary">Lưu</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="js/config.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/ai-grammar.js"></script>
+  <script src="js/examples.js"></script>
+</body>
+</html>

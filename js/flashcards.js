@@ -1,4 +1,6 @@
 const level = getLevelFromUrl();
+const flow = getFlowFromUrl() || "study";
+document.getElementById("backLink").href = buildHomeUrl(flow, level);
 const levelBadge = document.getElementById("levelBadge");
 const progressText = document.getElementById("progressText");
 const flashcard = document.getElementById("flashcard");

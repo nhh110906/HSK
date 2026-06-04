@@ -81,6 +81,103 @@ body {
   flex: 1;
 }
 
+.nav-step.hidden {
+  display: none;
+}
+
+.nav-step {
+  animation: fadeIn 0.3s ease;
+}
+
+.btn-back-step {
+  font-family: inherit;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  background: none;
+  border: none;
+  padding: 0;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.btn-back-step:hover {
+  color: var(--accent);
+}
+
+.step-context {
+  color: var(--text-muted);
+  margin: -0.5rem 0 1.25rem;
+  font-size: 0.95rem;
+}
+
+.flow-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+@media (max-width: 420px) {
+  .flow-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.flow-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  padding: 1.5rem 1.35rem;
+  background: var(--surface);
+  border: 2px solid var(--border);
+  border-radius: var(--radius);
+  color: inherit;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s, transform 0.15s;
+}
+
+.flow-card:hover {
+  border-color: var(--accent);
+  background: var(--surface-hover);
+  transform: translateY(-2px);
+}
+
+.flow-icon {
+  font-size: 2rem;
+}
+
+.flow-card h3 {
+  margin: 0.75rem 0 0.35rem;
+  font-size: 1.2rem;
+}
+
+.flow-card p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.nav-step h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin: 0 0 1rem;
+}
+
+.link-btn {
+  font-family: inherit;
+  font-size: inherit;
+  color: var(--accent);
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .level-section h2,
 .mode-section h2 {
   font-size: 1rem;
@@ -564,6 +661,211 @@ body {
 
 .result-list .wrong-q {
   color: var(--error);
+}
+
+.btn-sm {
+  margin-top: 0;
+  padding: 0.35rem 0.75rem;
+  font-size: 0.8rem;
+}
+
+/* Examples + AI */
+.examples-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.word-panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  text-align: center;
+}
+
+.word-panel-hanzi {
+  font-family: "Noto Sans SC", serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--hanzi);
+  margin: 0.25rem 0;
+}
+
+.word-panel-meta {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.example-ref,
+.example-practice {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+}
+
+.example-ref h2,
+.example-practice h2 {
+  margin: 0 0 0.75rem;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+}
+
+.example-zh {
+  font-family: "Noto Sans SC", serif;
+  font-size: 1.25rem;
+  margin: 0 0 0.5rem;
+  line-height: 1.6;
+}
+
+.example-py {
+  margin: 0 0 0.35rem;
+  color: var(--accent);
+  font-size: 0.95rem;
+}
+
+.example-vi {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.practice-hint {
+  margin: 0 0 0.75rem;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.example-textarea {
+  width: 100%;
+  padding: 0.85rem 1rem;
+  font-size: 1.1rem;
+  font-family: "Noto Sans SC", serif;
+  background: var(--bg);
+  border: 2px solid var(--border);
+  border-radius: 10px;
+  color: var(--text);
+  resize: vertical;
+  margin-bottom: 0.75rem;
+}
+
+.example-textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.ai-loading {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.ai-result {
+  padding: 1rem 1.15rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+}
+
+.ai-result.ai-pass {
+  background: rgba(61, 214, 140, 0.1);
+  border-color: rgba(61, 214, 140, 0.35);
+}
+
+.ai-result.ai-fail {
+  background: rgba(240, 113, 120, 0.1);
+  border-color: rgba(240, 113, 120, 0.35);
+}
+
+.ai-score-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.ai-score {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--hanzi);
+}
+
+.ai-verdict {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.ai-pass .ai-verdict {
+  color: var(--success);
+}
+
+.ai-fail .ai-verdict {
+  color: var(--error);
+}
+
+.ai-summary {
+  margin: 0 0 0.75rem;
+}
+
+.ai-issues {
+  margin: 0 0 0.75rem;
+  padding-left: 1.25rem;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.ai-suggestion {
+  margin: 0;
+  font-family: "Noto Sans SC", serif;
+  font-size: 1rem;
+  color: var(--accent);
+}
+
+.modal {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0;
+  background: var(--surface);
+  color: var(--text);
+  max-width: 420px;
+  width: calc(100% - 2rem);
+}
+
+.modal::backdrop {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal form {
+  padding: 1.5rem;
+}
+
+.modal h3 {
+  margin: 0 0 0.5rem;
+}
+
+.modal-desc {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin: 0 0 1rem;
+}
+
+.modal-desc a {
+  color: var(--accent);
+}
+
+.modal-actions {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+.modal-actions .btn-ghost {
+  margin-top: 0;
 }
 
 @keyframes fadeIn {

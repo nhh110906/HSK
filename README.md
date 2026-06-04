@@ -4,10 +4,23 @@ Web flashcard và bài kiểm tra từ vựng tiếng Trung theo cấp HSK.
 
 ## Tính năng
 
+Luồng: **Ôn tập** hoặc **Làm test** → chọn **HSK** → chọn nội dung.
+
+**Ôn tập**
 - **Flashcard**: Hán tự → lật xem Pinyin và nghĩa tiếng Việt
-- **Test Hán tự → Pinyin / Việt**: Nhìn chữ Hán, gõ pinyin hoặc nghĩa
-- **Test Việt / Pinyin → Hán tự**: Nhìn nghĩa hoặc pinyin, gõ chữ Hán
-- Chọn cấp **HSK 1–6** (hiện có dữ liệu **HSK 3** và **HSK 4**)
+- **Ví dụ**: Câu mẫu + tự viết câu → **kiểm tra ngữ pháp bằng AI** (Google Gemini)
+
+**Làm test**
+- Hán tự → Pinyin / Tiếng Việt
+- Việt / Pinyin → Hán tự
+
+Dữ liệu: **HSK 3** và **HSK 4** (các cấp khác sắp có).
+
+### Cài đặt AI (phần Ví dụ)
+
+1. Lấy API key miễn phí tại [Google AI Studio](https://aistudio.google.com/apikey)
+2. Trên trang chủ hoặc trang Ví dụ, bấm **Cài đặt API AI**
+3. Key chỉ lưu trong trình duyệt (localStorage)
 
 ## Chạy local
 
