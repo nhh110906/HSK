@@ -21,10 +21,11 @@ let words = [];
 let order = [];
 let index = 0;
 
-if (!level || !HSK_CONFIG.levels[level]?.available) {
-  window.location.href = "index.html";
+const levelCfg = getLevelConfig(level);
+if (!level || !levelCfg?.available) {
+  window.location.href = buildHomeUrl(flow, null, "level");
 } else {
-  levelBadge.textContent = HSK_CONFIG.levels[level].label;
+  levelBadge.textContent = levelCfg.label;
   init();
 }
 
@@ -38,7 +39,7 @@ async function init() {
     showCard();
   } catch (e) {
     alert(e.message);
-    window.location.href = "index.html";
+    window.location.href = buildHomeUrl(flow, level, "level");
   }
 }
 

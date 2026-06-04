@@ -1,5 +1,5 @@
 async function loadVocabulary(level) {
-  const cfg = HSK_CONFIG.levels[level];
+  const cfg = getLevelConfig(level);
   if (!cfg?.available || !cfg.file) {
     throw new Error("Cấp HSK này chưa có dữ liệu");
   }

@@ -36,10 +36,13 @@ let index = 0;
 
 backLink.href = buildHomeUrl(flow, level);
 
-if (!level || !HSK_CONFIG.levels[level]?.available) {
-  window.location.href = "index.html";
+const levelCfg = getLevelConfig(level);
+if (!level || !levelCfg?.available) {
+  window.location.href = buildHomeUrl(flow, null, "level");
+} else if (!levelCfg.hasExamples) {
+  window.location.href = buildHomeUrl(flow, level, "mode");
 } else {
-  levelBadge.textContent = HSK_CONFIG.levels[level].label;
+  levelBadge.textContent = levelCfg.label;
   init();
 }
 
@@ -66,14 +69,14 @@ async function init() {
     words = all.filter((w) => w.example && w.example.trim());
     if (!words.length) {
       alert("Không có câu ví dụ cho cấp này.");
-      window.location.href = buildHomeUrl("study", level);
+      window.location.href = buildHomeUrl("study", level, "mode");
       return;
     }
     order = words.map((_, i) => i);
     showWord();
   } catch (e) {
     alert(e.message);
-    window.location.href = "index.html";
+    window.location.href = buildHomeUrl(flow, level, "level");
   }
 }
 

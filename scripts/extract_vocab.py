@@ -357,7 +357,8 @@ def main():
             print(f"Skip HSK{level}: missing {path}")
             continue
         entries = parsers[level](str(path))
-        out_path = out_dir / f"hsk{level}.json"
+        fname = "hsk-lv2.json" if level == 2 else f"hsk{level}.json"
+        out_path = out_dir / fname
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump(entries, f, ensure_ascii=False, indent=0)
         print(f"Wrote {out_path} ({len(entries)} words)")

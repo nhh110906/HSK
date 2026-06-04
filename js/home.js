@@ -25,6 +25,7 @@ const STUDY_MODES = [
     title: "Flashcard",
     desc: "Hán tự · Pinyin · Tiếng Việt — lật thẻ để ôn",
     page: "flashcards.html",
+    needsExamples: false,
   },
   {
     id: "examples",
@@ -32,6 +33,7 @@ const STUDY_MODES = [
     title: "Ví dụ",
     desc: "Đọc câu mẫu, tự viết câu & kiểm tra ngữ pháp bằng AI",
     page: "examples.html",
+    needsExamples: true,
   },
 ];
 
@@ -65,7 +67,7 @@ for (let n = 1; n <= 6; n++) {
   btn.className = "level-btn";
   btn.innerHTML = `HSK ${n}<span class="level-sub">${cfg.available ? "Sẵn sàng" : "Sắp có"}</span>`;
   btn.disabled = !cfg.available;
-  btn.dataset.level = n;
+  btn.dataset.level = String(n);
   btn.addEventListener("click", () => selectLevel(n, btn));
   levelGrid.appendChild(btn);
 }
@@ -74,13 +76,13 @@ backToFlow.addEventListener("click", () => {
   selectedFlow = null;
   selectedLevel = null;
   showStep("flow");
-  history.replaceState(null, "", "index.html");
+  history.replaceState(null, "", buildHomeUrl(null, null, "flow"));
 });
 
 backToLevel.addEventListener("click", () => {
   selectedLevel = null;
   showStep("level");
-  history.replaceState(null, "", buildHomeUrl(selectedFlow));
+  history.replaceState(null, "", buildHomeUrl(selectedFlow, null, "level"));
 });
 
 openApiSettings.addEventListener("click", openApiModal);
@@ -96,34 +98,61 @@ function openApiModal() {
   apiModal.showModal();
 }
 
+function ensureFlow() {
+  if (selectedFlow) return selectedFlow;
+  const flow = getFlowFromUrl();
+  if (flow) {
+    selectedFlow = flow;
+    return flow;
+  }
+  showStep("flow");
+  return null;
+}
+
 function selectFlow(flow) {
   selectedFlow = flow;
+  selectedLevel = null;
   flowContextLabel.textContent = FLOW_LABELS[flow];
   levelStepTitle.textContent =
     flow === "study" ? "Ôn tập — Chọn cấp HSK" : "Làm test — Chọn cấp HSK";
   showStep("level");
-  history.replaceState(null, "", buildHomeUrl(flow));
+  history.replaceState(null, "", buildHomeUrl(flow, null, "level"));
 }
 
 function selectLevel(level, btn) {
-  if (!HSK_CONFIG.levels[level].available) return;
-  selectedLevel = level;
+  const flow = ensureFlow();
+  if (!flow) return;
+
+  const n = Number(level);
+  const cfg = getLevelConfig(n);
+  if (!cfg?.available) return;
+
+  selectedLevel = n;
   document.querySelectorAll(".level-btn").forEach((b) => b.classList.remove("active"));
-  btn.classList.add("active");
-  selectedLevelLabel.textContent = `${FLOW_LABELS[selectedFlow]} · ${HSK_CONFIG.levels[level].label}`;
+  if (btn) btn.classList.add("active");
+
+  selectedLevelLabel.textContent = `${FLOW_LABELS[flow]} · ${cfg.label}`;
   modeStepTitle.textContent =
-    selectedFlow === "study" ? "Ôn tập — Chọn nội dung" : "Làm test — Chọn loại bài";
+    flow === "study" ? "Ôn tập — Chọn nội dung" : "Làm test — Chọn loại bài";
   renderModeCards();
   showStep("mode");
-  history.replaceState(null, "", buildHomeUrl(selectedFlow, level));
+  history.replaceState(null, "", buildHomeUrl(flow, n, "mode"));
 }
 
 function renderModeCards() {
-  const modes = selectedFlow === "study" ? STUDY_MODES : TEST_MODES;
+  const flow = ensureFlow();
+  if (!flow || !selectedLevel) return;
+
+  const cfg = getLevelConfig(selectedLevel);
+  const modes =
+    flow === "study"
+      ? STUDY_MODES.filter((m) => !m.needsExamples || cfg?.hasExamples)
+      : TEST_MODES;
+
   modeGrid.innerHTML = "";
   modes.forEach((m) => {
     const href =
-      selectedFlow === "study"
+      flow === "study"
         ? buildStudyUrl(m.page, selectedLevel, m.extra || {})
         : buildTestUrl(m.page, selectedLevel, m.extra || {});
     const a = document.createElement("a");
@@ -147,26 +176,34 @@ function showStep(step) {
 function restoreFromUrl() {
   const flow = getFlowFromUrl();
   const level = getLevelFromUrl();
+  const step = getStepFromUrl();
+
   if (!flow) {
     showStep("flow");
     return;
   }
+
   selectedFlow = flow;
   flowContextLabel.textContent = FLOW_LABELS[flow];
   levelStepTitle.textContent =
     flow === "study" ? "Ôn tập — Chọn cấp HSK" : "Làm test — Chọn cấp HSK";
-  if (!level) {
+
+  if (step === "level" || !level) {
     showStep("level");
     return;
   }
-  if (!HSK_CONFIG.levels[level]?.available) {
+
+  const cfg = getLevelConfig(level);
+  if (!cfg?.available) {
     showStep("level");
     return;
   }
+
   selectedLevel = level;
   const btn = levelGrid.querySelector(`[data-level="${level}"]`);
   if (btn) btn.classList.add("active");
-  selectedLevelLabel.textContent = `${FLOW_LABELS[flow]} · ${HSK_CONFIG.levels[level].label}`;
+
+  selectedLevelLabel.textContent = `${FLOW_LABELS[flow]} · ${cfg.label}`;
   modeStepTitle.textContent =
     flow === "study" ? "Ôn tập — Chọn nội dung" : "Làm test — Chọn loại bài";
   renderModeCards();

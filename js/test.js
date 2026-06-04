@@ -43,10 +43,11 @@ const MODES = {
   },
 };
 
-if (!level || !HSK_CONFIG.levels[level]?.available || !MODES[mode]) {
-  window.location.href = "index.html";
+const levelCfg = getLevelConfig(level);
+if (!level || !levelCfg?.available || !MODES[mode]) {
+  window.location.href = buildHomeUrl(flow, null, "level");
 } else {
-  levelBadge.textContent = HSK_CONFIG.levels[level].label;
+  levelBadge.textContent = levelCfg.label;
   modeBadge.textContent = MODES[mode].label;
   if (!MODES[mode].setupAnswerType) {
     answerTypeField.classList.add("hidden");
@@ -56,7 +57,7 @@ if (!level || !HSK_CONFIG.levels[level]?.available || !MODES[mode]) {
     words = data;
   }).catch(() => {
     alert("Không tải được từ vựng");
-    window.location.href = "index.html";
+    window.location.href = buildHomeUrl(flow, level, "level");
   });
 }
 
