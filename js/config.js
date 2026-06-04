@@ -9,6 +9,23 @@ const HSK_CONFIG = {
   },
 };
 
+const NAV_STORAGE_KEY = "hsk_nav_state";
+
+function getAppBase() {
+  const path = window.location.pathname || "/";
+  const lastSlash = path.lastIndexOf("/");
+  if (lastSlash >= 0) {
+    return path.slice(0, lastSlash + 1);
+  }
+  return "/";
+}
+
+function assetUrl(relativePath) {
+  const base = getAppBase();
+  const clean = String(relativePath).replace(/^\//, "");
+  return `${base}${clean}`;
+}
+
 function getLevelConfig(level) {
   const n = Number(level);
   if (n >= 1 && n <= 6) return HSK_CONFIG.levels[n];
@@ -19,6 +36,34 @@ const FLOW_LABELS = {
   study: "Ôn tập",
   test: "Làm test",
 };
+
+function saveNavState(flow, level) {
+  try {
+    sessionStorage.setItem(
+      NAV_STORAGE_KEY,
+      JSON.stringify({ flow: flow || null, level: level != null ? Number(level) : null })
+    );
+  } catch {
+    /* ignore */
+  }
+}
+
+function loadNavState() {
+  try {
+    const raw = sessionStorage.getItem(NAV_STORAGE_KEY);
+    if (!raw) return { flow: null, level: null };
+    const data = JSON.parse(raw);
+    return {
+      flow: data.flow === "study" || data.flow === "test" ? data.flow : null,
+      level:
+        Number.isFinite(Number(data.level)) && data.level >= 1 && data.level <= 6
+          ? Number(data.level)
+          : null,
+    };
+  } catch {
+    return { flow: null, level: null };
+  }
+}
 
 function getLevelFromUrl() {
   const raw = new URLSearchParams(window.location.search).get("level");
@@ -38,13 +83,14 @@ function getModeFromUrl() {
 }
 
 function buildPageUrl(page, params = {}) {
-  const qs = new URLSearchParams(
-    Object.fromEntries(
-      Object.entries(params).filter(([, v]) => v != null && v !== "")
-    )
-  );
+  const qs = new URLSearchParams();
+  Object.entries(params).forEach(([k, v]) => {
+    if (v != null && v !== "") qs.set(k, String(v));
+  });
   const q = qs.toString();
-  return q ? `${page}?${q}` : page;
+  const base = getAppBase();
+  const file = page.replace(/^\//, "");
+  return q ? `${base}${file}?${q}` : `${base}${file}`;
 }
 
 function buildStudyUrl(page, level, extra = {}) {

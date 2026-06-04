@@ -1,8 +1,9 @@
 const level = getLevelFromUrl();
 const flow = getFlowFromUrl() || "test";
 const mode = getModeFromUrl();
-document.getElementById("backLink").href = buildHomeUrl(flow, level);
-document.getElementById("resultHomeLink").href = buildHomeUrl(flow, level);
+saveNavState(flow, level);
+document.getElementById("backLink").href = buildHomeUrl(flow, level, "mode");
+document.getElementById("resultHomeLink").href = buildHomeUrl(flow, level, "mode");
 const levelBadge = document.getElementById("levelBadge");
 const modeBadge = document.getElementById("modeBadge");
 const testSetup = document.getElementById("testSetup");
@@ -45,7 +46,7 @@ const MODES = {
 
 const levelCfg = getLevelConfig(level);
 if (!level || !levelCfg?.available || !MODES[mode]) {
-  window.location.href = buildHomeUrl(flow, null, "level");
+  window.location.replace(buildHomeUrl(flow, level || null, "level"));
 } else {
   levelBadge.textContent = levelCfg.label;
   modeBadge.textContent = MODES[mode].label;

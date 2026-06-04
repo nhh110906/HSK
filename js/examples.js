@@ -1,5 +1,6 @@
 const level = getLevelFromUrl();
 const flow = getFlowFromUrl() || "study";
+saveNavState(flow, level);
 const backLink = document.getElementById("backLink");
 const levelBadge = document.getElementById("levelBadge");
 const progressText = document.getElementById("progressText");
@@ -34,13 +35,13 @@ let words = [];
 let order = [];
 let index = 0;
 
-backLink.href = buildHomeUrl(flow, level);
+backLink.href = buildHomeUrl(flow, level, "mode");
 
 const levelCfg = getLevelConfig(level);
 if (!level || !levelCfg?.available) {
-  window.location.href = buildHomeUrl(flow, null, "level");
+  window.location.replace(buildHomeUrl(flow, null, "level"));
 } else if (!levelCfg.hasExamples) {
-  window.location.href = buildHomeUrl(flow, level, "mode");
+  window.location.replace(buildHomeUrl(flow, level, "mode"));
 } else {
   levelBadge.textContent = levelCfg.label;
   init();

@@ -3,10 +3,30 @@ async function loadVocabulary(level) {
   if (!cfg?.available || !cfg.file) {
     throw new Error("Cấp HSK này chưa có dữ liệu");
   }
-  const res = await fetch(cfg.file);
-  if (!res.ok) throw new Error("Không tải được từ vựng");
-  const data = await res.json();
-  return data.filter((w) => w.hanzi && w.pinyin && w.meaning);
+
+  const url = assetUrl(cfg.file);
+  const res = await fetch(url);
+  if (!res.ok) {
+    throw new Error(`Không tải được từ vựng (${res.status}): ${url}`);
+  }
+
+  const text = await res.text();
+  let data;
+  try {
+    data = JSON.parse(text);
+  } catch {
+    throw new Error("File từ vựng không đúng định dạng JSON");
+  }
+
+  if (!Array.isArray(data)) {
+    throw new Error("Dữ liệu từ vựng không hợp lệ");
+  }
+
+  const words = data.filter((w) => w.hanzi && w.pinyin && w.meaning);
+  if (!words.length) {
+    throw new Error("Không có từ vựng hợp lệ sau khi lọc");
+  }
+  return words;
 }
 
 function shuffleArray(arr) {

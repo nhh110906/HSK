@@ -588,6 +588,36 @@ body {
   max-width: 420px;
 }
 
+.load-error {
+  width: 100%;
+  max-width: 420px;
+  padding: 1.5rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  text-align: center;
+}
+
+.load-error h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.1rem;
+}
+
+.load-error p {
+  margin: 0 0 1rem;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.load-error-meta {
+  font-size: 0.75rem;
+  word-break: break-all;
+}
+
+.load-error code {
+  color: var(--accent);
+}
+
 /* Test */
 .test-main {
   flex: 1;

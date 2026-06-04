@@ -1,6 +1,8 @@
 const level = getLevelFromUrl();
 const flow = getFlowFromUrl() || "study";
-document.getElementById("backLink").href = buildHomeUrl(flow, level);
+saveNavState(flow, level);
+
+document.getElementById("backLink").href = buildHomeUrl(flow, level, "mode");
 const levelBadge = document.getElementById("levelBadge");
 const progressText = document.getElementById("progressText");
 const flashcard = document.getElementById("flashcard");
@@ -22,8 +24,22 @@ let order = [];
 let index = 0;
 
 const levelCfg = getLevelConfig(level);
+
+function showLoadError(message) {
+  const main = document.querySelector(".flashcard-main");
+  if (!main) return;
+  main.innerHTML = `
+    <div class="load-error">
+      <h2>Không mở được Flashcard</h2>
+      <p>${message}</p>
+      <p class="load-error-meta">HSK ${level || "?"} · <code>${assetUrl(levelCfg?.file || "")}</code></p>
+      <a class="btn btn-primary" href="${buildHomeUrl(flow, level, "mode")}">← Chọn lại</a>
+    </div>
+  `;
+}
+
 if (!level || !levelCfg?.available) {
-  window.location.href = buildHomeUrl(flow, null, "level");
+  showLoadError("Cấp HSK không hợp lệ hoặc chưa có dữ liệu.");
 } else {
   levelBadge.textContent = levelCfg.label;
   init();
@@ -38,8 +54,7 @@ async function init() {
     order = words.map((_, i) => i);
     showCard();
   } catch (e) {
-    alert(e.message);
-    window.location.href = buildHomeUrl(flow, level, "level");
+    showLoadError(e.message || "Lỗi không xác định");
   }
 }
 
@@ -83,6 +98,10 @@ function showExampleOnCard(w) {
 }
 
 function showCard() {
+  if (!words.length) {
+    showLoadError("Danh sách từ trống.");
+    return;
+  }
   const w = words[order[index]];
   cardHanzi.textContent = w.hanzi;
   cardPinyin.textContent = w.pinyin;
@@ -105,6 +124,7 @@ flashcard.addEventListener("keydown", (e) => {
 });
 
 document.addEventListener("keydown", (e) => {
+  if (!words.length) return;
   if (e.key === "ArrowLeft") {
     index = (index - 1 + words.length) % words.length;
     showCard();
@@ -115,16 +135,19 @@ document.addEventListener("keydown", (e) => {
 });
 
 btnPrev.addEventListener("click", () => {
+  if (!words.length) return;
   index = (index - 1 + words.length) % words.length;
   showCard();
 });
 
 btnNext.addEventListener("click", () => {
+  if (!words.length) return;
   index = (index + 1) % words.length;
   showCard();
 });
 
 btnShuffle.addEventListener("click", () => {
+  if (!words.length) return;
   order = shuffleArray(order);
   index = 0;
   showCard();

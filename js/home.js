@@ -81,6 +81,7 @@ backToFlow.addEventListener("click", () => {
 
 backToLevel.addEventListener("click", () => {
   selectedLevel = null;
+  saveNavState(selectedFlow, null);
   showStep("level");
   history.replaceState(null, "", buildHomeUrl(selectedFlow, null, "level"));
 });
@@ -112,6 +113,7 @@ function ensureFlow() {
 function selectFlow(flow) {
   selectedFlow = flow;
   selectedLevel = null;
+  saveNavState(flow, null);
   flowContextLabel.textContent = FLOW_LABELS[flow];
   levelStepTitle.textContent =
     flow === "study" ? "Ôn tập — Chọn cấp HSK" : "Làm test — Chọn cấp HSK";
@@ -134,6 +136,7 @@ function selectLevel(level, btn) {
   selectedLevelLabel.textContent = `${FLOW_LABELS[flow]} · ${cfg.label}`;
   modeStepTitle.textContent =
     flow === "study" ? "Ôn tập — Chọn nội dung" : "Làm test — Chọn loại bài";
+  saveNavState(flow, n);
   renderModeCards();
   showStep("mode");
   history.replaceState(null, "", buildHomeUrl(flow, n, "mode"));
@@ -174,8 +177,9 @@ function showStep(step) {
 }
 
 function restoreFromUrl() {
-  const flow = getFlowFromUrl();
-  const level = getLevelFromUrl();
+  const saved = loadNavState();
+  const flow = getFlowFromUrl() || saved.flow;
+  let level = getLevelFromUrl();
   const step = getStepFromUrl();
 
   if (!flow) {
@@ -183,7 +187,12 @@ function restoreFromUrl() {
     return;
   }
 
+  if (!level && step === "mode" && saved.level) {
+    level = saved.level;
+  }
+
   selectedFlow = flow;
+  saveNavState(flow, level);
   flowContextLabel.textContent = FLOW_LABELS[flow];
   levelStepTitle.textContent =
     flow === "study" ? "Ôn tập — Chọn cấp HSK" : "Làm test — Chọn cấp HSK";
