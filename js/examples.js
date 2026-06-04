@@ -82,7 +82,7 @@ function hideExamplePinyin() {
   pinyinPanel.classList.add("is-collapsed");
   btnTogglePinyin.setAttribute("aria-expanded", "false");
   btnTogglePinyin.classList.remove("is-open");
-  btnTogglePinyin.textContent = "🔤 Pinyin ví dụ";
+  btnTogglePinyin.textContent = "Pinyin";
 }
 
 function toggleExamplePinyin() {
@@ -91,7 +91,7 @@ function toggleExamplePinyin() {
   const visible = !collapsed;
   btnTogglePinyin.setAttribute("aria-expanded", String(visible));
   btnTogglePinyin.classList.toggle("is-open", visible);
-  btnTogglePinyin.textContent = visible ? "Ẩn pinyin ví dụ" : "🔤 Pinyin ví dụ";
+  btnTogglePinyin.textContent = visible ? "Ẩn" : "Pinyin";
 }
 
 function showWord() {
@@ -105,7 +105,9 @@ function showWord() {
   refPinyin.textContent = w.examplePy?.trim() || "(Chưa có pinyin trong dữ liệu)";
   hideExamplePinyin();
   if (btnTogglePinyin) {
-    btnTogglePinyin.disabled = !w.examplePy?.trim();
+    const py = w.examplePy?.trim();
+    btnTogglePinyin.disabled = !py;
+    btnTogglePinyin.style.display = py ? "inline-block" : "none";
   }
   userSentence.value = "";
   hideAiResult();

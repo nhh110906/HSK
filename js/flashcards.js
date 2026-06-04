@@ -28,13 +28,8 @@ if (!level || !HSK_CONFIG.levels[level]?.available) {
   init();
 }
 
-btnTogglePinyin.addEventListener("click", (e) => {
-  e.stopPropagation();
-  toggleExamplePinyin();
-});
-
+btnTogglePinyin.addEventListener("click", toggleExamplePinyin);
 pinyinPanel.addEventListener("click", (e) => e.stopPropagation());
-cardExampleBlock.addEventListener("click", (e) => e.stopPropagation());
 
 async function init() {
   try {
@@ -51,7 +46,7 @@ function hideExamplePinyin() {
   pinyinPanel.classList.add("is-collapsed");
   btnTogglePinyin.setAttribute("aria-expanded", "false");
   btnTogglePinyin.classList.remove("is-open");
-  btnTogglePinyin.textContent = "🔤 Pinyin ví dụ";
+  btnTogglePinyin.textContent = "Pinyin";
 }
 
 function toggleExamplePinyin() {
@@ -59,7 +54,7 @@ function toggleExamplePinyin() {
   const visible = !collapsed;
   btnTogglePinyin.setAttribute("aria-expanded", String(visible));
   btnTogglePinyin.classList.toggle("is-open", visible);
-  btnTogglePinyin.textContent = visible ? "Ẩn pinyin ví dụ" : "🔤 Pinyin ví dụ";
+  btnTogglePinyin.textContent = visible ? "Ẩn" : "Pinyin";
 }
 
 function showExampleOnCard(w) {
@@ -69,16 +64,18 @@ function showExampleOnCard(w) {
 
   if (!ex && !vi) {
     cardExampleBlock.style.display = "none";
+    btnTogglePinyin.style.display = "none";
+    pinyinPanel.classList.add("is-collapsed");
     return;
   }
 
   cardExampleBlock.style.display = "block";
   refExample.textContent = ex || "—";
   refVi.textContent = vi || "(Chưa có bản dịch tiếng Việt)";
-  refPinyin.textContent = py || "(HSK này chưa có pinyin câu ví dụ trong dữ liệu)";
+  refPinyin.textContent = py || "(Chưa có pinyin câu ví dụ trong dữ liệu)";
   hideExamplePinyin();
+  btnTogglePinyin.style.display = py ? "inline-block" : "none";
   btnTogglePinyin.disabled = !py;
-  btnTogglePinyin.style.display = py ? "block" : "none";
   if (!py) {
     pinyinPanel.classList.add("is-collapsed");
   }
