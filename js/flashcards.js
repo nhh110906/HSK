@@ -51,7 +51,8 @@ pinyinPanel.addEventListener("click", (e) => e.stopPropagation());
 async function init() {
   try {
     words = await loadVocabulary(level);
-    order = words.map((_, i) => i);
+    order = shuffleArray(words.map((_, i) => i));
+    index = 0;
     showCard();
   } catch (e) {
     showLoadError(e.message || "Lỗi không xác định");

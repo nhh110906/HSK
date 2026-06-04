@@ -73,7 +73,8 @@ async function init() {
       window.location.href = buildHomeUrl("study", level, "mode");
       return;
     }
-    order = words.map((_, i) => i);
+    order = shuffleArray(words.map((_, i) => i));
+    index = 0;
     showWord();
   } catch (e) {
     alert(e.message);
