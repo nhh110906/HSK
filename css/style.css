@@ -807,6 +807,11 @@ body {
   color: var(--error);
 }
 
+.ai-result.ai-error .ai-summary {
+  color: var(--text);
+  font-size: 0.95rem;
+}
+
 .ai-summary {
   margin: 0 0 0.75rem;
 }

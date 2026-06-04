@@ -87,7 +87,22 @@ function showWord() {
 
 function hideAiResult() {
   aiResult.classList.add("hidden");
+  aiResult.classList.remove("ai-pass", "ai-fail", "ai-error");
   aiLoading.classList.add("hidden");
+}
+
+function showAiError(message) {
+  aiResult.classList.remove("hidden", "ai-pass", "ai-fail");
+  aiResult.classList.add("ai-error", "ai-fail");
+  aiScore.textContent = "—";
+  aiVerdict.textContent = "Lỗi";
+  aiSummary.textContent = message;
+  aiIssues.innerHTML = "";
+  aiSuggestion.textContent = "";
+  if (message.includes("429") || message.includes("giới hạn")) {
+    aiSuggestion.textContent =
+      "Mẹo: đợi 1–2 phút, không bấm liên tục. Xem quota: aistudio.google.com → Usage.";
+  }
 }
 
 btnCheckAi.addEventListener("click", async () => {
@@ -118,10 +133,8 @@ btnCheckAi.addEventListener("click", async () => {
   } catch (e) {
     if (e.code === "NEED_API_KEY" || e.code === "BAD_API_KEY") {
       openApiModal();
-      alert(e.message || "Vui lòng cài đặt API key hợp lệ.");
-    } else {
-      alert(e.message || "Không gọi được AI. Thử lại sau.");
     }
+    showAiError(e.message || "Không gọi được AI. Thử lại sau.");
   } finally {
     aiLoading.classList.add("hidden");
     btnCheckAi.disabled = false;
