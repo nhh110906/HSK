@@ -1,6 +1,6 @@
 const level = getLevelFromUrl();
 const flow = getFlowFromUrl() || "study";
-saveNavState(flow, level);
+saveNavState(flow, level, getVocabVersion());
 
 document.getElementById("backLink").href = buildHomeUrl(flow, level, "mode");
 const levelBadge = document.getElementById("levelBadge");

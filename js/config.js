@@ -1,15 +1,42 @@
-const HSK_CONFIG = {
-  levels: {
-    1: { available: true, label: "HSK 1", file: "data/hsk1.json", hasExamples: false },
-    2: { available: true, label: "HSK 2", file: "data/hsk-lv2.json", hasExamples: false },
-    3: { available: true, label: "HSK 3", file: "data/hsk3.json", hasExamples: true },
-    4: { available: true, label: "HSK 4", file: "data/hsk4.json", hasExamples: true },
-    5: { available: false, label: "HSK 5", hasExamples: false },
-    6: { available: false, label: "HSK 6", hasExamples: false },
+const VOCAB_PROFILES = {
+  "3": {
+    label: "Từ vựng 3.0",
+    short: "HSK 3.0",
+    desc: "Bộ từ PDF chuẩn HSK 3.0 (HSK 1–4)",
+    levels: {
+      1: { available: true, label: "HSK 1", file: "data/hsk1.json", hasExamples: false },
+      2: { available: true, label: "HSK 2", file: "data/hsk-lv2.json", hasExamples: false },
+      3: { available: true, label: "HSK 3", file: "data/hsk3.json", hasExamples: true },
+      4: { available: true, label: "HSK 4", file: "data/hsk4.json", hasExamples: true },
+      5: { available: false, label: "HSK 5", hasExamples: false },
+      6: { available: false, label: "HSK 6", hasExamples: false },
+    },
+  },
+  "2": {
+    label: "Từ vựng 2.0",
+    short: "HSK 2.0",
+    desc: "Thanh Mai HSK · có ví dụ (HSK 1–4)",
+    levels: {
+      1: { available: true, label: "HSK 1", file: "data/v2/hsk1.json", hasExamples: true },
+      2: { available: true, label: "HSK 2", file: "data/v2/hsk2.json", hasExamples: true },
+      3: { available: true, label: "HSK 3", file: "data/v2/hsk3.json", hasExamples: true },
+      4: { available: true, label: "HSK 4", file: "data/v2/hsk4.json", hasExamples: true },
+      5: { available: false, label: "HSK 5", hasExamples: false },
+      6: { available: false, label: "HSK 6", hasExamples: false },
+    },
   },
 };
 
 const NAV_STORAGE_KEY = "hsk_nav_state";
+const DEFAULT_VER = "3";
+
+const FLOW_LABELS = {
+  study: "Ôn tập",
+  test: "Làm test",
+};
+
+/** @deprecated use getProfile().levels — kept for compatibility */
+const HSK_CONFIG = { levels: VOCAB_PROFILES["3"].levels };
 
 function getAppBase() {
   const path = window.location.pathname || "/";
@@ -26,22 +53,34 @@ function assetUrl(relativePath) {
   return `${base}${clean}`;
 }
 
+function getVocabVersion() {
+  const ver = new URLSearchParams(window.location.search).get("ver");
+  if (ver === "2" || ver === "3") return ver;
+  const saved = loadNavState();
+  if (saved.ver === "2" || saved.ver === "3") return saved.ver;
+  return DEFAULT_VER;
+}
+
+function getProfile(ver) {
+  const v = ver || getVocabVersion();
+  return VOCAB_PROFILES[v] || VOCAB_PROFILES[DEFAULT_VER];
+}
+
 function getLevelConfig(level) {
   const n = Number(level);
-  if (n >= 1 && n <= 6) return HSK_CONFIG.levels[n];
+  if (n >= 1 && n <= 6) return getProfile().levels[n];
   return null;
 }
 
-const FLOW_LABELS = {
-  study: "Ôn tập",
-  test: "Làm test",
-};
-
-function saveNavState(flow, level) {
+function saveNavState(flow, level, ver) {
   try {
     sessionStorage.setItem(
       NAV_STORAGE_KEY,
-      JSON.stringify({ flow: flow || null, level: level != null ? Number(level) : null })
+      JSON.stringify({
+        ver: ver || getVocabVersion(),
+        flow: flow || null,
+        level: level != null ? Number(level) : null,
+      })
     );
   } catch {
     /* ignore */
@@ -51,9 +90,10 @@ function saveNavState(flow, level) {
 function loadNavState() {
   try {
     const raw = sessionStorage.getItem(NAV_STORAGE_KEY);
-    if (!raw) return { flow: null, level: null };
+    if (!raw) return { ver: null, flow: null, level: null };
     const data = JSON.parse(raw);
     return {
+      ver: data.ver === "2" || data.ver === "3" ? data.ver : null,
       flow: data.flow === "study" || data.flow === "test" ? data.flow : null,
       level:
         Number.isFinite(Number(data.level)) && data.level >= 1 && data.level <= 6
@@ -61,7 +101,7 @@ function loadNavState() {
           : null,
     };
   } catch {
-    return { flow: null, level: null };
+    return { ver: null, flow: null, level: null };
   }
 }
 
@@ -93,20 +133,39 @@ function buildPageUrl(page, params = {}) {
   return q ? `${base}${file}?${q}` : `${base}${file}`;
 }
 
+function buildAppUrl(params = {}) {
+  const ver = params.ver || getVocabVersion();
+  return buildPageUrl("app.html", { ver, ...params });
+}
+
 function buildStudyUrl(page, level, extra = {}) {
-  return buildPageUrl(page, { flow: "study", level: String(level), ...extra });
+  return buildPageUrl(page, {
+    ver: getVocabVersion(),
+    flow: "study",
+    level: String(level),
+    ...extra,
+  });
 }
 
 function buildTestUrl(page, level, extra = {}) {
-  return buildPageUrl(page, { flow: "test", level: String(level), ...extra });
+  return buildPageUrl(page, {
+    ver: getVocabVersion(),
+    flow: "test",
+    level: String(level),
+    ...extra,
+  });
 }
 
 function buildHomeUrl(flow, level, step) {
-  const params = {};
+  const params = { ver: getVocabVersion() };
   if (flow) params.flow = flow;
   if (level != null && level !== "") params.level = String(level);
   if (step) params.step = step;
-  return buildPageUrl("index.html", params);
+  return buildAppUrl(params);
+}
+
+function buildVersionPickerUrl() {
+  return buildPageUrl("index.html");
 }
 
 function getStepFromUrl() {

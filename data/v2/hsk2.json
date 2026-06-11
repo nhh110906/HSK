@@ -1,0 +1,592 @@
+[
+{
+"id": 1,
+"hanzi": "吧",
+"pinyin": "ba",
+"type": "Từ cảm thán",
+"meaning": "Thôi",
+"example": "好吧！",
+"examplePy": "Hǎo ba!",
+"exampleVi": "Được thôi!"
+},
+{
+"id": 2,
+"hanzi": "白",
+"pinyin": "bái",
+"type": "Tính từ",
+"meaning": "Màu trắng Họ: Bạch",
+"example": "我喜欢白色。",
+"examplePy": "Wǒ xǐhuān báisè.",
+"exampleVi": "Tôi thích màu trắng."
+},
+{
+"id": 3,
+"hanzi": "百",
+"pinyin": "bǎi",
+"type": "Danh từ",
+"meaning": "Trăm Tên : Bách",
+"example": "这个产品的价格是一百块钱。",
+"examplePy": "Zhège chǎnpǐn de jiàgé shì yībǎi kuài qián.",
+"exampleVi": "Giá của sản phẩm này là 100 đồng."
+},
+{
+"id": 4,
+"hanzi": "帮助",
+"pinyin": "bāngzhù",
+"type": "Động từ",
+"meaning": "Giúp đỡ",
+"example": "我可以帮助你吗？",
+"examplePy": "Wǒ kěyǐ bāngzhù nǐ ma?",
+"exampleVi": "Tôi có thể giúp gì được cho bạn ?"
+},
+{
+"id": 5,
+"hanzi": "报纸",
+"pinyin": "bàozhǐ",
+"type": "Danh từ",
+"meaning": "Báo giấy",
+"example": "与电子报相比，我更喜欢报纸。",
+"examplePy": "Yǔ diànzǐ bào xiāng bǐ, wǒ gèng xǐhuān kàn bàozhǐ.",
+"exampleVi": "So với báo mạng, tôi thích đọc báo giấy hơn."
+},
+{
+"id": 6,
+"hanzi": "比",
+"pinyin": "bǐ",
+"type": "Danh từ Giới từ Động từ",
+"meaning": "So, so với",
+"example": "我比他高。",
+"examplePy": "Wǒ bǐ tā gāo.",
+"exampleVi": "Tôi cao hơn anh ta."
+},
+{
+"id": 7,
+"hanzi": "别",
+"pinyin": "bié",
+"type": "Động từ",
+"meaning": "Khác",
+"example": "我可以看别的颜色吗？",
+"examplePy": "Wǒ kěyǐ kàn bié de yánsè ma?",
+"exampleVi": "Có thể cho tôi xem màu sắc khác được không?"
+},
+{
+"id": 8,
+"hanzi": "长",
+"pinyin": "cháng",
+"type": "Tính từ",
+"meaning": "Dài",
+"example": "十年的时间并不算怎么长。",
+"examplePy": "Shí nián de shíjiān bìng bú suàn zěnme cháng.",
+"exampleVi": "Thời gian 10 năm kể cũng không phải là dài."
+},
+{
+"id": 9,
+"hanzi": "唱歌",
+"pinyin": "chànggē",
+"type": "Động từ",
+"meaning": "Hát",
+"example": "他唱歌唱得好听。",
+"examplePy": "Tā chànggē chàng dé hǎotīng.",
+"exampleVi": "Anh ấy hát rất hay."
+},
+{
+"id": 10,
+"hanzi": "出",
+"pinyin": "chū",
+"type": "Động từ",
+"meaning": "Ra",
+"example": "这个世纪出了许多大事情。",
+"examplePy": "Zhège shìjì chūle xǔduō dà shì qíng.",
+"exampleVi": "Thế kỷ này xảy ra rất nhiều sự việc đáng chú ý."
+},
+{
+"id": 11,
+"hanzi": "穿",
+"pinyin": "chuān",
+"type": "Động từ",
+"meaning": "Mặc",
+"example": "你试试穿这条裙子吧。",
+"examplePy": "Nǐ shì shì chuān zhè tiáo qúnzi ba.",
+"exampleVi": "Bạn mặc thử chiếc váy này đi."
+},
+{
+"id": 12,
+"hanzi": "船",
+"pinyin": "chuán",
+"type": "Danh từ",
+"meaning": "Thuyền",
+"example": "顺水推船",
+"examplePy": "Shùnshuǐ tuī chuán.",
+"exampleVi": "Thuận nước đẩy thuyền, biết thời biết thế"
+},
+{
+"id": 13,
+"hanzi": "次",
+"pinyin": "cì",
+"type": "Tính từ Lượng từ",
+"meaning": "Lần",
+"example": "三番五次",
+"examplePy": "Sānfān wǔcì.",
+"exampleVi": "5 lần 7 lượt"
+},
+{
+"id": 14,
+"hanzi": "从",
+"pinyin": "cóng",
+"type": "Động từ Giới từ",
+"meaning": "Từ",
+"example": "从善而流",
+"examplePy": "cóngshànérliú",
+"exampleVi": "Biết nghe lời phải, biết phục thiện"
+},
+{
+"id": 15,
+"hanzi": "错",
+"pinyin": "cuò",
+"type": "Danh từ Động từ",
+"meaning": "Sai",
+"example": "阴差阳错",
+"examplePy": "yīnchā yángcuò",
+"exampleVi": "Sai sót ngẫu nhiên"
+},
+{
+"id": 16,
+"hanzi": "打篮球",
+"pinyin": "dǎ lánqiú",
+"type": "Động từ",
+"meaning": "Đánh bóng rổ",
+"example": "我的爱好是打篮球。",
+"examplePy": "Wǒ de àihào shì dǎ lánqiú.",
+"exampleVi": "Sở thích của mình là chơi bóng rổ."
+},
+{
+"id": 17,
+"hanzi": "大家",
+"pinyin": "dàjiā",
+"type": "Danh từ Đại từ",
+"meaning": "Mọi người",
+"example": "大家喜欢春节去旅游。",
+"examplePy": "Dàjiā xǐhuān chūnjié qù lǚyóu.",
+"exampleVi": "Mọi người đều thích đi du lịch vào mùa xuân."
+},
+{
+"id": 18,
+"hanzi": "但是",
+"pinyin": "dànshì",
+"type": "Liên từ",
+"meaning": "Nhưng mà",
+"example": "但是病情让国家损失了一大笔钱。",
+"examplePy": "Dànshì bìngqíng ràng guójiā sǔnshīle yí dà bǐ qián.",
+"exampleVi": "Nhưng bệnh tình khiến quốc gia tổn thất một khoản tiền lớn."
+},
+{
+"id": 19,
+"hanzi": "到",
+"pinyin": "dào",
+"type": "Động từ",
+"meaning": "Đến",
+"example": "马到成功",
+"examplePy": "Mǎdàochénggōng",
+"exampleVi": "Mã đáo thành công"
+},
+{
+"id": 20,
+"hanzi": "得",
+"pinyin": "dé",
+"type": "Trợ động từ",
+"meaning": "",
+"example": "我得不到他的爱。",
+"examplePy": "Wǒ dé bú dào tā de ài",
+"exampleVi": "Tôi không có được tình yêu của cô ý."
+},
+{
+"id": 21,
+"hanzi": "等",
+"pinyin": "děng",
+"type": "Động từ",
+"meaning": "Đợi",
+"example": "三六九等",
+"examplePy": "sānliùjiǔ děng",
+"exampleVi": "Nhiều loại, đủ loại"
+},
+{
+"id": 22,
+"hanzi": "弟弟",
+"pinyin": "dìdì",
+"type": "Đại từ",
+"meaning": "Em trai",
+"example": "小弟弟可乖啊。",
+"examplePy": "xiǎo dìdì kě guāi a.",
+"exampleVi": "Em trai thật ngoan quá đi."
+},
+{
+"id": 23,
+"hanzi": "第一",
+"pinyin": "dì yī",
+"type": "Số từ",
+"meaning": "Thứ nhất Lần đầu",
+"example": "这次考试，他考了第一名。",
+"examplePy": "Zhè cì kǎoshì, tā kǎole dì yī míng.",
+"exampleVi": "Lần thi này tôi đứng thứ nhất."
+},
+{
+"id": 24,
+"hanzi": "懂",
+"pinyin": "dǒng",
+"type": "Động từ",
+"meaning": "Hiểu",
+"example": "不懂装懂",
+"examplePy": "Bù dǒng zhuāng dǒng",
+"exampleVi": "Không hiểu vờ như hiểu"
+},
+{
+"id": 25,
+"hanzi": "对",
+"pinyin": "duì",
+"type": "Giới từ Động từ Danh từ",
+"meaning": "Đúng",
+"example": "对牛弹琴",
+"examplePy": "duìniútánqín",
+"exampleVi": "Đàn gảy tai trâu"
+},
+{
+"id": 26,
+"hanzi": "房间",
+"pinyin": "fángjiān",
+"type": "Danh từ",
+"meaning": "Căn phòng",
+"example": "你进入房间吧。",
+"examplePy": "Nǐ jìnrù fángjiān ba.",
+"exampleVi": "Bạn vào phòng đi."
+},
+{
+"id": 27,
+"hanzi": "非常",
+"pinyin": "fēicháng",
+"type": "Phó từ chỉ mức độ",
+"meaning": "Cực kì",
+"example": "非常完美",
+"examplePy": "Fēicháng wánměi",
+"exampleVi": "Phi thường hoàn mỹ"
+},
+{
+"id": 28,
+"hanzi": "服务员",
+"pinyin": "fúwùyuán",
+"type": "Danh từ",
+"meaning": "Nhân Viên phục vụ",
+"example": "服务员向我们说明了产品的用途。",
+"examplePy": "Fúwùyuán xiàng wǒmen shuōmíngle chǎnpǐn de yòngtú.",
+"exampleVi": "Phục vụ hướng dẫn chúng tôi cách sử dụng sản phẩm."
+},
+{
+"id": 29,
+"hanzi": "高",
+"pinyin": "gāo",
+"type": "Tính từ",
+"meaning": "Cao",
+"example": "步步登高",
+"examplePy": "Bù bù dēnggāo",
+"exampleVi": "Ngày càng thăng tiến"
+},
+{
+"id": 30,
+"hanzi": "告诉",
+"pinyin": "gàosù",
+"type": "Động từ",
+"meaning": "Nói cho biết Báo cho",
+"example": "老师告诉我们留学生所学校的规定。",
+"examplePy": "Lǎoshī gàosù wǒmen liúxuéshēng suǒ xuéxiào de guīdìng.",
+"exampleVi": "Thầy giáo nói với lưu học sinh về quy định của nhà trường."
+},
+{
+"id": 31,
+"hanzi": "哥哥",
+"pinyin": "gēgē",
+"type": "Đại từ",
+"meaning": "Anh trai",
+"example": "每个月我都跟留学的哥哥互通音信。",
+"examplePy": "Měi gè yuè wǒ dōu gēn liúxué de gēgē hùtōng yīnxìn",
+"exampleVi": "Mỗi tháng tôi đều cùng anh trai đang đi du học trao đổi thư từ."
+},
+{
+"id": 32,
+"hanzi": "给",
+"pinyin": "gěi jǐ",
+"type": "Động từ",
+"meaning": "Đưa cho ….",
+"example": "我寄给他一封信。 自给自足",
+"examplePy": "Wǒ jì gěi tā yì fēng xìn. zìjǐzìzú",
+"exampleVi": "Tôi gửi cho anh ta 1 phong thư. Tự cung tự cấp"
+},
+{
+"id": 33,
+"hanzi": "公共汽车",
+"pinyin": "gōnggòng qìchē",
+"type": "Danh từ",
+"meaning": "Xe buýt, bus",
+"example": "这辆公共汽车出了故障，不能开动了。",
+"examplePy": "Zhè liàng gōnggòng qìchē chūle gùzhàng, bùnéng kāidòngle.",
+"exampleVi": "Chiếc xe buýt này gặp sự cố không thể khởi động được."
+},
+{
+"id": 34,
+"hanzi": "公司",
+"pinyin": "gōngsī",
+"type": "Danh từ",
+"meaning": "Công ty",
+"example": "这个公司又开发了一种新产品。",
+"examplePy": "Zhège gōngsī yòu kāifāle yì zhǒng xīn chǎnpǐn.",
+"exampleVi": "Công ty này vừa mở ra 1 dòng sản phẩm mới."
+},
+{
+"id": 35,
+"hanzi": "贵",
+"pinyin": "guì",
+"type": "Tính từ",
+"meaning": "Đắt",
+"example": "荣华富贵 母以子贵",
+"examplePy": "Rónghuá fùguì Mǔyǐzǐguì",
+"exampleVi": "Vinh hoa phú quý Mẹ quý nhờ con"
+},
+{
+"id": 36,
+"hanzi": "过",
+"pinyin": "guò",
+"type": "Động từ Trạng từ",
+"meaning": "Qua",
+"example": "过眼云烟",
+"examplePy": "guòyǎnyúnyān",
+"exampleVi": "Thoáng qua như phù du"
+},
+{
+"id": 37,
+"hanzi": "还",
+"pinyin": "hái huán",
+"type": "Động từ Trạng từ",
+"meaning": "Với Trả về ….",
+"example": "这个还是那个? 衣锦还乡 返老还童",
+"examplePy": "Zhège háishì nàgè? Yījǐnhuánxiāng Fǎnlǎohuántóng",
+"exampleVi": "Cái này hay cái kia. Áo gấm về quê Cải lão hoàn đồng"
+},
+{
+"id": 38,
+"hanzi": "孩子",
+"pinyin": "Háizi",
+"type": "Đại từ",
+"meaning": "Trẻ con",
+"example": "对待两个儿子，父母不能厚此薄彼。",
+"examplePy": "Duìdài liǎng gè érzi, fùmǔ bùnéng hòucǐbóbǐ.",
+"exampleVi": "Đối xử với 2 người con, cha mẹ không nên bên trọng bên khinh."
+},
+{
+"id": 39,
+"hanzi": "好吃",
+"pinyin": "hào chī hǎochī",
+"type": "Tính từ",
+"meaning": "Sành ăn; ham ăn Ngon",
+"example": "好吃懒做的货。 这东西真好吃。",
+"examplePy": "Hàochīlǎnzuò de huò. Zhè dōngxi zhēn hǎochī.",
+"exampleVi": "Cái loại ham ăn lười làm. món này ngon thật."
+},
+{
+"id": 40,
+"hanzi": "号",
+"pinyin": "hào",
+"type": "Danh từ",
+"meaning": "Số Hiệu",
+"example": "五号 国号",
+"examplePy": "wǔ hào guó hào",
+"exampleVi": "Số 5. quốc hiệu"
+},
+{
+"id": 41,
+"hanzi": "黑",
+"pinyin": "hēi",
+"type": "Tính từ",
+"meaning": "Màu đen",
+"example": "起早摸黑",
+"examplePy": "qǐ zǎomōhēi",
+"exampleVi": "Dậy sớm ngủ muộn; thức khuya dậy sớm"
+},
+{
+"id": 42,
+"hanzi": "红",
+"pinyin": "hóng",
+"type": "Tính từ",
+"meaning": "Màu đỏ",
+"example": "红男绿女 大红大紫",
+"examplePy": "hóngnánlǜnǚ dàhóng dàzǐ",
+"exampleVi": "Trai thanh gái lịch Đỏ tía"
+},
+{
+"id": 43,
+"hanzi": "欢迎",
+"pinyin": "huānyíng",
+"type": "Động từ",
+"meaning": "Chào đón",
+"example": "欢迎光临",
+"examplePy": "Huānyíng guānglín.",
+"exampleVi": "Hoan nghênh ghé thăm."
+},
+{
+"id": 44,
+"hanzi": "回答",
+"pinyin": "huídá",
+"type": "Động từ",
+"meaning": "Trả lời",
+"example": "老师要求学生回答老师的问题。",
+"examplePy": "Lǎoshī yàoqiú xuéshēng huídá lǎoshī de wèntí.",
+"exampleVi": "Thầy giáo yêu cầu học sinh trả lời câu hỏi của thầy."
+},
+{
+"id": 45,
+"hanzi": "机场",
+"pinyin": "jīchǎng",
+"type": "Danh từ",
+"meaning": "Sân bay",
+"example": "哥哥要出国留学，我们到机场去送别。",
+"examplePy": "Gēgē yào chūguó liúxué, wǒmen dào jīchǎng qù sòngbié.",
+"exampleVi": "Anh trai đi nước ngoài du học, mọi người đến sân bay tiễn."
+},
+{
+"id": 46,
+"hanzi": "鸡蛋",
+"pinyin": "jīdàn",
+"type": "Danh từ",
+"meaning": "Quả trứng",
+"example": "拿鸡蛋跟石头碰，真是不自量力！",
+"examplePy": "Ná jīdàn gēn shítou pèng, zhēnshì bú zì liànglì!",
+"exampleVi": "Lấy trứng chọi với đá, thật không biết tự lượng sức mình."
+},
+{
+"id": 47,
+"hanzi": "件",
+"pinyin": "jiàn",
+"type": "Lượng từ",
+"meaning": "Chiếc, kiện, &#8230;",
+"example": "你帮我几件事可以吗？",
+"examplePy": "Nǐ bāng wǒ jǐ jiàn shì kěyǐ ma?",
+"exampleVi": "Bạn giúp tôi vài việc được không?"
+},
+{
+"id": 48,
+"hanzi": "教室",
+"pinyin": "jiàoshì",
+"type": "Danh từ",
+"meaning": "Phòng học",
+"example": "清晨，教室里传出朗读的读书声。",
+"examplePy": "Qīngchén, jiàoshì lǐ chuán chū lǎngdú de dúshū shēng.",
+"exampleVi": "Sáng sớm, phòng học vang lên tiếng học sinh đọc bài."
+},
+{
+"id": 49,
+"hanzi": "姐姐",
+"pinyin": "jiějie",
+"type": "Danh từ Đại từ",
+"meaning": "Chị gái",
+"example": "姐姐能否考上大学。",
+"examplePy": "Jiějiě néng fǒu kǎo shàng dàxué.",
+"exampleVi": "Chị gái có thể thi đỗ đại học không."
+},
+{
+"id": 50,
+"hanzi": "介绍",
+"pinyin": "jièshào",
+"type": "Động từ",
+"meaning": "Giới thiệu",
+"example": "请你自我介绍。",
+"examplePy": "Qǐng nǐ zìwǒ jièshào.",
+"exampleVi": "Mời bạn tự giới thiệu bản thân."
+},
+{
+"id": 51,
+"hanzi": "进",
+"pinyin": "jìn",
+"type": "Động từ",
+"meaning": "Tiến (vào)",
+"example": "不进则退",
+"examplePy": "bújìnzétuì",
+"exampleVi": "Không tiến thì phải lùi"
+},
+{
+"id": 52,
+"hanzi": "近",
+"pinyin": "jìn",
+"type": "Động từ Trạng từ",
+"meaning": "Gần",
+"example": "远近闻名",
+"examplePy": "yuǎnjìn wénmíng",
+"exampleVi": "Tiếng thơm vang xa"
+},
+{
+"id": 53,
+"hanzi": "就",
+"pinyin": "jiù",
+"type": "Động từ Trạng từ Giới từ",
+"meaning": "Đến, bắt đầu Hoàn thành, thành tựu.",
+"example": "我早就说那不是你的主意。",
+"examplePy": "Wǒ zǎo jiù shuō nà búshì nǐ de zhǔyì.",
+"exampleVi": "Tôi đã sớm bảo đó không phải ý của cậu mà."
+},
+{
+"id": 54,
+"hanzi": "觉得",
+"pinyin": "juédé",
+"type": "Động từ",
+"meaning": "Cảm thấy, cho rằng",
+"example": "穿上妈妈做的衣服，觉得挺舒服的。",
+"examplePy": "Chuān shàng māmā zuò de yīfú, juédé tǐng shūfú de.",
+"exampleVi": "Mặc đồ mà mẹ làm cho cảm thấy thật thoải mái."
+},
+{
+"id": 55,
+"hanzi": "咖啡",
+"pinyin": "kāfēi",
+"type": "Danh từ",
+"meaning": "Cà phê",
+"example": "他们一边喝咖啡一边聊天。",
+"examplePy": "Tāmen yìbiān hē kāfēi yìbiān liáotiān.",
+"exampleVi": "Anh ta vừa uống cà phê 1 vừa chuyện."
+},
+{
+"id": 56,
+"hanzi": "开始",
+"pinyin": "kāishǐ",
+"type": "Động từ",
+"meaning": "Bắt đầu",
+"example": "此事既然已经开始，只好一不做，二不休。",
+"examplePy": "Cǐ shì jìrán yǐjīng kāishǐ, zhǐhǎo yī bú zuò, èr bùxiū.",
+"exampleVi": "Chuyện này cũng đã xảy ra như vậy rồi, chỉ đành chăm chỉ làm thôi."
+},
+{
+"id": 57,
+"hanzi": "考试",
+"pinyin": "kǎoshì",
+"type": "Danh từ",
+"meaning": "Kì thi Kiểm tra",
+"example": "这次考试分笔试和口试两部分。",
+"examplePy": "Zhè cì kǎoshì fēn bǐshì hé kǒushì liǎng bùfen.",
+"exampleVi": "Kì thi lần này chia làm hai phần gồm thi nói và thi viết."
+},
+{
+"id": 58,
+"hanzi": "可能",
+"pinyin": "kěnéng",
+"type": "Danh từ Động từ",
+"meaning": "Có khả năng Có lẽ, chắc là",
+"example": "老师的脸色很难看，可能又跟谁生气了。",
+"examplePy": "Lǎoshī de liǎnsè hěn nánkàn, kěnéng yòu gēn shéi shēngqìle.",
+"exampleVi": "Sắc mặt của thầy rất khó coi, khả năng là lại cãi nhau với ai rồi."
+},
+{
+"id": 59,
+"hanzi": "可以",
+"pinyin": "kěyǐ",
+"type": "Động từ",
+"meaning": "Có thể",
+"example": "公司可以为客户提供多种服务。",
+"examplePy": "Gōngsī kěyǐ wèi kèhù tígōng duō zhǒng fúwù.",
+"exampleVi": "Công ty có thể cung cấp rất nhiều dịch vụ cho khách hàng."
+}
+]

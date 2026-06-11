@@ -43,6 +43,96 @@ body {
 
 .header {
   margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0.75rem 1rem;
+}
+
+.header .logo {
+  flex: 1;
+  min-width: 200px;
+}
+
+.version-switch {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  text-decoration: none;
+  margin-top: 0.5rem;
+}
+
+.version-switch:hover {
+  color: var(--accent);
+}
+
+#versionBadge {
+  margin-top: 0.45rem;
+}
+
+.version-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+@media (max-width: 520px) {
+  .version-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.version-card {
+  display: block;
+  padding: 1.5rem 1.35rem;
+  background: var(--surface);
+  border: 2px solid var(--border);
+  border-radius: var(--radius);
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.2s, transform 0.15s, background 0.2s;
+}
+
+.version-card:hover {
+  transform: translateY(-2px);
+}
+
+.version-card-2:hover,
+.version-card-2 {
+  border-color: rgba(61, 214, 140, 0.45);
+}
+
+.version-card-2:hover {
+  background: rgba(61, 214, 140, 0.08);
+}
+
+.version-card-3:hover,
+.version-card-3 {
+  border-color: rgba(232, 93, 76, 0.45);
+}
+
+.version-card-3:hover {
+  background: var(--accent-soft);
+}
+
+.version-tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+
+.version-card h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1.2rem;
+}
+
+.version-card p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--text-muted);
 }
 
 .logo {

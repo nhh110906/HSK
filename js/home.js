@@ -17,6 +17,23 @@ const apiCancel = document.getElementById("apiCancel");
 
 let selectedFlow = null;
 let selectedLevel = null;
+const currentVer = getVocabVersion();
+const currentProfile = getProfile(currentVer);
+
+function initVersionUi() {
+  const badge = document.getElementById("versionBadge");
+  const switchLink = document.getElementById("switchVersion");
+  const footer = document.getElementById("footerDataNote");
+  if (badge) badge.textContent = currentProfile.short;
+  if (switchLink) switchLink.href = buildVersionPickerUrl();
+  if (footer) {
+    footer.innerHTML = `${currentProfile.desc} · <button type="button" class="link-btn" id="openApiSettings">Cài đặt API AI</button>`;
+    document.getElementById("openApiSettings")?.addEventListener("click", openApiModal);
+  }
+}
+
+initVersionUi();
+saveNavState(getFlowFromUrl(), getLevelFromUrl(), currentVer);
 
 const STUDY_MODES = [
   {
@@ -61,7 +78,7 @@ document.querySelectorAll(".flow-card").forEach((btn) => {
 });
 
 for (let n = 1; n <= 6; n++) {
-  const cfg = HSK_CONFIG.levels[n];
+  const cfg = currentProfile.levels[n];
   const btn = document.createElement("button");
   btn.type = "button";
   btn.className = "level-btn";
@@ -81,12 +98,12 @@ backToFlow.addEventListener("click", () => {
 
 backToLevel.addEventListener("click", () => {
   selectedLevel = null;
-  saveNavState(selectedFlow, null);
+  saveNavState(selectedFlow, null, currentVer);
   showStep("level");
   history.replaceState(null, "", buildHomeUrl(selectedFlow, null, "level"));
 });
 
-openApiSettings.addEventListener("click", openApiModal);
+document.getElementById("openApiSettings")?.addEventListener("click", openApiModal);
 apiCancel.addEventListener("click", () => apiModal.close());
 apiForm.addEventListener("submit", (e) => {
   e.preventDefault();
@@ -113,7 +130,7 @@ function ensureFlow() {
 function selectFlow(flow) {
   selectedFlow = flow;
   selectedLevel = null;
-  saveNavState(flow, null);
+  saveNavState(flow, null, currentVer);
   flowContextLabel.textContent = FLOW_LABELS[flow];
   levelStepTitle.textContent =
     flow === "study" ? "Ôn tập — Chọn cấp HSK" : "Làm test — Chọn cấp HSK";
@@ -136,7 +153,7 @@ function selectLevel(level, btn) {
   selectedLevelLabel.textContent = `${FLOW_LABELS[flow]} · ${cfg.label}`;
   modeStepTitle.textContent =
     flow === "study" ? "Ôn tập — Chọn nội dung" : "Làm test — Chọn loại bài";
-  saveNavState(flow, n);
+  saveNavState(flow, n, currentVer);
   renderModeCards();
   showStep("mode");
   history.replaceState(null, "", buildHomeUrl(flow, n, "mode"));
@@ -192,7 +209,7 @@ function restoreFromUrl() {
   }
 
   selectedFlow = flow;
-  saveNavState(flow, level);
+  saveNavState(flow, level, currentVer);
   flowContextLabel.textContent = FLOW_LABELS[flow];
   levelStepTitle.textContent =
     flow === "study" ? "Ôn tập — Chọn cấp HSK" : "Làm test — Chọn cấp HSK";

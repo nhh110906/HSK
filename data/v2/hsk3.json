@@ -1,0 +1,442 @@
+[
+{
+"id": 1,
+"hanzi": "阿姨",
+"pinyin": "āyí",
+"type": "Danh từ",
+"meaning": "Dì",
+"example": "阿姨，现在我明白那是下流的，可是我本来没打算干那种事。",
+"examplePy": "Āyí, xiànzài wǒ míngbái nà shì xiàliú de, kěshì wǒ běnlái méi dǎsuàn gàn nà zhǒng shì.",
+"exampleVi": "Dì à, giờ thì cháu hiểu rằng điều đó thật khó chịu, nhưng cháu vốn dĩ không định làm chuyện đó."
+},
+{
+"id": 2,
+"hanzi": "啊",
+"pinyin": "a",
+"type": "Từ cảm thán",
+"meaning": "A",
+"example": "他真是个忸忸怩怩的人啊！",
+"examplePy": "Tā zhēnshi gè niǔ niǔní ní de rén a!",
+"exampleVi": "Anh ấy thực sự là một kẻ ngốc a !"
+},
+{
+"id": 3,
+"hanzi": "矮",
+"pinyin": "ǎi",
+"type": "Tính từ",
+"meaning": "Thấp, lùn",
+"example": "你那匹矮种马养在哪儿？",
+"examplePy": "Nǐ nà pǐ ǎi zhǒng mǎ yǎng zài nǎ&#8217;er?",
+"exampleVi": "Cai lô ngựa chân ngắn này của bạn nuôi ở đâu?"
+},
+{
+"id": 4,
+"hanzi": "爱好",
+"pinyin": "àihào",
+"type": "Danh từ",
+"meaning": "Sở thích",
+"example": "你有什么爱好？",
+"examplePy": "Nǐ yǒu shénme àihào?",
+"exampleVi": "Bạn có sở thích gì?"
+},
+{
+"id": 5,
+"hanzi": "安静",
+"pinyin": "ānjìng",
+"type": "Tính từ",
+"meaning": "Yên tĩnh Im lặng Lặng lẽ",
+"example": "我要安安静静地离开人间。",
+"examplePy": "Wǒ yào ān ānjìng jìng de líkāi rénjiān.",
+"exampleVi": "Tôi muốn lặng lẽ rời khỏi chốn trần gian này"
+},
+{
+"id": 6,
+"hanzi": "把",
+"pinyin": "bǎ bà",
+"type": "Động từ Lương từ",
+"meaning": "Làm Cầm nắm",
+"example": "他把小费放在盘子下面了。",
+"examplePy": "Tā bǎ xiǎofèi fàng zài pánzi xiàmiànle.",
+"exampleVi": "Tôi bỏ phí tip đặt dưới đĩa nhé."
+},
+{
+"id": 7,
+"hanzi": "班",
+"pinyin": "bān",
+"type": "Lượng từ Danh từ",
+"meaning": "Lớp Chuyến Đi làm",
+"example": "我得了流感，不能去上班。",
+"examplePy": "Wǒ déle liúgǎn, bùnéng qù shàngbān.",
+"exampleVi": "Tôi bị cúm và không thể đi làm."
+},
+{
+"id": 8,
+"hanzi": "搬",
+"pinyin": "bān",
+"type": "Động từ",
+"meaning": "Di chuyển",
+"example": "你是自己搬的这些家具吗？",
+"examplePy": "Nǐ shì zìjǐ bān de zhèxiē jiājù ma?",
+"exampleVi": "Bạn tự mình chuyển hết chỗ đồ này ư?"
+},
+{
+"id": 9,
+"hanzi": "半",
+"pinyin": "bàn",
+"type": "Từ chỉ thời gian",
+"meaning": "Nửa Bán",
+"example": "走到半路，天色暗了下来。",
+"examplePy": "Zǒu dào bànlù, tiānsè ànle xiàlái.",
+"exampleVi": "Đi được nửa đường, trời tối sầm lại."
+},
+{
+"id": 10,
+"hanzi": "办法",
+"pinyin": "bànfǎ",
+"type": "Danh từ",
+"meaning": "Phương pháp Cách giải quyết",
+"example": "他的心里乱得不得了，怎么也找不到解决这件事的办法。",
+"examplePy": "Tā de xīnlǐ luàn dé bùdéliǎo, zěnme yě zhǎo bù dào jiějué zhè jiàn shì de bànfǎ.",
+"exampleVi": "Lòng anh rối bời không tìm ra giải pháp cho chuyện này."
+},
+{
+"id": 11,
+"hanzi": "办公室",
+"pinyin": "bàngōng shì",
+"type": "Danh từ",
+"meaning": "Phòng làm việc",
+"example": "他急匆匆地走进办公室，又匆匆离去了。",
+"examplePy": "Tā jícōngcōng de zǒu jìn bàngōngshì, yòu cōngcōng lí qùle.",
+"exampleVi": "Anh vội vã bước vào văn phòng rồi vội vã rời đi."
+},
+{
+"id": 12,
+"hanzi": "帮忙",
+"pinyin": "bāngmáng",
+"type": "Động từ",
+"meaning": "Giúp đỡ",
+"example": "请别人帮忙，就要站在对方的立场考虑问题。",
+"examplePy": "Qǐng biérén bāngmáng, jiù yào zhàn zài duìfāng de lìchǎng kǎolǜ wèntí.",
+"exampleVi": "Nhờ người khác giúp đỡ, bạn phải xem xét vấn đề từ quan điểm của phía bên kia."
+},
+{
+"id": 13,
+"hanzi": "包",
+"pinyin": "bāo",
+"type": "Danh từ",
+"meaning": "Túi Bao Bóp",
+"example": "他碰得一个大包。",
+"examplePy": "Tā pèng dé dà bāo.",
+"exampleVi": "Anh ấy đụng vào một cái túi lớn."
+},
+{
+"id": 14,
+"hanzi": "饱",
+"pinyin": "bǎo",
+"type": "Tính từ",
+"meaning": "No",
+"example": "为了去旅行，我们早餐都吃得饱饱的。",
+"examplePy": "Wèile qù lǚxíng, wǒmen zǎocān dōu chī dé bǎo bǎo de.",
+"exampleVi": "Để đi du lịch, tất cả chúng tôi đều ăn sáng đầy đủ."
+},
+{
+"id": 15,
+"hanzi": "北方",
+"pinyin": "běifāng",
+"type": "Từ chỉ phương hướng",
+"meaning": "Phương Bắc Phía Bắc",
+"example": "我就很快有机会去北方了。",
+"examplePy": "Wǒ jiù hěn kuài yǒu jīhuì qù běifāngle.",
+"exampleVi": "Tôi sẽ sớm có cơ hội ra Bắc."
+},
+{
+"id": 16,
+"hanzi": "被",
+"pinyin": "bèi",
+"type": "Động từ",
+"meaning": "Bị &#8230;",
+"example": "我被带到后台去会见演员。",
+"examplePy": "Wǒ bèi dài dào hòutái qù huìjiàn yǎnyuán.",
+"exampleVi": "Tôi được đưa vào hậu trường để gặp gỡ các diễn viên."
+},
+{
+"id": 17,
+"hanzi": "比较",
+"pinyin": "bǐjiào",
+"type": "Động từ Trạng từ",
+"meaning": "So sánh",
+"example": "两种办法各有得失，但比较而言，还是第一种办法得大于失。",
+"examplePy": "Liǎng zhǒng bànfǎ gè yǒu déshī, dàn bǐjiào ér yán, háishì dì yī zhǒng bànfǎ dé dàyú shī.",
+"exampleVi": "Cả hai phương pháp đều có lãi và lỗ riêng, nhưng nếu so sánh thì phương pháp đầu tiên có lãi nhiều hơn lỗ."
+},
+{
+"id": 18,
+"hanzi": "比赛",
+"pinyin": "bǐsài",
+"type": "Danh từ",
+"meaning": "Cuộc thi Thi đấu",
+"example": "我才不管这场比赛谁胜呢。",
+"examplePy": "Wǒ cái bùguǎn zhè chǎng bǐsài shéi shèng ne.",
+"exampleVi": "Tôi không quan tâm ai thắng trận đấu này."
+},
+{
+"id": 19,
+"hanzi": "必须",
+"pinyin": "Bìxū",
+"type": "Động từ",
+"meaning": "Cần thiết Không thể thiếu",
+"example": "我们必须乐观地面对未来。",
+"examplePy": "Wǒmen bìxū lèguān dì miàn duì wèilái.",
+"exampleVi": "Chúng ta phải lạc quan đối mặt với tương lai."
+},
+{
+"id": 20,
+"hanzi": "变化",
+"pinyin": "biànhuà",
+"type": "Động từ",
+"meaning": "Biến hóa",
+"example": "她的模样起了惊人的变化。",
+"examplePy": "Tā de múyàng qǐle jīngrén de biànhuà",
+"exampleVi": "Vẻ ngoài của cô thay đổi một cách đáng ngạc nhiên."
+},
+{
+"id": 21,
+"hanzi": "表示",
+"pinyin": "biǎoshì",
+"type": "Động từ",
+"meaning": "Biểu thị Bày tỏ Phô ra",
+"example": "她向我们表示了虚假的热情。",
+"examplePy": "Tā xiàng wǒmen biǎoshìle xūjiǎ de rèqíng.",
+"exampleVi": "Cô ấy bày tỏ sự nhiệt tình giả tạo với chúng tôi."
+},
+{
+"id": 22,
+"hanzi": "表演",
+"pinyin": "biǎoyǎn",
+"type": "Động từ",
+"meaning": "Biểu diễn",
+"example": "观众对艺术家的精彩表演赞不绝口。",
+"examplePy": "Guānzhòng duì yìshùjiā de jīngcǎi biǎoyǎn zàn bù juékǒu.",
+"exampleVi": "Khán giả hết lời khen ngợi màn trình diễn tuyệt vời của nghệ sĩ."
+},
+{
+"id": 23,
+"hanzi": "别人",
+"pinyin": "biérén",
+"type": "Danh từ",
+"meaning": "Người khác",
+"example": "别人准以为我缺少家教呢。",
+"examplePy": "Biérén zhǔn yǐwéi wǒ quēshǎo jiājiào ne.",
+"exampleVi": "Mọi người vốn nghĩ rằng tôi thiếu gia sư."
+},
+{
+"id": 24,
+"hanzi": "宾馆",
+"pinyin": "bīnguǎn",
+"type": "Danh từ",
+"meaning": "Nhà nghỉ Nhà trọ Khách sạn ít sao",
+"example": "我们住在一家临近海边的宾馆里。",
+"examplePy": "Wǒmen zhù zài yījiā línjìn hǎibiān de bīnguǎn lǐ.",
+"exampleVi": "Chúng tôi ở trong một khách sạn gần biển."
+},
+{
+"id": 25,
+"hanzi": "冰箱",
+"pinyin": "bīngxiāng",
+"type": "Danh từ",
+"meaning": "Tủ lạnh",
+"example": "他一进门就扔下书包，还没换鞋就去开冰箱找冷饮。",
+"examplePy": "Tā yī jìnmén jiù rēng xià shūbāo, hái méi huàn xié jiù qù kāi bīngxiāng zhǎo lěngyǐn.",
+"exampleVi": "Anh ta ném cặp sách xuống ngay khi bước vào cửa, xong mở tủ lạnh tìm đồ uống lạnh trước khi thay giày."
+},
+{
+"id": 26,
+"hanzi": "才",
+"pinyin": "cái",
+"type": "Động từ Họ, tên",
+"meaning": "Mới Tài",
+"example": "都是妈妈每天陪我跑步，我才减肥成功。",
+"examplePy": "Dōu shì māmā měitiān péi wǒ pǎobù, wǒ cái jiǎnféi chénggōng",
+"exampleVi": "Chính mẹ là người cùng tôi chạy bộ mỗi ngày nên tôi mới giảm được cân."
+},
+{
+"id": 27,
+"hanzi": "菜单",
+"pinyin": "càidān",
+"type": "Danh từ",
+"meaning": "Thực đơn",
+"example": "给我菜单好吗，小姐？",
+"examplePy": "Gěi wǒ càidān hǎo ma, xiǎojiě?",
+"exampleVi": "Cô có thể cho tôi thực đơn được không?"
+},
+{
+"id": 28,
+"hanzi": "参加",
+"pinyin": "cānjiā",
+"type": "Động từ",
+"meaning": "Tham gia",
+"example": "高考是汇百万人参加的一场考试。",
+"examplePy": "Gāokǎo shì huì bǎi wàn rén cānjiā de yīchǎng kaoshì.",
+"exampleVi": "Kỳ thi tuyển sinh đại học là một kì thi với hàng triệu thí sinh tham gia.."
+},
+{
+"id": 29,
+"hanzi": "草",
+"pinyin": "cǎo",
+"type": "Danh từ Họ, tên",
+"meaning": "Cỏ Thảo",
+"example": "她一下午都在花园里拔草。",
+"examplePy": "Tā yī xiàwǔ dōu zài huāyuán lǐ bá cǎo.",
+"exampleVi": "Cô ấy đã nhổ cỏ trong vườn cả buổi chiều."
+},
+{
+"id": 30,
+"hanzi": "层",
+"pinyin": "céng",
+"type": "Danh từ",
+"meaning": "Tầng",
+"example": "原子核形变证实壳层结构。",
+"examplePy": "Yuánzǐhé xíngbiàn zhèngshí ké céng jiégòu.",
+"exampleVi": "Biến dạng nguyên tử xác nhận cấu trúc vỏ."
+},
+{
+"id": 31,
+"hanzi": "差",
+"pinyin": "chà",
+"type": "Tính từ",
+"meaning": "Kém",
+"example": "你是否克服了时差综合症？",
+"examplePy": "Nǐ shìfǒu kèfúle shíchā zònghé zhèng?",
+"exampleVi": "Bạn đã vượt qua hội chứng jet lag( lệch múi giờ) chưa?"
+},
+{
+"id": 32,
+"hanzi": "超市",
+"pinyin": "chāoshì",
+"type": "Danh từ",
+"meaning": "Siêu thị",
+"example": "昨天九点钟我们到超市买东西了。",
+"examplePy": "Zuótiān jiǔ diǎn zhōng wǒmen dào chāoshì mǎi dōngxīle.",
+"exampleVi": "Chúng tôi đến siêu thị mua đồ vào lúc 9 giờ ngày hôm qua."
+},
+{
+"id": 33,
+"hanzi": "衬衫",
+"pinyin": "chènshān",
+"type": "Danh từ",
+"meaning": "Sơ mi",
+"example": "他为自己定做了三件衬衫。",
+"examplePy": "Tā wèi zìjǐ dìngzuòle sān jiàn chènshān.",
+"exampleVi": "Anh đã đặt may ba chiếc áo cho mình."
+},
+{
+"id": 34,
+"hanzi": "成绩",
+"pinyin": "chéngjī",
+"type": "Danh từ",
+"meaning": "Thành tích",
+"example": "要在文化上有成绩，则非韧不可。",
+"examplePy": "Yào zài wénhuà shàng yǒu chéngjī, zé fēi rèn bùkě.",
+"exampleVi": "Để thành công về mặt văn hóa, cần phải có sự kiên trì."
+},
+{
+"id": 35,
+"hanzi": "城市",
+"pinyin": "chéngshì",
+"type": "Danh từ",
+"meaning": "Thành phố",
+"example": "这个城市对我来说很陌生。",
+"examplePy": "Zhègè chéngshì duì wǒ lái shuō hěn mòshēng.",
+"exampleVi": "Thành phố này rất xa lạ đối với tôi."
+},
+{
+"id": 36,
+"hanzi": "迟到",
+"pinyin": "chídào",
+"type": "Động từ",
+"meaning": "Muộn",
+"example": "今天开会又有人迟到了。",
+"examplePy": "Jīntiān kāihuì yòu yǒurén chídàole.",
+"exampleVi": "Hôm nay lại có người đến họp muộn."
+},
+{
+"id": 37,
+"hanzi": "出现",
+"pinyin": "chūxiàn",
+"type": "Động từ",
+"meaning": "Xuất hiện",
+"example": "懂得出现在什么场合着什么服装。",
+"examplePy": "Dǒngdé chūxiàn zài shénme chǎnghézhù shénme fúzhuāng.",
+"exampleVi": "Biết mặc quần áo vào những dịp nào."
+},
+{
+"id": 38,
+"hanzi": "厨房",
+"pinyin": "chúfáng",
+"type": "Danh từ",
+"meaning": "Phòng bếp",
+"example": "你到厨房里自己弄点吃的。",
+"examplePy": "Nǐ dào chúfáng lǐ zìjǐ nòng diǎn chī de.",
+"exampleVi": "Bạn vào bếp và làm cho mình một cái gì đó để ăn."
+},
+{
+"id": 39,
+"hanzi": "除了",
+"pinyin": "chúle",
+"type": "Giới từ",
+"meaning": "Trừ …ra",
+"example": "除了我，其他人都去参加了音乐会。",
+"examplePy": "Chúle wǒ, qítā rén dōu qù cānjiāle yīnyuè huì.",
+"exampleVi": "Ngoại trừ tôi, tất cả những người khác đã đến buổi hòa nhạc."
+},
+{
+"id": 40,
+"hanzi": "春",
+"pinyin": "chūn",
+"type": "Danh từ",
+"meaning": "Mùa xuân",
+"example": "春天的黄昏总是又阴又冷。",
+"examplePy": "Chūntiān de huánghūn zǒng shì yòu yīn yòu lěng.",
+"exampleVi": "Buổi tối mùa xuân luôn nhiều mây và lạnh."
+},
+{
+"id": 41,
+"hanzi": "词语",
+"pinyin": "cíyǔ",
+"type": "Danh từ",
+"meaning": "Từ ngữ",
+"example": "作文时要尽量避免使用方言词语。",
+"examplePy": "Zuòwén shí yào jǐnliàng bìmiǎn shǐyòng fāngyán cíyǔ.",
+"exampleVi": "Cố gắng tránh sử dụng các từ phương ngữ (từ địa phương) khi viết."
+},
+{
+"id": 42,
+"hanzi": "聪明",
+"pinyin": "cōngmíng",
+"type": "Tính từ",
+"meaning": "Thông minh",
+"example": "天才在于积累，聪明在于勤奋。",
+"examplePy": "Tiāncái zàiyú jīlěi, cōngmíng zàiyú qínfèn.",
+"exampleVi": "Thiên tài nằm ở sự tích lũy, thông minh nằm ở sự chăm chỉ."
+},
+{
+"id": 43,
+"hanzi": "打扫",
+"pinyin": "dǎsǎo",
+"type": "Động từ",
+"meaning": "Dọn dẹp",
+"example": "教室被打扫得一干二净。",
+"examplePy": "Jiàoshì bèi dǎsǎo dé yīgān èr jìng.",
+"exampleVi": "Phòng học đã được dọn dẹp sạch sẽ."
+},
+{
+"id": 44,
+"hanzi": "打算",
+"pinyin": "dǎsuàn",
+"type": "Động từ",
+"meaning": "Dự định Định",
+"example": "我从来没打算退缩，我的字典没有妥协。",
+"examplePy": "Wǒ cónglái méi dǎsuàn tuìsuō, wǒ de zìdiǎn méiyǒu tuǒxié.",
+"exampleVi": "Tôi không bao giờ có ý định lùi bước, từ điển của tôi không thỏa hiệp."
+}
+]
