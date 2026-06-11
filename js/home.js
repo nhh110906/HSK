@@ -27,7 +27,7 @@ function initVersionUi() {
   if (badge) badge.textContent = currentProfile.short;
   if (switchLink) switchLink.href = buildVersionPickerUrl();
   if (footer) {
-    footer.innerHTML = `${currentProfile.desc} · <button type="button" class="link-btn" id="openApiSettings">Cài đặt API AI</button>`;
+    footer.innerHTML = buildFooterHtml({ withApiButton: true });
     document.getElementById("openApiSettings")?.addEventListener("click", openApiModal);
   }
 }

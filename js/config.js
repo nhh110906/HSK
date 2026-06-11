@@ -30,6 +30,16 @@ const VOCAB_PROFILES = {
 const NAV_STORAGE_KEY = "hsk_nav_state";
 const DEFAULT_VER = "3";
 
+const FOOTER_BRAND = "跟辉煌练习汉语";
+const FOOTER_API_LABEL = "cài đặt API";
+
+function buildFooterHtml({ withApiButton = false, apiButtonId = "openApiSettings" } = {}) {
+  if (withApiButton) {
+    return `${FOOTER_BRAND} - <button type="button" class="link-btn" id="${apiButtonId}">${FOOTER_API_LABEL}</button>`;
+  }
+  return `${FOOTER_BRAND} - ${FOOTER_API_LABEL}`;
+}
+
 const FLOW_LABELS = {
   study: "Ôn tập",
   test: "Làm test",
