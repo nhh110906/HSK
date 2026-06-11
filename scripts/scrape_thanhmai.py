@@ -110,6 +110,78 @@ def parse_vocab_table(html: str) -> list[dict]:
     return entries
 
 
+def merge_example_fields(target: dict, source: dict) -> bool:
+    """Copy example fields from source into target if source has an example sentence."""
+    ex = (source.get("example") or "").strip()
+    if not ex:
+        return False
+    target["example"] = ex
+    py = (source.get("examplePy") or "").strip()
+    if py:
+        target["examplePy"] = py
+    vi = (source.get("exampleVi") or "").strip()
+    if vi:
+        target["exampleVi"] = vi
+    return True
+
+
+def merge_examples_by_hanzi(
+    base: list[dict], sources: list[list[dict]], *, only_missing: bool = False
+) -> int:
+    """Merge example / examplePy / exampleVi from sources into base entries by hanzi."""
+    lookup: dict[str, dict] = {}
+    for src_list in sources:
+        for item in src_list:
+            ex = (item.get("example") or "").strip()
+            if ex:
+                lookup[item["hanzi"]] = item
+
+    merged = 0
+    for entry in base:
+        if only_missing and (entry.get("example") or "").strip():
+            continue
+        src = lookup.get(entry["hanzi"])
+        if src and merge_example_fields(entry, src):
+            merged += 1
+    return merged
+
+
+def fill_example_pinyin(entries: list[dict]) -> int:
+    """Generate examplePy with pypinyin when example exists but pinyin is missing."""
+    try:
+        from pypinyin import Style, lazy_pinyin
+    except ImportError:
+        return 0
+
+    filled = 0
+    for entry in entries:
+        ex = (entry.get("example") or "").strip()
+        if not ex or (entry.get("examplePy") or "").strip():
+            continue
+        py = " ".join(lazy_pinyin(ex, style=Style.TONE))
+        entry["examplePy"] = py
+        filled += 1
+    return filled
+
+
+def load_v3_supplement(level: int) -> list[dict]:
+    v3_path = Path(__file__).resolve().parent.parent / "data" / f"hsk{level}.json"
+    if level == 2:
+        alt = Path(__file__).resolve().parent.parent / "data" / "hsk-lv2.json"
+        if alt.exists():
+            v3_path = alt
+    if not v3_path.exists():
+        return []
+    with open(v3_path, encoding="utf-8") as f:
+        data = json.load(f)
+    return data if isinstance(data, list) else []
+
+
+def renumber(entries: list[dict]) -> None:
+    for i, entry in enumerate(entries, start=1):
+        entry["id"] = i
+
+
 def parse_hsk4_pdf(pdf_bytes: bytes) -> list[dict]:
     import fitz
 
@@ -197,10 +269,30 @@ def main():
             try:
                 pdf_entries = parse_hsk4_pdf(fetch_bytes(HSK4_PDF))
                 if len(pdf_entries) > len(entries):
+                    base_hanzi = {e["hanzi"] for e in pdf_entries}
                     entries = pdf_entries
-                    print(f"  Using PDF ({len(entries)} words)")
+                    for html_row in parse_vocab_table(html):
+                        if html_row["hanzi"] not in base_hanzi and (html_row.get("example") or "").strip():
+                            entries.append(html_row)
+                            base_hanzi.add(html_row["hanzi"])
+                    print(f"  Using PDF + HTML-only rows ({len(entries)} words)")
             except Exception as exc:
                 print(f"  PDF parse failed: {exc}")
+
+        if level == 4:
+            html_rows = parse_vocab_table(html)
+            merged_html = merge_examples_by_hanzi(entries, [html_rows])
+            merged_v3 = merge_examples_by_hanzi(
+                entries, [load_v3_supplement(4)], only_missing=True
+            )
+            filled_py = fill_example_pinyin(entries)
+            ex_count = sum(1 for e in entries if (e.get("example") or "").strip())
+            py_count = sum(1 for e in entries if (e.get("examplePy") or "").strip())
+            print(
+                f"  Examples: {ex_count} words, pinyin ví dụ: {py_count}"
+                f" (HTML {merged_html}, v3 fallback {merged_v3}, pinyin gen {filled_py})"
+            )
+        renumber(entries)
 
         out_path = out_dir / f"hsk{level}.json"
         with open(out_path, "w", encoding="utf-8") as f:

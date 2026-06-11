@@ -5,9 +5,9 @@
 "pinyin": "àiqíng",
 "type": "Danh từ",
 "meaning": "Tình yêu",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "在爱情的过程中，双方都要尽量努力。",
+"examplePy": "zài àiqíng de guòchéng zhōng, shuāng fāng dōu yào jǐnliàng nǔlì.",
+"exampleVi": "Trong tình yêu, đôi bên đều phải cố gắng hết mình."
 },
 {
 "id": 2,
@@ -15,9 +15,9 @@
 "pinyin": "ānpái",
 "type": "Danh từ",
 "meaning": "Sắp xếp",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "老师把明天的活动安排又重新讲了一遍。",
+"examplePy": "lǎoshī bǎ míngtiān de huódòng ānpái yòu chóng xīn jiǎngle yībiàn.",
+"exampleVi": "Cô giáo kể lại 1 lần lịch hoạt động ngày mai."
 },
 {
 "id": 3,
@@ -25,9 +25,9 @@
 "pinyin": "àn",
 "type": "Tính từ",
 "meaning": "Tối",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "明争暗斗",
+"examplePy": "míngzhēng&#8217;àndòu.",
+"exampleVi": "Tranh giành Cấu xé lẫn nhau"
 },
 {
 "id": 4,
@@ -35,9 +35,9 @@
 "pinyin": "ànshí",
 "type": "Danh từ",
 "meaning": "Đúng giờ; Chuẩn giờ",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "周末我要按时参加活动，不能陪你了。",
+"examplePy": "zhōumò wǒ yào ànshí cānjiā huódòng, bùnéng péi nǐle.",
+"exampleVi": "Tôi cần tham gia các hoạt động đúng giờ vào cuối tuần nên không thể đi cùng bạn."
 },
 {
 "id": 5,
@@ -45,9 +45,9 @@
 "pinyin": "ànzhào",
 "type": "Động từ",
 "meaning": "Tuân theo",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "按照学校的规定，我不能再迟到了。",
+"examplePy": "ànzhào xuéxiào de guīdìng, wǒ bùnéng zài chídàole.",
+"exampleVi": "tuân theo quy định của trường, tôi không được lại đến muộn lần nữa."
 },
 {
 "id": 6,
@@ -55,9 +55,9 @@
 "pinyin": "bāokuò",
 "type": "Danh từ",
 "meaning": "Bao gồm",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "你说的价格包括保险费了没？",
+"examplePy": "nǐ shuō de jiàgé bāo kuò bǎoxiǎn fèile méi?",
+"exampleVi": "Giá của bạn có bao gồm phí bảo hiểm không?"
 },
 {
 "id": 7,
@@ -65,9 +65,9 @@
 "pinyin": "bǎohù",
 "type": "Động từ",
 "meaning": "Bảo vệ; Bảo hộ",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "你保护世界，我保护你。",
+"examplePy": "nǐ bǎohù shìjiè, wǒ bǎohù nǐ.",
+"exampleVi": "Bạn bảo vệ thế giới, tôi bảo vệ bạn."
 },
 {
 "id": 8,
@@ -75,9 +75,9 @@
 "pinyin": "bào",
 "type": "Động từ",
 "meaning": "Ôm; Bế; Ẵm",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "左拥右抱",
+"examplePy": "zuǒ yōng yòu bào",
+"exampleVi": "Dùng để chỉ nhiều thê thiếp, trái ôm phải ấp"
 },
 {
 "id": 9,
@@ -85,9 +85,9 @@
 "pinyin": "bàoqiàn",
 "type": "Động từ",
 "meaning": "Xin lỗi; Thứ lỗi",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "打扰了教授的休息，他一再表示抱歉。",
+"examplePy": "dǎrǎole jiàoshòu de xiūxí, tā yīzài biǎoshì bàoqiàn.",
+"exampleVi": "Làm phiền vào việc nghỉ ngơi của giáo sư, anh ta liên tục xin lỗi."
 },
 {
 "id": 10,
@@ -95,9 +95,9 @@
 "pinyin": "bàodào",
 "type": "Động từ",
 "meaning": "Đưa tin, báo tin",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "记者决定前往事发地，进行深入报道。",
+"examplePy": "jìzhě juédìng qiánwǎng shì fā dì, jìnxíng shēnrù bàodào.",
+"exampleVi": "Phóng viên quyết định đến tận nơi xảy ra vụ việc để phóng sự chuyên sâu."
 },
 {
 "id": 11,
@@ -105,9 +105,9 @@
 "pinyin": "běnlái",
 "type": "Từ nối",
 "meaning": "Vốn dĩ, ban đầu; Có lẽ, lẽ ra, đáng lẽ",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "。 这件事跟他本来没有任何关系",
+"examplePy": "Zhè jiàn shì gēn tā běnlái méiyǒu rènhé guānxì",
+"exampleVi": "Sự việc này vốn dĩkhông liên quan gì đến anh taviệc này."
 },
 {
 "id": 12,
@@ -115,9 +115,9 @@
 "pinyin": "bèn",
 "type": "Tính từ",
 "meaning": "Ngốc nghếch",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "太笨了你。",
+"examplePy": "tài bènle nǐ.",
+"exampleVi": "Bạn quá ngốc rồi."
 },
 {
 "id": 13,
@@ -125,9 +125,9 @@
 "pinyin": "bǐjìběn",
 "type": "Danh từ",
 "meaning": "Sổ tay",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "你准备笔记本了吗？",
+"examplePy": "nǐ zhǔnbèi bǐjìběnle ma?",
+"exampleVi": "Bạn đã chuẩn bị sổ tay chưa?"
 },
 {
 "id": 14,
@@ -135,9 +135,9 @@
 "pinyin": "biàn",
 "type": "Lượng từ",
 "meaning": "Đoạn",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "请把这段话再读一遍。",
+"examplePy": "qǐng bǎ zhè duàn huà zài dú yībiàn.",
+"exampleVi": "Vui lòng đọc lại đoạn văn này."
 },
 {
 "id": 15,
@@ -145,9 +145,9 @@
 "pinyin": "biāozhǔn",
 "type": "Danh từ",
 "meaning": "Tiêu chuẩn",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "很抱歉，你的产品太高档，超过我们的标准了。",
+"examplePy": "Hěn bàoqiàn, nǐ de chǎnpǐn tài gāodàngl, chàoguò wǒmen de biāozhǔnle.",
+"exampleVi": "Xin lỗi, sản phẩm của bạn quá cao cấp và vượt qua yêu cầu của chúng tôi."
 },
 {
 "id": 16,
@@ -155,9 +155,9 @@
 "pinyin": "biǎodá",
 "type": "Động từ",
 "meaning": "Biểu đạt; Bày tỏ",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "双方代表首先讨论了会谈的程序。",
+"examplePy": "shuāngfāng dàibiǎo shǒuxiān tǎolùnle huìtán de chéngxù.",
+"exampleVi": "Đại diện của hai bên lần đầu tiên thảo luận về các thủ tục của cuộc hội đàm."
 },
 {
 "id": 17,
@@ -165,9 +165,9 @@
 "pinyin": "biǎogé",
 "type": "Danh từ",
 "meaning": "Bảng, biểu",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "请你把这个表（格）填好。",
+"examplePy": "qǐng nǐ bǎ zhège biǎo (gé) tián hǎo.",
+"exampleVi": "Vui lòng điền vào biểu mẫu (biểu mẫu) này."
 },
 {
 "id": 18,
@@ -175,9 +175,9 @@
 "pinyin": "biǎoyáng",
 "type": "Động từ",
 "meaning": "Biểu dương; Tán/ tuyên dương",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "王老师在台上表扬小李。",
+"examplePy": "Wáng lǎoshī zài tái shàng biǎoyáng Xiǎo lǐ.",
+"exampleVi": "Cô giáo Vương khen ngợi Tiểu Lí trên sân khấu."
 },
 {
 "id": 19,
@@ -185,9 +185,9 @@
 "pinyin": "bóshì",
 "type": "Danh từ",
 "meaning": "Tiến sĩ",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "小明考上了博士，",
+"examplePy": "Xiǎomíng kǎo shàngle bóshì, gào.",
+"exampleVi": "Tiểu Minh trúng tuyển tiến sĩ,"
 },
 {
 "id": 20,
@@ -195,9 +195,9 @@
 "pinyin": "bùdé bù",
 "type": "Từ nối",
 "meaning": "Không thể không; Cần phải",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "作为一个好学生，你不得不听老师的话。",
+"examplePy": "zuòwéi yīgè hào xuéshēng, nǐ bùdé bù tīng lǎoshī dehuà.",
+"exampleVi": "Là một học sinh ngoan, bạn phải nghe lời giáo viên."
 },
 {
 "id": 21,
@@ -205,9 +205,9 @@
 "pinyin": "bùjǐn",
 "type": "Từ nối",
 "meaning": "Không chỉ",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "不仅是外貌之美，你还要又美德之善。",
+"examplePy": "bùjǐn shì wàimào zhīměi, nǐ hái yào yòu měidé zhī shàn.",
+"exampleVi": "Không chỉ có vẻ đẹp ngoại hình mà còn phải có phẩm hạnh."
 },
 {
 "id": 22,
@@ -215,9 +215,9 @@
 "pinyin": "bùfèn",
 "type": "Danh từ",
 "meaning": "Bộ phận",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "这个产品可以分为三个部分。",
+"examplePy": "zhège chǎnpǐn kěyǐ fēn wéi sān gèbùfèn.",
+"exampleVi": "Sản phẩm này có thể được chia thành ba phần."
 },
 {
 "id": 23,
@@ -225,9 +225,9 @@
 "pinyin": "cā",
 "type": "Động từ",
 "meaning": "Ma sát, xoa, cọ, quẹt; Sờ",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "哭眼擦泪",
+"examplePy": "kū yǎn cā lèi",
+"exampleVi": "Lấy nước mắt lau nước mắt"
 },
 {
 "id": 24,
@@ -235,9 +235,9 @@
 "pinyin": "cāi",
 "type": "Động từ",
 "meaning": "Đoán",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "两小无猜",
+"examplePy": "liǎngxiǎowúcāi",
+"exampleVi": "Hai nhỏ vô tư"
 },
 {
 "id": 25,
@@ -245,9 +245,9 @@
 "pinyin": "cáiliào",
 "type": "Danh từ",
 "meaning": "Tài liệu",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "你先把材料回家读一遍然后再说吧。",
+"examplePy": "nǐ xiān bǎ cáiliào huí jiā dú yībiàn ránhòu zàishuō ba.",
+"exampleVi": "Đầu tiên bạn đọc lại tài liệu rồi sau đó ta lại nói về nó."
 },
 {
 "id": 26,
@@ -255,9 +255,9 @@
 "pinyin": "chàbùduō",
 "type": "Danh từ",
 "meaning": "Xấp xỉ, gần giống nhau,không nhiều; lắm; Bình thường",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "童年那些大大小小的事情我差不多都忘得干干净净的了。",
+"examplePy": "Tóngnián nàxiē dà dàxiǎo xiǎo de shìqíng wǒ chàbùduō dōu wàng dégàn gānjìng jìng dele.",
+"exampleVi": "Tôi gần như quên hết những việc lớn nhỏ trong thời thơ ấu của mình."
 },
 {
 "id": 27,
@@ -265,9 +265,9 @@
 "pinyin": "cháng",
 "type": "Động từ",
 "meaning": "Nếm",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "请你尝尝这个菜，然后给我评价。",
+"examplePy": "Qǐng nǐ cháng cháng zhègè cài, ránhòu gěi wǒ píngjià.",
+"exampleVi": "Mời bạn nếm thử món ăn này và cho tôi nhận xét nhé."
 },
 {
 "id": 28,
@@ -275,9 +275,9 @@
 "pinyin": "chángchéng",
 "type": "Danh từ",
 "meaning": "Trường Thành",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "我想去参观万里长城。",
+"examplePy": "wǒ xiǎng qù cānguān wànlǐ chángchéng.",
+"exampleVi": "Tôi muốn đến thăm Vạn Lý Trường Thành."
 },
 {
 "id": 29,
@@ -285,9 +285,9 @@
 "pinyin": "chángjiāng",
 "type": "Danh từ",
 "meaning": "Trường Giang",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "长江是中国最大的河流。",
+"examplePy": "Chángjiāng shì zhōngguó zuìdà de héliú.",
+"exampleVi": "Sông Trường Giang là con sông lớn nhất ở Trung Quốc."
 },
 {
 "id": 30,
@@ -295,9 +295,9 @@
 "pinyin": "chǎng",
 "type": "Lượng từ",
 "meaning": "Trận",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "我们一起玩一场足球吧。",
+"examplePy": "wǒmen yīqǐ wán yī chǎng zú qiú ba.",
+"exampleVi": "Chúng tacùng chơi một trấn bóng đá đi"
 },
 {
 "id": 31,
@@ -305,9 +305,9 @@
 "pinyin": "chāoguò",
 "type": "Động từ",
 "meaning": "Vượt qua",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "你的能力已经超过我们的想象了。",
+"examplePy": "nǐ de nénglì yǐjīng chāoguò wǒmen de xiǎngxiàngle.",
+"exampleVi": "Khả năng của bạn đã vượt quá sức tưởng tượng của chúng tôi."
 },
 {
 "id": 32,
@@ -315,9 +315,9 @@
 "pinyin": "chǎo",
 "type": "Động từ",
 "meaning": "Cãi nhau",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "你们别吵架吧，，太闹了，麻烦我学习。",
+"examplePy": "nǐmen bié chǎojiàbā , tài nàole, máfan wǒ xuéxí.",
+"exampleVi": "Thôi cãi nhau đi, ồn ào quá, khó học lắm."
 },
 {
 "id": 33,
@@ -325,9 +325,9 @@
 "pinyin": "chéngshú",
 "type": "Động từ",
 "meaning": "Thành thục; Trưởng thành; Chín chắn",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "一个人只有经过千锤百炼才能成熟起来。",
+"examplePy": "yīgè rén zhǐyǒu jīngguò qiānchuíbǎiliàn cáinéng chéngshú qǐlái.",
+"exampleVi": "Một người chỉ có thể trưởng thành sau hàng ngàn lần thử thách."
 },
 {
 "id": 34,
@@ -335,9 +335,9 @@
 "pinyin": "chéngshí",
 "type": "Tính từ",
 "meaning": "Thành thực; Thật thà",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "他是一个很单纯，很诚实的人。",
+"examplePy": "tā shì yīgè hěn dānchún, hěn chéngshí de rén.",
+"exampleVi": "Anh ấy là một người rất đơn giản và trung thực."
 },
 {
 "id": 35,
@@ -345,9 +345,9 @@
 "pinyin": "chéngwéi",
 "type": "Động từ",
 "meaning": "Trở thành",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "我想成为一名歌手。",
+"examplePy": "wǒ xiǎng chéngwéi yī míng gēshǒu.",
+"exampleVi": "Tôi muốn trở thành ca sĩ."
 },
 {
 "id": 36,
@@ -355,9 +355,9 @@
 "pinyin": "chéngzuò",
 "type": "Động từ",
 "meaning": "Đi, đáp (máy bay, tàu hỏa, …)",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "乘坐民航班机，我们都十分安全的感觉。",
+"examplePy": "chéngzuò mínháng bānjī, wǒmen dōu shífēn ānquán de gǎnjué.",
+"exampleVi": "Tất cả chúng tôi đều cảm thấy rất an toàn khi đi máy bay dân dụng."
 },
 {
 "id": 37,
@@ -365,9 +365,9 @@
 "pinyin": "chóngxīn",
 "type": "Động từ",
 "meaning": "Làm lại từ đầu; Làm mới",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "你重新再做一次吧。",
+"examplePy": "nǐ chóngxīn zài zuò yīcì ba.",
+"exampleVi": "Bạn có thể làm lại 1 lần."
 },
 {
 "id": 38,
@@ -375,9 +375,9 @@
 "pinyin": "chōuyān",
 "type": "Động từ",
 "meaning": "Hút thuốc",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "抽烟对身体有害。",
+"examplePy": "chōuyān duì shēntǐ yǒuhài.",
+"exampleVi": "Hút thuốc có hại cho cơ thể."
 },
 {
 "id": 39,
@@ -385,9 +385,9 @@
 "pinyin": "chūfā",
 "type": "Động từ",
 "meaning": "xuất phát",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "我们在学校大门口出发。",
+"examplePy": "wǒmen zài xuéxiào dà ménkǒu chūfā.",
+"exampleVi": "Chúng tôi lên đường đến cổng trường."
 },
 {
 "id": 40,
@@ -395,9 +395,9 @@
 "pinyin": "chuānghù",
 "type": "Danh từ",
 "meaning": "Cửa sổ",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "在窗户上贴着很多对联。",
+"examplePy": "zài chuānghù shàng tiēzhe hěnduō duìlián.",
+"exampleVi": "Có rất nhiều câu đối trên cửa sổ."
 },
 {
 "id": 41,
@@ -405,9 +405,9 @@
 "pinyin": "cídiǎn",
 "type": "Danh từ",
 "meaning": "Từ điển",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "遇到不知道的汉字，可以查查词典。",
+"examplePy": ".Yù dào bù zhīdào de hànzì, kěyǐ chá chá cídiǎn",
+"exampleVi": "Gặp những từ nào mà bạn không biết thì có thể tra từ điển"
 },
 {
 "id": 42,
@@ -415,9 +415,9 @@
 "pinyin": "cūxīn",
 "type": "Động từ",
 "meaning": "Sơ ý; Không cẩn thận; Thờ ơ",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "我有点粗心了，希望你原谅我。",
+"examplePy": "wǒ yǒudiǎn cūxīnle, xīwàng nǐ yuánliàng wǒ.",
+"exampleVi": "Tôi hơi bất cẩn, mong bạn thứ lỗi."
 },
 {
 "id": 43,
@@ -425,9 +425,9 @@
 "pinyin": "dá'àn",
 "type": "Danh từ",
 "meaning": "Đáp án",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "这是我的答案。",
+"examplePy": "zhè shì wǒ de dá&#8217;àn.",
+"exampleVi": "Đây là câu trả lời của tôi."
 },
 {
 "id": 44,
@@ -435,9 +435,9 @@
 "pinyin": "dǎ bàn",
 "type": "Động từ",
 "meaning": "Trang điểm; Ăn vận",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "你去哪呀？今天打扮这么漂亮。",
+"examplePy": "ǐ qù nǎ ya? Jīntiān dǎbàn zhème piàoliang.",
+"exampleVi": "Bạn đi đâu? Hôm nay mặc đẹp quá."
 },
 {
 "id": 45,
@@ -445,9 +445,9 @@
 "pinyin": "dǎrǎo",
 "type": "Động từ",
 "meaning": "Làm phiền",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "今天太打扰你了。",
+"examplePy": "jīntiān tài dǎrǎo nǐle.",
+"exampleVi": "Hôm nay em làm phiền anh nhiều quá."
 },
 {
 "id": 46,
@@ -455,9 +455,9 @@
 "pinyin": "dǎyìn",
 "type": "Động từ",
 "meaning": "In ấn",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "你可以帮我把这个材料打印一部吗？",
+"examplePy": "Nǐ kěyǐ bāng wǒ bǎ zhège cáiliào dǎyìn yī bù ma?",
+"exampleVi": "Bạn có thể in một bản sao của tài liệu này cho tôi?"
 },
 {
 "id": 47,
@@ -465,9 +465,9 @@
 "pinyin": "dǎzhé",
 "type": "Động từ",
 "meaning": "Giảm giá",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "这个产品打不打折？",
+"examplePy": "Zhège chǎnpǐn dǎ bù dǎzhé?",
+"exampleVi": "Sản phẩm này có giảm giá không?"
 },
 {
 "id": 48,
@@ -475,9 +475,9 @@
 "pinyin": "dǎzhēn",
 "type": "Động từ",
 "meaning": "Châm cứu",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "我最害怕打针，可以用其他药品吗？",
+"examplePy": "wǒ zuì hàipà dǎzhēn, kěyǐ yòng qítā yàopǐn ma?",
+"exampleVi": "Tôi sợ nhất là tiêm, có thể dùng thuốc khác được không?"
 },
 {
 "id": 49,
@@ -485,9 +485,9 @@
 "pinyin": "dàgài",
 "type": "Danh từ",
 "meaning": "Khoảng Tầm",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "你的一共大概85块钱，给我80块钱吧！",
+"examplePy": "nǐ de yīgòng dàgài 85 kuài qián, gěi wǒ 80 kuài qián ba!",
+"exampleVi": "Tổng của bạn khoảng 85 tệ, đưa tôi 80 tệ!"
 },
 {
 "id": 50,
@@ -495,9 +495,9 @@
 "pinyin": "dàshǐ guǎn",
 "type": "Danh từ",
 "meaning": "Đại sứ quản",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "想办移民手续，你一定要到大使馆。",
+"examplePy": "Xiǎng bànyímín shǒuxù, nǐ yīdìng yào dào dàshǐ guǎn.",
+"exampleVi": "Để làm thủ tục nhập cảnh, bạn phải đến đại sứ quán."
 },
 {
 "id": 51,
@@ -505,9 +505,9 @@
 "pinyin": "dàibiǎo",
 "type": "Động từ",
 "meaning": "Đại biểu",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "我代表公司来接待您。",
+"examplePy": "ǒ dàibiǎo gōngsī lái jiēdài nín.",
+"exampleVi": "Tôi ở đây để tiếp bạn thay mặt cho công ty."
 },
 {
 "id": 52,
@@ -515,9 +515,9 @@
 "pinyin": "dàitì",
 "type": "Động từ",
 "meaning": "Thay thế",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "我代替王经理参加这次会议。",
+"examplePy": "wǒ dàitì Wáng jīnglǐ cānjiā zhè cì huìyì.",
+"exampleVi": "Tôi sẽ tham dự cuộc họp này thay mặt cho Giám đốc Vương."
 },
 {
 "id": 53,
@@ -525,9 +525,9 @@
 "pinyin": "dàfū",
 "type": "Danh từ",
 "meaning": "Thầy thuốc; Đại phu; Có thể dùng để chỉ: tri thức",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "大夫，我身体不舒服!",
+"examplePy": "Dàfū, wǒ shēntǐ bú shūfú!",
+"exampleVi": "Bác sĩ, tôi không được khỏe!"
 },
 {
 "id": 54,
@@ -535,9 +535,9 @@
 "pinyin": "dāng",
 "type": "Động từ",
 "meaning": "Đang; Đương",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "我妈妈当老师，爸爸当律师。",
+"examplePy": "wǒ mā ma dāng lǎoshī, bàba dāng lǜshī.",
+"exampleVi": "Mẹ tôi là giáo viên và bố tôi là luật sư."
 },
 {
 "id": 55,
@@ -545,9 +545,9 @@
 "pinyin": "dāng dì",
 "type": "Danh từ",
 "meaning": "Bản địa; Bản xứ",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "他是当地人，他的方言有点难懂",
+"examplePy": "Tā shì dāngdì rén, tā de fāngyán yǒudiǎn nán dǒng",
+"exampleVi": "Anh ấy là người địa phương và nói tiếng địa phương nên hơi khó nghe."
 },
 {
 "id": 56,
@@ -555,9 +555,9 @@
 "pinyin": "dāngshí",
 "type": "Từ chỉ thời gian",
 "meaning": "Đương thời; Lúc đó",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "他当时为了不听话而失败了。",
+"examplePy": "tā dāngshí wèile bù tīnghuà ér shībàile.",
+"exampleVi": "Anh ta đã thất bại vì không vâng lời."
 },
 {
 "id": 57,
@@ -565,9 +565,9 @@
 "pinyin": "dǎoyóu",
 "type": "Danh từ",
 "meaning": "Hướng dẫn viên du lịch",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "我是你们的导游，有任何事情请联系我，谢谢。",
+"examplePy": "ǒ shì nǐmen de dǎoyóu, yǒu rènhé shìqíng qǐng liánxì wǒ, xièxiè.",
+"exampleVi": "Tôi là hướng dẫn viên du lịch của bạn, vui lòng liên hệ với tôi nếu bạn có bất cứ vấn đề gì, cảm ơn bạn."
 },
 {
 "id": 58,
@@ -575,9 +575,9 @@
 "pinyin": "dàochù",
 "type": "Danh từ",
 "meaning": "Khắp nơi",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "我到处找也找不到我失去的东西。",
+"examplePy": "wǒ dàochù zhǎo yě zhǎo bù dào wǒ shīqù de dōngxī.",
+"exampleVi": "Tôi đã tìm khắp nơi và không thể tìm thấy thứ tôi đã mất."
 },
 {
 "id": 59,
@@ -585,9 +585,9 @@
 "pinyin": "dàodǐ",
 "type": "Từ nối",
 "meaning": "Rốt cục; Đến cùng",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "你到底想干什么呢？",
+"examplePy": "nǐ dàodǐ xiǎng gànshénme ne?",
+"exampleVi": "Bạn muốn làm gì?"
 },
 {
 "id": 60,
@@ -595,9 +595,9 @@
 "pinyin": "dàoqiàn",
 "type": "Động từ",
 "meaning": "Xin lỗi; Thứ lỗi",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "我今天想想你说一句：“道歉”。",
+"examplePy": "wǒ jīntiān xiǎng xiǎng nǐ shuō yījù:“Dàoqiàn”.",
+"exampleVi": "tôi nghĩ về những gì bạn đã nói hôm nay: &#8220;Xin lỗi.&#8221;"
 },
 {
 "id": 61,
@@ -605,9 +605,9 @@
 "pinyin": "déyì",
 "type": "Động từ",
 "meaning": "Đắc ý",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "她很得意看到小王被老师批评。",
+"examplePy": "Tā hěn déyì kàn dào xiǎo Wáng bèi lǎoshī pīpíng.",
+"exampleVi": "Cô rất đắc ý khi thấy Tiểu Vương bị giáo viên phê bình."
 },
 {
 "id": 62,
@@ -615,9 +615,9 @@
 "pinyin": "dé",
 "type": "Trợ từ trạng thái",
 "meaning": "Đắc",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "她唱歌唱得好听。",
+"examplePy": "tā chànggē chàng dé hǎotīng.",
+"exampleVi": "Cô ấy hát hay."
 },
 {
 "id": 63,
@@ -625,9 +625,9 @@
 "pinyin": "děng",
 "type": "Động từ",
 "meaning": "Đợi",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "我在等回去。",
+"examplePy": "wǒ zài děng huíqù.",
+"exampleVi": "Tôi đang đợi để quay trở lại."
 },
 {
 "id": 64,
@@ -635,9 +635,9 @@
 "pinyin": "dì",
 "type": "Tính từ",
 "meaning": "Thấp",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "飞机低将绕场一周。",
+"examplePy": "Fēijī dī jiāng rào chǎng yīzhōu.",
+"exampleVi": "Máy bay sẽ thực hiện một vòng tròn quanh sân."
 },
 {
 "id": 65,
@@ -645,9 +645,9 @@
 "pinyin": "dìqiú",
 "type": "Danh từ",
 "meaning": "Địa cầu",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "地球上的阳光和温暖都是太阳送来的。",
+"examplePy": "dìqiú shàng de yángguāng hé wēnnuǎn dōu shì tàiyáng sòng lái de",
+"exampleVi": "Anh nắng và hơi ấm trên trái đất là do mặt trời gửi đến."
 },
 {
 "id": 66,
@@ -655,9 +655,9 @@
 "pinyin": "dìzhǐ",
 "type": "Danh từ",
 "meaning": "Địa chỉ",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "你把自己的地址写清楚在这儿吧。",
+"examplePy": "nǐ bǎ zìjǐ dì dìzhǐ xiě qīngchǔ zài zhè&#8217;er ba.",
+"exampleVi": "Vui lòng ghi rõ địa chỉ của bạn ở đây."
 },
 {
 "id": 67,
@@ -665,9 +665,9 @@
 "pinyin": "diào",
 "type": "Động từ",
 "meaning": "Mất; Rơi, hạ, giảm",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "我把项链弄掉了。",
+"examplePy": "wǒ bǎ xiàngliàn nòng diàole.",
+"exampleVi": "Tôi đánh rơi sợi dây chuyền."
 },
 {
 "id": 68,
@@ -675,9 +675,9 @@
 "pinyin": "diàochá",
 "type": "Động từ",
 "meaning": "Điều tra",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "我在做一个调查圈。",
+"examplePy": "wǒ zài zuò yīgè diàochá quān.",
+"exampleVi": "Tôi đang thực hiện một vòng khảo sát."
 },
 {
 "id": 69,
@@ -685,9 +685,9 @@
 "pinyin": "diū",
 "type": "Động từ",
 "meaning": "Mất",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "真太丢脸。",
+"examplePy": "zhēn tài diūliǎn.",
+"exampleVi": "Xấu hổ làm sao."
 },
 {
 "id": 70,
@@ -695,9 +695,9 @@
 "pinyin": "dǔchē",
 "type": "Động từ",
 "meaning": "Tắc đường",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "对不起老师，因为堵车，我又迟到了。",
+"examplePy": "duìbùqǐ lǎoshī, yīnwèi dǔchē, wǒ yòu chídàole.",
+"exampleVi": "Xin lỗi thầy, em lại đến trễ vì tắc đường."
 },
 {
 "id": 71,
@@ -705,9 +705,9 @@
 "pinyin": "dùzi",
 "type": "Danh từ",
 "meaning": "Bụng",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "我的肚子有点疼。",
+"examplePy": "wǒ de dù zi yǒudiǎn téng.",
+"exampleVi": "bụng tôi hơi đau."
 },
 {
 "id": 72,
@@ -715,9 +715,9 @@
 "pinyin": "duàn",
 "type": "Động từ",
 "meaning": "Đứt",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "恩断义绝",
+"examplePy": "nduànyìjué",
+"exampleVi": "Đoạn tuyệt ân nghĩa"
 },
 {
 "id": 73,
@@ -725,9 +725,9 @@
 "pinyin": "duìhuà",
 "type": "Danh từ",
 "meaning": "Đối thoại",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "他们两的对话太简单了。",
+"examplePy": "tāmen liǎng de duìhuà tài jiǎndānle.",
+"exampleVi": "Cuộc nói chuyện giữa hai người họ quá đơn giản."
 },
 {
 "id": 74,
@@ -735,9 +735,9 @@
 "pinyin": "duìmiàn",
 "type": "Danh từ",
 "meaning": "Đối mặt; Đối diện",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "我很怕跟老王面对面。",
+"examplePy": "Wǒ hěn pà gēn lǎo Wáng miànduìmiàn.",
+"exampleVi": "Tôi sợ phải đối mặt với Lão Vương."
 },
 {
 "id": 75,
@@ -745,9 +745,9 @@
 "pinyin": "értóng",
 "type": "Danh từ",
 "meaning": "Nhi đồng; Trẻ em",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "“六一”是儿童节。",
+"examplePy": "liùyī” shì értóng jié.",
+"exampleVi": "&#8220;1 tháng 6&#8221; là Ngày của Trẻ em."
 },
 {
 "id": 76,
@@ -755,9 +755,9 @@
 "pinyin": "fāzhǎn",
 "type": "Động từ",
 "meaning": "Phát triển",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "大力发展经济，不断增强国防实力。",
+"examplePy": "dàlì fāzhǎn jīngjì, bùduàn zēngqiáng guófáng shílì.",
+"exampleVi": "Phát triển mạnh mẽ nền kinh tế và không ngừng nâng cao khả năng bảo vệ Tổ quốc."
 },
 {
 "id": 77,
@@ -765,9 +765,9 @@
 "pinyin": "fǎlǜ",
 "type": "Danh từ",
 "meaning": "Pháp luật",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "不管谁触犯了法律，都将受到制载。",
+"examplePy": "Bùguǎn shéi chùfànle fǎlǜ, dōu jiāng shòudào zhì zài.",
+"exampleVi": "Bất kể ai vi phạm pháp luật, anh ta sẽ bị kiềm chế."
 },
 {
 "id": 78,
@@ -775,9 +775,9 @@
 "pinyin": "fánnǎo",
 "type": "Danh từ",
 "meaning": "Phiền não; Buồn phiền",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "我有太多的烦恼了。",
+"examplePy": "wǒ yǒu tài duō de fánnǎole.",
+"exampleVi": "Tôi có quá nhiều rắc rối."
 },
 {
 "id": 79,
@@ -785,9 +785,9 @@
 "pinyin": "fǎnduì",
 "type": "Động từ",
 "meaning": "Phản đối",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "家庭反对我到国 ch出留学去。",
+"examplePy": "jiātíng fǎnduì wǒ chū guówài liúxué",
+"exampleVi": "Gia đình phản đối tôi đi du học."
 },
 {
 "id": 80,
@@ -795,9 +795,9 @@
 "pinyin": "fǎnyìng",
 "type": "Động từ",
 "meaning": "Phản ứng",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "他的反应怎么样，惊喜还是害怕？",
+"examplePy": "tā de fǎnyìng zěnme yàng, jīngxǐ háishìhài pà ?",
+"exampleVi": "Phản ứng của anh ấy như thế nào, ngạc nhiên hay sợ hãi"
 },
 {
 "id": 81,
@@ -805,8 +805,8 @@
 "pinyin": "fànwéi",
 "type": "Danh từ",
 "meaning": "Phạm vi",
-"example": "",
-"examplePy": "",
+"example": "你一定要在我范围面前。",
+"examplePy": "ǐ yīdìng yào zài wǒ fànwéi miànqián.",
 "exampleVi": ""
 },
 {
@@ -815,9 +815,9 @@
 "pinyin": "fāngfǎ",
 "type": "Danh từ",
 "meaning": "Phương pháp",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "我找不到方法解决这个问题。",
+"examplePy": "Wǒ zhǎo bù dào fāngfǎ jiějué zhège wèntí.",
+"exampleVi": "Tôi không thể tìm ra cách để giải quyết vấn đề này."
 },
 {
 "id": 83,
@@ -825,9 +825,9 @@
 "pinyin": "fāngmiàn",
 "type": "Danh từ",
 "meaning": "Phương diện",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "在这方面上，我就是很清楚。",
+"examplePy": "ài zhè fāngmiàn shàng, wǒ jiùshì hěn qīngchǔ.",
+"exampleVi": "Về vấn đề này, tôi rất rõ ràng."
 },
 {
 "id": 84,
@@ -835,9 +835,9 @@
 "pinyin": "fāngxiàng",
 "type": "Danh từ",
 "meaning": "Phương hướng",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "我找不到方向了。",
+"examplePy": "ǒ zhǎo bù dào fāngxiàngle.",
+"exampleVi": "Tôi không thể tìm ra phương hướng."
 },
 {
 "id": 85,
@@ -845,9 +845,9 @@
 "pinyin": "fǎngwèn",
 "type": "Động từ",
 "meaning": "Viếng thăm; Thăm hỏi",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "中国的主席访问越南。",
+"examplePy": "Zhōngguó de zhǔxí fǎngwèn Yuènán.",
+"exampleVi": "Chủ tịch Trung Quốc thăm hỏi Việt Nam."
 },
 {
 "id": 86,
@@ -855,9 +855,9 @@
 "pinyin": "fàngqì",
 "type": "Động từ",
 "meaning": "Vứt bỏ; Từ bỏ",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "他想放弃所有，你去劝劝他吧。",
+"examplePy": "tā xiǎng fàngqì suǒyǒu, nǐ qù quàn quàn tā ba.",
+"exampleVi": "Anh ấy muốn từ bỏ mọi thứ, đi thuyết phục anh ấy."
 },
 {
 "id": 87,
@@ -865,9 +865,9 @@
 "pinyin": "fèn",
 "type": "Lượng từ",
 "meaning": "Phần",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "你可以帮我买一份面条吗？",
+"examplePy": "nǐ kěyǐ bāng wǒ mǎi yī fèn miàntiáo ma?",
+"exampleVi": "Bạn có thể mua cho tôi một phần mì?"
 },
 {
 "id": 88,
@@ -875,9 +875,9 @@
 "pinyin": "fēngjǐng",
 "type": "Danh từ",
 "meaning": "Phong cảnh",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "这里的风情真美丽。",
+"examplePy": "nhèlǐ de fēngjǐngzhēn měilì.",
+"exampleVi": "Phong cảnh ở đây thật đẹp."
 },
 {
 "id": 89,
@@ -885,9 +885,9 @@
 "pinyin": "fǒuzé",
 "type": "Liên từ",
 "meaning": "Nếu không thì; Bằng không; Nếu không",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "首先要把场地清理好，否则无法施工。",
+"examplePy": "Shǒuxiān yào bǎ chǎngdì qīnglǐ hǎo, fǒuzé wúfǎ shīgōng.",
+"exampleVi": "Trước tiên phải dọn sạch mặt bằng, nếu không việc thi công sẽ không thể thực hiện được."
 },
 {
 "id": 90,
@@ -895,9 +895,9 @@
 "pinyin": "fúhé",
 "type": "Danh từ",
 "meaning": "Phù hợp; Thích hợp",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "对不起，你不符合我们公司的要求。",
+"examplePy": "duìbùqǐ, nǐ bù fúhé wǒmen gōngsī de yāoqiú.",
+"exampleVi": "Xin lỗi, bạn không đáp ứng được yêu cầu của công ty chúng tôi."
 },
 {
 "id": 91,
@@ -905,9 +905,9 @@
 "pinyin": "fùqīn",
 "type": "Danh từ",
 "meaning": "Bố đẻ; Phụ thân",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "我一定要为父亲而努力，好好学习。",
+"examplePy": "wǒ yīdìng yào wèi fùqīn ér nǔlì, hǎo hào xuéxí.",
+"exampleVi": "Con phải làm việc chăm chỉ cho cha và chăm chỉ học tập."
 },
 {
 "id": 92,
@@ -915,9 +915,9 @@
 "pinyin": "fùzá",
 "type": "Tính từ",
 "meaning": "Phức tạp",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "这件事太复杂了。",
+"examplePy": "zhè jiàn shì tài fùzále.",
+"exampleVi": "Vấn đề này quá phức tạp."
 },
 {
 "id": 93,
@@ -925,9 +925,9 @@
 "pinyin": "fú zé",
 "type": "Động từ",
 "meaning": "Phụ trách",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "我对你有一份负责的责任。",
+"examplePy": "zǒ duì nǐ yǒuyī fèn fùzé de zérèn.",
+"exampleVi": "Tôi có trách nhiệm với bạn."
 },
 {
 "id": 94,
@@ -935,9 +935,9 @@
 "pinyin": "gǎibiàn",
 "type": "Động từ",
 "meaning": "Thay đổi",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "为了美好的将来，现在你要改变，别偷懒了。",
+"examplePy": "wèile měihǎo de jiānglái, xiànzài nǐ yào gǎibiàn, bié tōulǎnle.",
+"exampleVi": "Vì tương lai tốt đẹp hơn, ngay từ bây giờ bạn phải thay đổi, đừng lười biếng."
 },
 {
 "id": 95,
@@ -945,9 +945,9 @@
 "pinyin": "gānbēi",
 "type": "Động từ",
 "meaning": "Cạn ly; Cạn cốc",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "干杯吧！",
+"examplePy": "gānbēi ba!",
+"exampleVi": "! Cạn ly nào"
 },
 {
 "id": 96,
@@ -955,9 +955,9 @@
 "pinyin": "gānzào",
 "type": "Tính từ",
 "meaning": "Khô nóng; Khô hanh",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "天气太干燥了。",
+"examplePy": "tiānqì tài gānzàole.",
+"exampleVi": "Thời tiết quá khô."
 },
 {
 "id": 97,
@@ -965,9 +965,9 @@
 "pinyin": "gǎndòng",
 "type": "Động từ",
 "meaning": "Cảm động",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "我很感动。",
+"examplePy": "Wǒ hěn gǎndòng.",
+"exampleVi": "Tôi rất cảm động."
 },
 {
 "id": 98,
@@ -975,9 +975,9 @@
 "pinyin": "gǎnxiè",
 "type": "Động từ",
 "meaning": "Cảm ơn",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "很感谢你们今天来恭喜我。",
+"examplePy": "hěn gǎnxiè nǐmen jīntiān lái gōngxǐ wǒ",
+"exampleVi": "Cảm ơn bạn đã đến chúc mừng tôi ngày hôm nay."
 },
 {
 "id": 99,
@@ -985,9 +985,9 @@
 "pinyin": "gǎnjué",
 "type": "Động từ",
 "meaning": "Cảm giác",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "我感觉有点不舒服。",
+"examplePy": "wǒ gǎnjué yǒudiǎn bú shū fu",
+"exampleVi": "Tôi cảm thấy hơi khó chịu."
 },
 {
 "id": 100,
@@ -995,9 +995,9 @@
 "pinyin": "gānggāng",
 "type": "Trạng từ",
 "meaning": "Vừa; Vừa mới; Vừa vặn",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "老师刚刚说完，我又忘了。",
+"examplePy": "lǎoshī gānggāng shuō wán, wǒ yòu wàngle.",
+"exampleVi": "Cô giáo vừa nói xong, tôi quên mất."
 },
 {
 "id": 101,
@@ -1005,9 +1005,9 @@
 "pinyin": "gāojí",
 "type": "Phó từ",
 "meaning": "Cao cấp",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "中文分为三级：初级，中级和高级。",
+"examplePy": "Zhōngwén fēn wéi sān jí: chūjí, zhōngjí hé gāojí.",
+"exampleVi": "Tiếng Trung được chia thành ba cấp độ: sơ cấp, trung cấp và cao cấp."
 },
 {
 "id": 102,
@@ -1015,9 +1015,9 @@
 "pinyin": "gè",
 "type": "Lượng từ",
 "meaning": "Mỗi, các",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "各个地方都有特产，你知道河内的特产是啥吗？",
+"examplePy": "Gège dìfāng dōu yǒu tèchǎn, nǐ zhīdào hénèi de tèchǎn shìshá s ma?",
+"exampleVi": "Có những sản phẩm đặc sản ở nhiều nơi, bạn có biết đặc sản Hà Nội là gì không?"
 },
 {
 "id": 103,
@@ -1025,9 +1025,9 @@
 "pinyin": "gōngjù",
 "type": "Danh từ",
 "meaning": "Công cụ",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "你准备好工具了没？",
+"examplePy": "ǐ zhǔnbèi hǎo gōngjùle méi?",
+"exampleVi": "Bạn đã sẵn sàng cho các công cụ?"
 },
 {
 "id": 104,
@@ -1035,9 +1035,9 @@
 "pinyin": "gōngzī",
 "type": "Danh từ",
 "meaning": "Tiền lương",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "你的工资每月多少？",
+"examplePy": "Nǐ de gōngzī měi yuè duōshǎo?",
+"exampleVi": "Lương hàng tháng của bạn là bao nhiêu?"
 },
 {
 "id": 105,
@@ -1045,9 +1045,9 @@
 "pinyin": "gòngtóng",
 "type": "Trạng từ",
 "meaning": "Đồng thời",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "我们有共同的爱好是看书。",
+"examplePy": "ǒmen yǒu gòngtóng de àihào shì kànshū.",
+"exampleVi": "Sở thích chung của chúng tôi là đọc sách."
 },
 {
 "id": 106,
@@ -1055,9 +1055,9 @@
 "pinyin": "gòu",
 "type": "Trạng từ",
 "meaning": "Đủ",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "你买够了没？",
+"examplePy": "ǐ mǎi gòule méi?",
+"exampleVi": "Bạn đã mua đủ chưa?"
 },
 {
 "id": 107,
@@ -1065,9 +1065,9 @@
 "pinyin": "gòuwù",
 "type": "Động từ",
 "meaning": "Mua sắm",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "我想到购物中心购买礼物。",
+"examplePy": "Wǒ xiǎngdào gòuwù zhòng xīn gòumǎi lǐwù.",
+"exampleVi": "Tôi muốn mua quà ở trung tâm mua sắm."
 },
 {
 "id": 108,
@@ -1075,9 +1075,9 @@
 "pinyin": "gūdān",
 "type": "Tính từ",
 "meaning": "Cô đơn",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "很久很久以前，女娲一个人在世上感到非常孤单。",
+"examplePy": "Hěnjiǔ hěnjiǔ yǐqián, nǚ wā yīgè rén zài shìshàng gǎndào fēicháng gūdān.",
+"exampleVi": "Đã lâu rồi, Nữ Oa cảm thấy rất cô đơn trong thế giới một mình."
 },
 {
 "id": 109,
@@ -1145,9 +1145,9 @@
 "pinyin": "guàng",
 "type": "Động từ",
 "meaning": "Dạo (phố)",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "明天我约朋友一起去逛街。",
+"examplePy": "míng tiān wǒ yuē péng yǒu yì qǐ qù guàng jiē 。",
+"exampleVi": "Ngày mai tôi hẹn bạn đi dạo phố."
 },
 {
 "id": 116,
@@ -1185,9 +1185,9 @@
 "pinyin": "hánjià",
 "type": "Danh từ",
 "meaning": "Nghỉ đông",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "今天是寒假的最后一个周末。",
+"examplePy": "jīn tiān shì hán jià de zuì hòu yí gè zhōu mò 。",
+"exampleVi": "Hôm này là cuối tuần cuối cùng của kỳ nghỉ đông."
 },
 {
 "id": 120,
@@ -1205,9 +1205,9 @@
 "pinyin": "hángbān",
 "type": "Danh từ",
 "meaning": "Chuyến bay",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "欢迎各位乘坐本次航班。",
+"examplePy": "huān yíng gè wèi chéng zuò běn cì háng bān 。",
+"exampleVi": "Hoan nghênh quý vị đã đi chuyến bay lần này."
 },
 {
 "id": 122,
@@ -1235,9 +1235,9 @@
 "pinyin": "hàomǎ",
 "type": "Danh từ",
 "meaning": "Số; Size, cỡ",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "你知道王老师的电话号码吗？",
+"examplePy": "nǐ zhī dào wáng lǎo shī de diàn huà hào mǎ ma ？",
+"exampleVi": "Bạn có biết số điện thoại thầy Vương không?"
 },
 {
 "id": 125,
@@ -1285,9 +1285,9 @@
 "pinyin": "hòu",
 "type": "Tính từ",
 "meaning": "Dày (chỉ kích thước, độ dày)",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "河面结了一层厚厚的冰。",
+"examplePy": "hé miàn jié le yī céng hòu hòu de bīng 。",
+"exampleVi": "Mặt hồ kết lại một tầng băng dày."
 },
 {
 "id": 130,
@@ -1315,9 +1315,9 @@
 "pinyin": "hùshì",
 "type": "Danh từ",
 "meaning": "Hộ lý",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "她已经在这所医院当了29 年护士。",
+"examplePy": "tā yǐ jīng zài zhè suǒ yī yuàn dāng le 29  nián hù shì 。",
+"exampleVi": "Cô ấy đã làm y tá của bệnh viện này 29 năm rồi."
 },
 {
 "id": 133,
@@ -1355,9 +1355,9 @@
 "pinyin": "huǒ",
 "type": "Danh từ",
 "meaning": "Lửa; Hỏa; Để chỉ cái gì đó rất: …. hot",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "tâm",
+"examplePy": "tâm",
+"exampleVi": "今年这部电影非常火。"
 },
 {
 "id": 137,
@@ -1365,9 +1365,9 @@
 "pinyin": "huòdé",
 "type": "Động từ",
 "meaning": "Đạt được; Giành được",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "她获得冠军连续三年了。",
+"examplePy": "tā huò dé guàn jūn lián xù sān nián le 。",
+"exampleVi": "Cô ấy đạt được giải quán quân 3 năm liên tiếp."
 },
 {
 "id": 138,
@@ -1385,9 +1385,9 @@
 "pinyin": "jīdòng",
 "type": "Động từ",
 "meaning": "Kích động",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "他想到这就激动得大声喊出。",
+"examplePy": "tā xiǎng dào zhè jiù jī dòng dé dà shēng hǎn chū 。",
+"exampleVi": "Anh ấy nghĩ tới đây thì đã phấn khích hét to lên."
 },
 {
 "id": 140,
@@ -1405,9 +1405,9 @@
 "pinyin": "jīlěi",
 "type": "Động từ",
 "meaning": "Tích lũy",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "他家已经积累了价值超过一百万美元的",
+"examplePy": "tā jiā yǐ jīng jī lěi le jià zhí chāo guò yì bǎi wàn měi yuán de",
+"exampleVi": "财产。"
 },
 {
 "id": 142,
@@ -1415,9 +1415,9 @@
 "pinyin": "jíqí",
 "type": "Trạng từ",
 "meaning": "Cực kì; Vô cùng",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "她最近行为极其反常。",
+"examplePy": "tā zuì jìn xíng wéi jí qí fǎn cháng 。",
+"exampleVi": "Gần đây hành động của cô ấy vô cùng khác thường."
 },
 {
 "id": 143,
@@ -1435,9 +1435,9 @@
 "pinyin": "jì",
 "type": "Động từ",
 "meaning": "Ký gửi; gửi",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "一起去吧，我正要去寄一封信。",
+"examplePy": "yì qǐ qù ba ， wǒ zhèng yào qù jì yī fēng xìn 。",
+"exampleVi": "Cùng đi nhé, tôi cũng muốn đi gửi một bức thư."
 },
 {
 "id": 145,
@@ -1465,9 +1465,9 @@
 "pinyin": "jìrán",
 "type": "Liên từ",
 "meaning": "Đã, nếu đã",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "既然到了这个地方，就该顺便去看看他",
+"examplePy": "jì rán dào le zhè ge dì fāng ， jiù gāi shùn biàn qù kàn kàn tā",
+"exampleVi": "们。"
 },
 {
 "id": 148,
@@ -1505,9 +1505,9 @@
 "pinyin": "jiābān",
 "type": "Động từ",
 "meaning": "Tăng ca",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "Anh ấy tăng ca không công để hoàn thành công việc này.",
+"examplePy": "Anh ấy tăng ca không công để hoàn thành công việc này.",
+"exampleVi": "372"
 },
 {
 "id": 152,
@@ -1555,9 +1555,9 @@
 "pinyin": "jiǎnféi",
 "type": "Động từ",
 "meaning": "Giảm cân",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "我妈妈被告知要每天锻炼来减肥。",
+"examplePy": "wǒ mā mā bèi gào zhī yào měi tiān duàn liàn lái jiǎn féi 。",
+"exampleVi": "Mẹ tôi được báo cho rằng phải tập luyện mỗi ngày để giảm cân."
 },
 {
 "id": 157,
@@ -1565,9 +1565,9 @@
 "pinyin": "jiǎnshǎo",
 "type": "Động từ",
 "meaning": "Giảm bớt",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "失业人数有所减少。",
+"examplePy": "shī yè rén shù yǒu suǒ jiǎn shǎo 。",
+"exampleVi": "Số người thất nghiệp được giảm bớt đi phần nào."
 },
 {
 "id": 158,
@@ -1585,9 +1585,9 @@
 "pinyin": "jiǎngjīn",
 "type": "Danh từ",
 "meaning": "Tiền thưởng",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "她因自己所作的努力而得到一笔奖金。",
+"examplePy": "tā yīn zì jǐ suǒ zuò de nǔ lì ér dé dào yī bǐ jiǎng jīn 。",
+"exampleVi": "Cô ấy nhận được một khoản tiền thưởng cho những nỗ lực của"
 },
 {
 "id": 160,
@@ -1595,9 +1595,9 @@
 "pinyin": "jiàngdī",
 "type": "Động từ",
 "meaning": "Giảm thấp",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "房屋价格降低了15%。",
+"examplePy": "fáng wū jià gé jiàng dī le 15%。",
+"exampleVi": "Giá phòng giảm 15%."
 },
 {
 "id": 161,
@@ -1635,9 +1635,9 @@
 "pinyin": "jiàoshòu",
 "type": "Danh từ",
 "meaning": "Giáo sư",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "他说话的口气好像一位有经验的教授。",
+"examplePy": "tā shuō huà de kǒu qì hǎo xiàng yī wèi yǒu jīng yàn de jiào shòu 。",
+"exampleVi": "Giọng nói của anh ấy giống một vị giáo sư có kinh nghiệm."
 },
 {
 "id": 165,
@@ -1685,9 +1685,9 @@
 "pinyin": "jiěshì",
 "type": "Động từ",
 "meaning": "Giải thích",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "她要求我们立即作出解释。",
+"examplePy": "tā yāo qiú wǒ men lì jí zuò chū jiě shì 。",
+"exampleVi": "Cô ấy yêu cầu chúng tôi lập tức giải thích."
 },
 {
 "id": 170,
@@ -1725,9 +1725,9 @@
 "pinyin": "jìnzhǐ",
 "type": "Động từ",
 "meaning": "Cấm",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "办公室里禁止吸烟。",
+"examplePy": "bàn gōng shì lǐ jìn zhǐ xī yān 。",
+"exampleVi": "Văn phòng cấm hút thuốc."
 },
 {
 "id": 174,
@@ -1775,9 +1775,9 @@
 "pinyin": "jìngrán",
 "type": "Phó từ",
 "meaning": "Mà, lại; Vậy mà",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "我没想到他竟然会这样做。",
+"examplePy": "wǒ méi xiǎng dào tā jìng rán huì zhè yàng zuò 。",
+"exampleVi": "Tôi không ngờ tới anh ấy lại làm như vậy."
 },
 {
 "id": 179,
@@ -1795,9 +1795,9 @@
 "pinyin": "jìngzi",
 "type": "Danh từ",
 "meaning": "Cái gương",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "湖水就像一面镜子。",
+"examplePy": "hú shuǐ jiù xiàng yí miàn jìng zi 。",
+"exampleVi": "Mặt hồ giống như một mặt gương."
 },
 {
 "id": 181,
@@ -1805,9 +1805,9 @@
 "pinyin": "jiùjìng",
 "type": "Phó từ",
 "meaning": "Cuối cùng",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "thì",
+"examplePy": "thì",
+"exampleVi": "你告诉我这究竟是发生了什么？"
 },
 {
 "id": 182,
@@ -1835,9 +1835,9 @@
 "pinyin": "jùlí",
 "type": "Danh từ",
 "meaning": "Khoảng cách; Cự ly",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "天津距离北京有一百二十公里。",
+"examplePy": "tiān jīn jù lí běi jīng yǒu yì bǎi èr shí gōng lǐ 。",
+"exampleVi": "Khoảng cách từ Thiên Tân tới Bắc Kinh là 120 km."
 },
 {
 "id": 185,
@@ -1855,9 +1855,9 @@
 "pinyin": "kǎolǜ",
 "type": "Động từ",
 "meaning": "Suy nghĩ",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "这儿还有几个建议可以考虑。",
+"examplePy": "zhè ér hái yǒu jǐ gè jiàn yì kě yǐ kǎo lǜ 。",
+"exampleVi": "Ở đây còn có một số kiến nghị bạn có thể xem xét thêm."
 },
 {
 "id": 187,
@@ -1865,9 +1865,9 @@
 "pinyin": "kē",
 "type": "Lượng từ",
 "meaning": "Cây; Ngọn",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "Gió lớn thổi ngã mấy chục cái cây.",
+"examplePy": "Gió lớn thổi ngã mấy chục cái cây.",
+"exampleVi": "439"
 },
 {
 "id": 188,
@@ -1915,9 +1915,9 @@
 "pinyin": "kǔ",
 "type": "Tính từ",
 "meaning": "Khổ",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "他只喜欢喝苦咖啡。",
+"examplePy": "tā zhǐ xǐ huān hē kǔ kā fēi 。",
+"exampleVi": "Anh ấy chỉ thích uống cafe đắng không đường."
 },
 {
 "id": 193,
@@ -1925,9 +1925,9 @@
 "pinyin": "kuān",
 "type": "Tính từ",
 "meaning": "Rộng",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "这条路大约两米宽。",
+"examplePy": "zhè tiáo lù dà yuē liǎng mǐ kuān 。",
+"exampleVi": "Con đường này rộng khoảng 2 mét."
 },
 {
 "id": 194,
@@ -1945,9 +1945,9 @@
 "pinyin": "kuòdà",
 "type": "Động từ",
 "meaning": "Mở rộng",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "扩大城市面积危害着野生物。",
+"examplePy": "kuò dà chéng shì miàn jī wēi hài zhe yě shēng wù 。",
+"exampleVi": "Mở rộng diện tích thành phố sẽ gây hại tới động vật hoang dã."
 },
 {
 "id": 196,
@@ -1995,9 +1995,9 @@
 "pinyin": "lěngjìng",
 "type": "Tính từ",
 "meaning": "Bình tĩnh; Yên tĩnh; Tĩnh lại",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "冷静地考虑下这件事吧。",
+"examplePy": "lěng jìng dì kǎo lǜ xià zhè jiàn shì ba 。",
+"exampleVi": "Bình tĩnh suy nghĩ lại chuyện này đi."
 },
 {
 "id": 201,
@@ -2035,9 +2035,9 @@
 "pinyin": "lìqì",
 "type": "Danh từ",
 "meaning": "Sức lực; Hơi sức",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "我全身没有力气呢。",
+"examplePy": "wǒ quán shēn méi yǒu lì qì ne 。",
+"exampleVi": "Cả người tôi không có chút sức lực nào cả."
 },
 {
 "id": 205,
@@ -2165,9 +2165,9 @@
 "pinyin": "lǜshī",
 "type": "Danh từ",
 "meaning": "Luật sư",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "我已经和我的律师商量过了。",
+"examplePy": "wǒ yǐ jīng hé wǒ de lǜ shī shāng liáng guò le 。",
+"exampleVi": "Tôi đã thương lượng với luật sư của tôi rồi."
 },
 {
 "id": 218,
@@ -2195,9 +2195,9 @@
 "pinyin": "máojīn",
 "type": "Danh từ",
 "meaning": "Khăn",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "为客人预备好干净的毛巾。",
+"examplePy": "wèi kè rén yù bèi hǎo gān jìng de máo jīn 。",
+"exampleVi": "Chuẩn bị cho khách khăn lông sạch sẽ."
 },
 {
 "id": 221,
@@ -2215,9 +2215,9 @@
 "pinyin": "mèng",
 "type": "Danh từ",
 "meaning": "Giấc mơ; Giấc mộng",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "如果一个人梦见大山，那意味着什么？",
+"examplePy": "rú guǒ yí gè rén mèng jiàn dà shān ， nà yì wèi zhe shén me ？",
+"exampleVi": "Nếu như một người mơ thấy núi thì có ý nghĩa gì?"
 },
 {
 "id": 223,
@@ -2225,9 +2225,9 @@
 "pinyin": "mìmǎ",
 "type": "Danh từ",
 "meaning": "Mật mã",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "你把密码输入电脑。",
+"examplePy": "nǐ bǎ mì mǎ shū rù diàn nǎo 。",
+"exampleVi": "Bạn nhập mật mã vào máy tính đi."
 },
 {
 "id": 224,
@@ -2545,9 +2545,9 @@
 "pinyin": "qīngsōng",
 "type": "Tính từ",
 "meaning": "Nhẹ nhõm; Nhẹ nhàng",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "thoải mái",
+"examplePy": "thoải mái",
+"exampleVi": "他们轻松愉快地聊着自己。"
 },
 {
 "id": 256,
@@ -2645,9 +2645,9 @@
 "pinyin": "rán'ér",
 "type": "Phó từ",
 "meaning": "Nhưng mà, thế mà",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "然而，他们确实对设计有共同的兴趣。",
+"examplePy": "rán ér ， tā men què shí duì shè jì yǒu gòng tóng de xìng qù 。",
+"exampleVi": "Nhưng mà cả đám họ lại có sở thích chung về thiết kế."
 },
 {
 "id": 266,
@@ -2655,9 +2655,9 @@
 "pinyin": "rènào",
 "type": "Tính từ",
 "meaning": "Náo nhiệt; Sôi động",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "现在的场面相当热闹了。",
+"examplePy": "xiàn zài de chǎng miàn xiāng dāng rè nào le 。",
+"exampleVi": "Khung cảnh lúc này khá náo nhiệt."
 },
 {
 "id": 267,
@@ -2715,9 +2715,9 @@
 "pinyin": "rìjì",
 "type": "Danh từ",
 "meaning": "Nhật ký",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "每天我都坚持写日记。",
+"examplePy": "měi tiān wǒ dōu jiān chí xiě rì jì 。",
+"exampleVi": "Mỗi ngày tôi đều kiên trì viết nhật ký."
 },
 {
 "id": 273,
@@ -2815,9 +2815,9 @@
 "pinyin": "shēnqǐng",
 "type": "Động từ",
 "meaning": "Nộp đơn; Đâm đơn; Đưa đơn",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "我听从老师的建议申请了这份工作",
+"examplePy": "wǒ tīng cóng lǎo shī de jiàn yì shēn qǐng le zhè fèn gōng zuò",
+"exampleVi": "Tôi ứng tuyển công việc này theo đề nghị của thầy giáo."
 },
 {
 "id": 283,
@@ -2865,9 +2865,9 @@
 "pinyin": "shībài",
 "type": "Động từ",
 "meaning": "Thất bại",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "这次比赛他失败了。",
+"examplePy": "zhè cì bǐ sài tā shī bài le 。",
+"exampleVi": "Lần thi đấu này anh ấy thất bại rồi."
 },
 {
 "id": 288,
@@ -2875,9 +2875,9 @@
 "pinyin": "shīwàng",
 "type": "Tính từ",
 "meaning": "Thất vọng",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "你做那样的事使我太失望了。",
+"examplePy": "nǐ zuò nà yàng de shì shǐ wǒ tài shī wàng le 。",
+"exampleVi": "Bạn làm ra việc như vậy khiến tôi rất thất vọng."
 },
 {
 "id": 289,
@@ -3085,9 +3085,9 @@
 "pinyin": "shuài",
 "type": "Tính từ",
 "meaning": "Đẹp; Đẹp trai",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "你穿这件衬衫看起来很帅。",
+"examplePy": "nǐ chuān zhè jiàn chèn shān kàn qǐ lái hěn shuài 。",
+"exampleVi": "Bạn mặc chiếc áo phông này nhìn rất đẹp trai."
 },
 {
 "id": 310,
@@ -3225,9 +3225,9 @@
 "pinyin": "tǎng",
 "type": "Động từ",
 "meaning": "Nằm",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "我太累了,想躺一会儿。",
+"examplePy": "wǒ tài lèi le , xiǎng tǎng yī huì er 。",
+"exampleVi": "Tôi mệt quá, muốn nằm một lát."
 },
 {
 "id": 324,
@@ -3255,9 +3255,9 @@
 "pinyin": "tígōng",
 "type": "Động từ",
 "meaning": "Cung cấp",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "我们为顾客提供个人服务。",
+"examplePy": "wǒ men wèi gù kè tí gōng gè rén fú wù 。",
+"exampleVi": "Chúng tôi cung cấp phục vụ cá nhân cho khách hàng."
 },
 {
 "id": 327,
@@ -3275,9 +3275,9 @@
 "pinyin": "tíxǐng",
 "type": "Động từ",
 "meaning": "Nhắc nhở",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "Anh ấy vừa nhắc là cô ấy nhớ ra ngay.",
+"examplePy": "Anh ấy vừa nhắc là cô ấy nhớ ra ngay.",
+"exampleVi": "703"
 },
 {
 "id": 329,
@@ -3285,9 +3285,9 @@
 "pinyin": "tiánkòng",
 "type": "Động từ",
 "meaning": "Điền vào chỗ trống",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "完成以下句子，用适当的介词填空。",
+"examplePy": "wán chéng yǐ xià jù zi ， yòng shì dàng de jiè cí tián kòng 。",
+"exampleVi": "Hoàn thành câu dưới đây, dùng giới từ thích hợp điền vào chỗ"
 },
 {
 "id": 330,
@@ -3345,9 +3345,9 @@
 "pinyin": "tóngqíng",
 "type": "Động từ",
 "meaning": "Đồng tình; Đồng cảm",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "不幸的人容易得到同情。",
+"examplePy": "bù xìng de rén róng yì dé dào tóng qíng 。",
+"exampleVi": "Người bất hạnh dễ dàng nhận được sự cảm thông."
 },
 {
 "id": 336,
@@ -3365,9 +3365,9 @@
 "pinyin": "tuīchí",
 "type": "Động từ",
 "meaning": "Hoãn lại; Lùi lại; Chậm lại",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "hoãn",
+"examplePy": "hoãn",
+"exampleVi": "我们把会议推迟到下周举行。"
 },
 {
 "id": 338,
@@ -3375,9 +3375,9 @@
 "pinyin": "tuō",
 "type": "Động từ",
 "meaning": "Cởi",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "她脱下了外套，把它丢在沙发上。",
+"examplePy": "tā tuō xià le wài tào ， bǎ tā diū zài shā fā shàng 。",
+"exampleVi": "Cô ấy cởi áo khoác ngoài sau đó ném nó lên sô pha."
 },
 {
 "id": 339,
@@ -3385,9 +3385,9 @@
 "pinyin": "wàzi",
 "type": "Danh từ",
 "meaning": "Tất",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "我的袜子穿破了，需要买几双新的。",
+"examplePy": "wǒ de wà zi chuān pò le ， xū yào mǎi jǐ shuāng xīn de 。",
+"exampleVi": "Tất của tôi đi nhiều đến rách rồi, tôi cần mua mấy đôi mới."
 },
 {
 "id": 340,
@@ -3475,9 +3475,9 @@
 "pinyin": "wú",
 "type": "Danh từ/động từ",
 "meaning": "Không; Vô",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "目前这种疾病无药可医。",
+"examplePy": "mù qián zhè zhǒng jí bìng wú yào kě yī 。",
+"exampleVi": "Trước mắt căn bệnh này không có thuốc điều trị."
 },
 {
 "id": 349,
@@ -3485,9 +3485,9 @@
 "pinyin": "wúliáo",
 "type": "Tính từ",
 "meaning": "Buồn chán; Nhạt nhẽo",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "他讲的故事很无聊。大家都不想听听。 Câu chuyện mà anh ấy kể nhạt nhẽo quá. Mọi người không ai muốn",
+"examplePy": "tā jiǎng de gù shì hěn wú liáo 。 dà jiā dōu bù xiǎng tīng tīng 。 Câu chuyện mà anh ấy kể nhạt nhẽo quá. Mọi người không ai muốn",
+"exampleVi": "nghe nữa."
 },
 {
 "id": 350,
@@ -3495,9 +3495,9 @@
 "pinyin": "wúlùn",
 "type": "Từ nối",
 "meaning": "Bất luận",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "无论遇到 什么困难，我们永远不放弃。 Dù có gặp phải khó khăn gì, chúng tôi cũng không bao giờ bỏ cuộc.",
+"examplePy": "wú lùn yù dào   shén me kùn nán ， wǒ men yǒng yuǎn bù fàng qì 。 Dù có gặp phải khó khăn gì, chúng tôi cũng không bao giờ bỏ cuộc.",
+"exampleVi": "768"
 },
 {
 "id": 351,
@@ -3505,9 +3505,9 @@
 "pinyin": "wùhuì",
 "type": "động từ",
 "meaning": "Hiểu nhầm/lầm",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "你误会了，他不是你这样想的人。",
+"examplePy": "nǐ wù huì le ， tā bú shì nǐ zhè yàng xiǎng de rén 。",
+"exampleVi": "Bạn hiểu nhầm rồi, anh ấy không phải hạng người như bạn nghĩ đâu."
 },
 {
 "id": 352,
@@ -3515,9 +3515,9 @@
 "pinyin": "xīyǐn",
 "type": "Động từ",
 "meaning": "Hấp dẫn",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "这里风景很美丽，每年吸引很多游客来",
+"examplePy": "zhè lǐ fēng jǐng hěn měi lì ， měi nián xī yǐn hěn duō yóu kè lái",
+"exampleVi": "参观。"
 },
 {
 "id": 353,
@@ -3535,9 +3535,9 @@
 "pinyin": "xián",
 "type": "Tính từ",
 "meaning": "Mặn",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "你做的菜很好吃，但是有点儿咸。",
+"examplePy": "nǐ zuò de cài hěn hǎo chī ， dàn shì yǒu diǎn ér xián 。",
+"exampleVi": "Món ăn bạn làm rất ngon nhưng hơi mặn chút."
 },
 {
 "id": 355,
@@ -3565,9 +3565,9 @@
 "pinyin": "xiànzhì",
 "type": "Động từ",
 "meaning": "Giới hạn",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "现在没有法律限制银行扩展。",
+"examplePy": "xiàn zài méi yǒu fǎ lǜ xiàn zhì yín háng kuò zhǎn 。",
+"exampleVi": "Hiện nay không có pháp luật nào hạn chế sự mở rộng của ngân hàng."
 },
 {
 "id": 358,
@@ -3585,9 +3585,9 @@
 "pinyin": "xiāngfǎn",
 "type": "Danh từ",
 "meaning": "Tương phản",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "nhau",
+"examplePy": "nhau",
+"exampleVi": "他们俩的性格是相反的，所以每天都吵"
 },
 {
 "id": 360,
@@ -3705,9 +3705,9 @@
 "pinyin": "xīngfèn",
 "type": "Tính từ",
 "meaning": "Hưng phấn",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "hưng phấn",
+"examplePy": "hưng phấn",
+"exampleVi": "听到这个信息，大家兴奋地跳了起来。"
 },
 {
 "id": 372,
@@ -3725,9 +3725,9 @@
 "pinyin": "xǐng",
 "type": "Động từ",
 "meaning": "Tỉnh",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "今天早上六点我就醒了。",
+"examplePy": "jīn tiān zǎo shàng liù diǎn wǒ jiù xǐng le 。",
+"exampleVi": "Sáng nay mới 6 giờ sáng tôi đã dậy rồi."
 },
 {
 "id": 374,
@@ -3815,9 +3815,9 @@
 "pinyin": "yán",
 "type": "Danh từ",
 "meaning": "Muối",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "chất)",
+"examplePy": "chất)",
+"exampleVi": "他母亲让他在汤里放一些盐。"
 },
 {
 "id": 383,
@@ -3835,9 +3835,9 @@
 "pinyin": "yánzhòng",
 "type": "Tính từ",
 "meaning": "Nghiêm trọng",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "这种行为可能产生严重后果。",
+"examplePy": "zhè zhǒng xíng wéi kě néng chǎn shēng yán zhòng hòu guǒ 。",
+"exampleVi": "Hành vi này có thể gây ra hậu quả nghiêm trọng."
 },
 {
 "id": 385,
@@ -3885,9 +3885,9 @@
 "pinyin": "yǎngchéng",
 "type": "Động từ",
 "meaning": "Nuôi dưỡng thành…; Dưỡng dục thành …",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "dưỡng",
+"examplePy": "dưỡng",
+"exampleVi": "我们从小就要养成讲究卫生的良好习惯"
 },
 {
 "id": 390,
@@ -3925,9 +3925,9 @@
 "pinyin": "yèzi",
 "type": "Danh từ",
 "meaning": "Chiếc lá",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "秋天，树上的叶子变黄了。",
+"examplePy": "qiū tiān ， shù shàng de yè zi biàn huáng le 。",
+"exampleVi": "Mùa thu, lá trên cây chuyển sang màu vàng."
 },
 {
 "id": 394,
@@ -3995,9 +3995,9 @@
 "pinyin": "yǐnqǐ",
 "type": "Động từ",
 "meaning": "Gây nên; Dẫn tới",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "这个假说很快引起了群众注意。",
+"examplePy": "zhè ge jiǎ shuō hěn kuài yǐn qǐ le qún zhòng zhù yì 。",
+"exampleVi": "Giả thuyết này nhanh chóng gợi lên sự chú ý của mọi người."
 },
 {
 "id": 401,
@@ -4035,9 +4035,9 @@
 "pinyin": "yǒnggǎn",
 "type": "tính từ",
 "meaning": "Dũng cảm",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "他因勇敢而获得一枚奖章。",
+"examplePy": "tā yīn yǒng gǎn ér huò dé yī méi jiǎng zhāng 。",
+"exampleVi": "Anh ấy đã nhận được 1 chiếc huân chương vì sự dúng cảm của mình."
 },
 {
 "id": 405,
@@ -4065,9 +4065,9 @@
 "pinyin": "yōuxiù",
 "type": "Tính từ",
 "meaning": "Xuất sắc",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "他具有优秀音乐家的各种素质。",
+"examplePy": "tā jù yǒu yōu xiù yīn yuè jiā de gè zhǒng sù zhì 。",
+"exampleVi": "Anh ấy có mọi tố chất của một nhạc sĩ ưu tú."
 },
 {
 "id": 408,
@@ -4085,9 +4085,9 @@
 "pinyin": "yǒuqù",
 "type": "Tính từ",
 "meaning": "Thú vị",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "你的朋友真是个有趣的人。",
+"examplePy": "nǐ de péng yǒu zhēn shì gè yǒu qù de rén 。",
+"exampleVi": "Bạn của bạn thật là một người thú vị."
 },
 {
 "id": 410,
@@ -4135,9 +4135,9 @@
 "pinyin": "yǔfǎ",
 "type": "Danh từ",
 "meaning": "Ngữ pháp",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "她很精通英语语法。",
+"examplePy": "tā hěn jīng tōng yīng yǔ yǔ fǎ 。",
+"exampleVi": "Cô ấy rất thông thạo ngữ pháp tiếng Anh."
 },
 {
 "id": 415,
@@ -4195,9 +4195,9 @@
 "pinyin": "yuēhuì",
 "type": "Động từ",
 "meaning": "Hẹn hò; Tụ họp; Họp ...",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "我与她在下月有一次约会。",
+"examplePy": "wǒ yǔ tā zài xià yuè yǒu yī cì yuē huì 。",
+"exampleVi": "Tôi và cô ấy có buổi hẹn hò vào tháng sau."
 },
 {
 "id": 421,
@@ -4205,9 +4205,9 @@
 "pinyin": "yuèdú",
 "type": "Động từ",
 "meaning": "Đọc",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "我走路比他快，他阅读比我快。",
+"examplePy": "wǒ zǒu lù bǐ tā kuài ， tā yuè dú bǐ wǒ kuài 。",
+"exampleVi": "Tôi đi bộ nhanh hơn anh ấy, tốc độ đọc của anh ấy nhanh hơn tôi."
 },
 {
 "id": 422,
@@ -4415,9 +4415,9 @@
 "pinyin": "zhíwù",
 "type": "Danh từ",
 "meaning": "Thực vật, cây cối",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "ăn",
+"examplePy": "ăn",
+"exampleVi": "小鸟在寻找食物。"
 },
 {
 "id": 443,
@@ -4465,9 +4465,9 @@
 "pinyin": "zhìliàng",
 "type": "Danh từ",
 "meaning": "Chất lượng",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "这商店的日用品的质量很好。",
+"examplePy": "zhè shāng diàn de rì yòng pǐn de zhì liàng hěn hǎo 。",
+"exampleVi": "Chất lượng các sản phẩm của cửa hàng này rất tốt."
 },
 {
 "id": 448,
@@ -4515,9 +4515,9 @@
 "pinyin": "zhújiàn",
 "type": "trạng từ",
 "meaning": "Dần dần",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "他的汉语水平逐渐提高了。",
+"examplePy": "tā de hàn yǔ shuǐ píng zhú jiàn tí gāo le 。",
+"exampleVi": "Trình độ tiếng Trung của anh ấy dần dần nâng cao rồi."
 },
 {
 "id": 453,
@@ -4545,9 +4545,9 @@
 "pinyin": "zhùmíng",
 "type": "Tính từ",
 "meaning": "Nổi tiếng",
-"example": "",
-"examplePy": "",
-"exampleVi": ""
+"example": "他是一个著名的作家。",
+"examplePy": "tā shì yí gè zhù míng de zuò jiā 。",
+"exampleVi": "Anh ấy là một nhà văn nổi tiếng."
 },
 {
 "id": 456,
@@ -4738,5 +4738,335 @@
 "example": "",
 "examplePy": "",
 "exampleVi": ""
+},
+{
+"id": 475,
+"hanzi": "安全",
+"pinyin": "ānquán",
+"type": "Danh từ",
+"meaning": "An toàn",
+"example": "老师经常教育我们注意安全，避免发生事故。",
+"examplePy": "lǎoshī jīngcháng jiàoyù wǒmen zhùyì ānquán, bìmiǎn fāshēng shìgù.",
+"exampleVi": "Các thầy cô giáo thường xuyên giáo dục chúng em chú ý an toàn, tránh tai nạn."
+},
+{
+"id": 476,
+"hanzi": "报名",
+"pinyin": "bàomíng",
+"type": "Động từ",
+"meaning": "Báo danh Báo tên",
+"example": "你到学校报名了没？",
+"examplePy": "nǐ dào xuéxiào bàomíng le méi?",
+"exampleVi": "Bạn đã báo danh tại trường học chưa?"
+},
+{
+"id": 477,
+"hanzi": "倍",
+"pinyin": "bèi",
+"type": "Danh từ Lượng từ",
+"meaning": "Lần Bội",
+"example": "事倍功半",
+"examplePy": "shìbèigōngbàn",
+"exampleVi": "Làm nhiều ăn ít"
+},
+{
+"id": 478,
+"hanzi": "毕业",
+"pinyin": "bìyè",
+"type": "Danh từ Động từ",
+"meaning": "Tốt nghiệp",
+"example": "你毕业第几届？",
+"examplePy": "nǐ bìyè dì jǐ jiè?",
+"exampleVi": "Bạn tốt nghiệp năm nào?"
+},
+{
+"id": 479,
+"hanzi": "饼干",
+"pinyin": "bǐnggān",
+"type": "Danh từ",
+"meaning": "Bánh quy",
+"example": "我很喜欢吃饼干。",
+"examplePy": "Wǒ hěn xǐhuān chī bǐnggān.",
+"exampleVi": "Tôi rất thích ăn bánh quy.."
+},
+{
+"id": 480,
+"hanzi": "并且",
+"pinyin": "bìngqiě",
+"type": "Từ nối Liên từ",
+"meaning": "Hơn nữa",
+"example": "一眨眼的时间你们就会长大并且离开。",
+"examplePy": "Yī zhǎyǎn de shíjiān nǐmen jiù huì zhǎng dà bìngqiě líkāi.",
+"exampleVi": "Trong nháy mắt, mọi người sẽ lớn lên và rời đi."
+},
+{
+"id": 481,
+"hanzi": "不但",
+"pinyin": "bù dànn",
+"type": "Từ nối Liên từ",
+"meaning": "Không những",
+"example": "她不但长得漂亮，而且还有好成绩。",
+"examplePy": "ā bùdàn zhǎng dé piàoliang, érqiě hái yǒu hǎo chéngjī.",
+"exampleVi": "Cô ấy không chỉ xinh đẹp mà còn có thành tích cao."
+},
+{
+"id": 482,
+"hanzi": "不过",
+"pinyin": "bùguò",
+"type": "Từ nối Phó từ",
+"meaning": "Cực kỳ, hết mức, hơn hết Chẳng qua, vừa mới, vừa chỉ",
+"example": "这只是不过是一件小事，你不用为了它而烦恼啊。",
+"examplePy": "zhèzhǐ shì zhǐ bùguò shì yī jiàn xiǎoshì, nǐ bùyòng wèile tā ér fánnǎo a.",
+"exampleVi": "Đây chỉ là một vấn đề nhỏ, bạn không phải lo lắng về nó."
+},
+{
+"id": 483,
+"hanzi": "不管",
+"pinyin": "bùguǎn",
+"type": "Từ nối",
+"meaning": "Cho dù Bất kể Bất luận Mặc kệ, bỏ liều, bất chấp",
+"example": "不管白天还是黑夜，我都很努力达到最好的结果。",
+"examplePy": "bùguǎn báitiān háishì hēiyè, wǒ dōu hěn nǔlì dádào zuì hǎo de jiéguǒ.",
+"exampleVi": "Bất kể ngày hay đêm, tôi đều làm việc chăm chỉ để đạt được kết quả tốt nhất."
+},
+{
+"id": 484,
+"hanzi": "参观",
+"pinyin": "cānguān",
+"type": "Động từ",
+"meaning": "Tham quan",
+"example": "明天我会带你去参观。",
+"examplePy": "míngtiān wǒ huì dài nǐ qù cānguān.",
+"exampleVi": "Ngày mai anh đưa em đi thăm quan."
+},
+{
+"id": 485,
+"hanzi": "成功",
+"pinyin": "chénggōng",
+"type": "Danh từ Động từ",
+"meaning": "Thành công",
+"example": "失败是成功之母。",
+"examplePy": "shībài shì chénggōng zhī mǔ.",
+"exampleVi": "Thất bại là mẹ thành công."
+},
+{
+"id": 486,
+"hanzi": "吃惊",
+"pinyin": "chījīng",
+"type": "Động từ Danh từ",
+"meaning": "Kinh ngạc Giật mình Hoảng hốt",
+"example": "总而言之，他考试不及格并没使我吃惊。",
+"examplePy": "zǒng&#8217;éryánzhī, tā kǎoshì bù jígé bìng méi shǐ wǒ chījīng.",
+"exampleVi": "Nói chung, việc anh ấy thất bại trong kỳ thi không làm tôi ngạc nhiên."
+},
+{
+"id": 487,
+"hanzi": "出差",
+"pinyin": "chūchāi",
+"type": "Động từ Danh từ",
+"meaning": "Công tác",
+"example": "我今月十五号五去北京出差。",
+"examplePy": "wǒ jīnyuè shíwǔ hào wǔ qù běijīng chūchāi.",
+"exampleVi": "Tôi đi công tác tại Bắc Kinh vào ngày 15 và 5 tháng này."
+},
+{
+"id": 488,
+"hanzi": "出生",
+"pinyin": "chūshēng",
+"type": "Động từ",
+"meaning": "Sinh ra Ra đời",
+"example": "孔子出生于公元前551年。",
+"examplePy": "Kǒngzǐ chūshēng yú gōngyuán qián 551 nián.",
+"exampleVi": "Khổng Tử sinh năm 551 trước Công nguyên."
+},
+{
+"id": 489,
+"hanzi": "传真",
+"pinyin": "chuánzhēn",
+"type": "Danh từ",
+"meaning": "Fax",
+"example": "你把材料传真发给我吧。",
+"examplePy": "nǐ bǎ cáiliào chuánzhēn fā gěi wǒ ba.",
+"exampleVi": "Bạn có thể fax tài liệu cho tôi."
+},
+{
+"id": 490,
+"hanzi": "从来",
+"pinyin": "cónglái",
+"type": "Từ nối Liên từ",
+"meaning": "Chưa từng Từ trước tới nay",
+"example": "她从来没来到这里。",
+"examplePy": "tā cónglái méi lái dào zhèlǐ.",
+"exampleVi": "Cô ấy chưa bao giờ đến đây."
+},
+{
+"id": 491,
+"hanzi": "刀",
+"pinyin": "dāo",
+"type": "Danh từ",
+"meaning": "Dao",
+"example": "一刀两断",
+"examplePy": "yīdāoliǎngduàn",
+"exampleVi": "Dùng để chỉ dứt khoát"
+},
+{
+"id": 492,
+"hanzi": "动作",
+"pinyin": "dòngzuò",
+"type": "Động từ Danh từ",
+"meaning": "Động tác",
+"example": "你的动作太慢了，快了点。",
+"examplePy": "nǐ de dòngzuò tài mànle, kuàile diǎn.",
+"exampleVi": "Động tác của bạn quá chậm, nhanh lên."
+},
+{
+"id": 493,
+"hanzi": "顿",
+"pinyin": "dùn",
+"type": "Lượng từ Động từ",
+"meaning": "Bữa Ngừng",
+"example": "明天有空吗，跟我一起去吃饭吧。",
+"examplePy": "míngtiān yǒu kòng ma, gēn wǒ yīqǐ qù chī fàn ba.",
+"exampleVi": "Mai bạn có rảnh không? Mình đi ăn tối với bạn nhé."
+},
+{
+"id": 494,
+"hanzi": "朵",
+"pinyin": "duǒ",
+"type": "Lương từ",
+"meaning": "Đóa",
+"example": "爸爸送妈妈一朵玫瑰花。",
+"examplePy": "Bàba sòng māmā yī duǒ méiguī huā.",
+"exampleVi": "Bố tặng mẹ một đóa hồng"
+},
+{
+"id": 495,
+"hanzi": "而",
+"pinyin": "ér",
+"type": "Từ nối Liên từ",
+"meaning": "Nhưng Mà",
+"example": "一扫而空",
+"examplePy": "yī sǎo ér kōng",
+"exampleVi": "Sạch sẽ triệt để"
+},
+{
+"id": 496,
+"hanzi": "发",
+"pinyin": "fā",
+"type": "Động từ",
+"meaning": "Phát",
+"example": "百发百中",
+"examplePy": "bǎifābǎizhòng.",
+"exampleVi": "Bách phát bách trúng"
+},
+{
+"id": 497,
+"hanzi": "发生",
+"pinyin": "fāshēng",
+"type": "Động từ",
+"meaning": "Phát sinh Xảy ra",
+"example": "今天发生什么事呢？",
+"examplePy": "īntiān fāshēng shénme shì ne?",
+"exampleVi": "Hôm nay có chuyện gì vậy?"
+},
+{
+"id": 498,
+"hanzi": "翻译",
+"pinyin": "fānyì",
+"type": "Danh từ Động từ",
+"meaning": "Phiên dịch",
+"example": "我的梦想是成为一名翻译。",
+"examplePy": "wǒ de mèngxiǎng shì chéngwéi yī míng fānyì.",
+"exampleVi": "Ước mơ của tôi là trở thành một phiên dịch."
+},
+{
+"id": 499,
+"hanzi": "放暑假",
+"pinyin": "fàng shǔjià",
+"type": "Động từ Danh từ",
+"meaning": "Nghỉ hè",
+"example": "你什么时候放暑假呢？",
+"examplePy": "ǐ shénme shíhòu fàng shǔjià ne?",
+"exampleVi": "Bạn khi nào nghỉ hè"
+},
+{
+"id": 500,
+"hanzi": "丰富",
+"pinyin": "fēngfù",
+"type": "Tính từ",
+"meaning": "Phong phú",
+"example": "你的想象力很丰富。",
+"examplePy": "nǐ de xiǎngxiàng lì hěn fēngfù.",
+"exampleVi": "Trí tưởng tượng của bạn rất phong phú."
+},
+{
+"id": 501,
+"hanzi": "富",
+"pinyin": "fù",
+"type": "Danh từ",
+"meaning": "Giàu có Sung túc Phú",
+"example": "荣华富贵",
+"examplePy": "rónghuá fùguì.",
+"exampleVi": "Vinh hoa phú quý"
+},
+{
+"id": 502,
+"hanzi": "复印",
+"pinyin": "fùyìn",
+"type": "Động từ",
+"meaning": "Photocopy Sao chép",
+"example": "你可以帮我把这份文件去复印一部吗？",
+"examplePy": "fǐ kěyǐ bāng wǒ bǎ zhè fèn wénjiàn qù fùyìn yī bù ma?",
+"exampleVi": "Bạn có thể copy tài liệu này cho tôi được không?"
+},
+{
+"id": 503,
+"hanzi": "感情",
+"pinyin": "gǎnqíng",
+"type": "Danh từ Động từ",
+"meaning": "Cảm tình Tình cảm",
+"example": "我特别珍惜这份感情。",
+"examplePy": "wǒ tèbié zhēnxī zhè fèn gǎnqíng",
+"exampleVi": "Tôi đặc biệt trân trọng tình cảm này."
+},
+{
+"id": 504,
+"hanzi": "干",
+"pinyin": "gàn",
+"type": "Động từ",
+"meaning": "Làm",
+"example": "你别干了，去休息一会儿吧。",
+"examplePy": "nǐ bié gànle, qù xiūxí yīhuǐ&#8217;er ba",
+"exampleVi": "Đừng làm vậy, đi nghỉ ngơi một lát."
+},
+{
+"id": 505,
+"hanzi": "个子",
+"pinyin": "gè zi",
+"type": "Danh từ",
+"meaning": "Vóc dáng Dáng người Thân hình",
+"example": "这只猫个子大。",
+"examplePy": "Zhè zhǐ māo gèzi dà.",
+"exampleVi": "Con mèo này vóc dáng thật to."
+},
+{
+"id": 506,
+"hanzi": "公里",
+"pinyin": "gōnglǐ",
+"type": "Đơn vị đo",
+"meaning": "Km",
+"example": "从这到学校大概八公里。",
+"examplePy": "óng zhè dào xuéxiào dàgài bā gōnglǐ.",
+"exampleVi": "Từ đây đến trường khoảng tám cây số."
+},
+{
+"id": 507,
+"hanzi": "估计",
+"pinyin": "gūjìì",
+"type": "Động từ",
+"meaning": "Tính toán Đánh giá, dự tính, nhận định, ước đoán",
+"example": "估计他今天回来。",
+"examplePy": "Gūjì tā jīntiān huílái.",
+"exampleVi": "Theo ước tính rằng anh ấy sẽ trở lại trong ngày hôm nay."
 }
 ]
